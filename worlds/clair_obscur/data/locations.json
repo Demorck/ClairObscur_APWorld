@@ -1,1802 +1,1802 @@
 [
     {
-        "name": "Chest_AncientSanctuary_1",
-        "location": "Ancient Sanctuary",
-        "original_item": "BurningMark",
+        "name":  "Ancient Sanctuary: BurningMark",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "BurningMark",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_2",
-        "location": "Ancient Sanctuary",
-        "original_item": "AttackLifesteal",
+        "name":  "Ancient Sanctuary: AttackLifesteal",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "AttackLifesteal",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_3",
-        "location": "Ancient Sanctuary",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Ancient Sanctuary: Lumina 1",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_4",
-        "location": "Ancient Sanctuary",
-        "original_item": "HealingTint_Shard",
+        "name":  "Ancient Sanctuary: HealingTint_Shard",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "HealingTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_5",
-        "location": "Ancient Sanctuary",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Ancient Sanctuary: Lumina 2",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_6",
-        "location": "Ancient Sanctuary",
-        "original_item": "JumpRecovery",
+        "name":  "Ancient Sanctuary: JumpRecovery",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "JumpRecovery",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_7",
-        "location": "Ancient Sanctuary",
-        "original_item": "InitialAp+1B",
+        "name":  "Ancient Sanctuary: InitialAp+1B",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "InitialAp+1B",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_8",
-        "location": "Ancient Sanctuary",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Ancient Sanctuary: Lumina 3",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_9",
-        "location": "Ancient Sanctuary",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Ancient Sanctuary: ReviveTint_Shard",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_10",
-        "location": "Ancient Sanctuary",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Ancient Sanctuary: Chroma 1",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_11",
-        "location": "Ancient Sanctuary",
-        "original_item": "UpgradeMaterial",
+        "name":  "Ancient Sanctuary: Upgrade 1",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_12",
-        "location": "Ancient Sanctuary",
-        "original_item": "EnergyTint_Shard",
+        "name":  "Ancient Sanctuary: EnergyTint_Shard",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "EnergyTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_13",
-        "location": "Ancient Sanctuary",
-        "original_item": "PiercingShot",
+        "name":  "Ancient Sanctuary: PiercingShot",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "PiercingShot",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_14",
-        "location": "Ancient Sanctuary",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Ancient Sanctuary: Chroma 2",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_15",
-        "location": "Ancient Sanctuary",
-        "original_item": "ChromaPack_Large",
+        "name":  "Ancient Sanctuary: Chroma 3",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_16",
-        "location": "Ancient Sanctuary",
-        "original_item": "StunBoost",
+        "name":  "Ancient Sanctuary: StunBoost",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "StunBoost",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_17",
-        "location": "Ancient Sanctuary",
-        "original_item": "PartyHealShard",
+        "name":  "Ancient Sanctuary: PartyHealShard",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "PartyHealShard",
         "condition": {}
     },
     {
-        "name": "Chest_AncientSanctuary_19",
-        "location": "Ancient Sanctuary",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Ancient Sanctuary: Lumina 4",
+        "location":  "Ancient Sanctuary",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_1",
-        "location": "Crimson Forest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Crimson Forest: Lumina 1",
+        "location":  "Crimson Forest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_2",
-        "location": "Crimson Forest",
-        "original_item": "ChromaPack_Large",
+        "name":  "Crimson Forest: Chroma 1",
+        "location":  "Crimson Forest",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_3",
-        "location": "Crimson Forest",
-        "original_item": "ChromaPack_Large",
+        "name":  "Crimson Forest: Chroma 2",
+        "location":  "Crimson Forest",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_4",
-        "location": "Crimson Forest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Crimson Forest: Lumina 2",
+        "location":  "Crimson Forest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_5",
-        "location": "Crimson Forest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Crimson Forest: Lumina 3",
+        "location":  "Crimson Forest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_6",
-        "location": "Crimson Forest",
-        "original_item": "UpgradeMaterial",
+        "name":  "Crimson Forest: Upgrade 1",
+        "location":  "Crimson Forest",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_7",
-        "location": "Crimson Forest",
-        "original_item": "Chevalam",
+        "name":  "Crimson Forest: Chevalam",
+        "location":  "Crimson Forest",
+        "original_item":  "Chevalam",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_8",
-        "location": "Crimson Forest",
-        "original_item": "UpgradeMaterial",
+        "name":  "Crimson Forest: Upgrade 2",
+        "location":  "Crimson Forest",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_CrimsonForest_9",
-        "location": "Crimson Forest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Crimson Forest: Lumina 4",
+        "location":  "Crimson Forest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_1",
-        "location": "Dark Shores",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Dark Shores: Chroma 1",
+        "location":  "Dark Shores",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_2",
-        "location": "Dark Shores",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Dark Shores: Chroma 2",
+        "location":  "Dark Shores",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_3",
-        "location": "Dark Shores",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Dark Shores: Lumina 1",
+        "location":  "Dark Shores",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_4",
-        "location": "Dark Shores",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Dark Shores: Chroma 3",
+        "location":  "Dark Shores",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_5",
-        "location": "Dark Shores",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Dark Shores: Lumina 2",
+        "location":  "Dark Shores",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_6",
-        "location": "Dark Shores",
-        "original_item": "InMediasRes",
+        "name":  "Dark Shores: InMediasRes",
+        "location":  "Dark Shores",
+        "original_item":  "InMediasRes",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_7",
-        "location": "Dark Shores",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Dark Shores: Lumina 3",
+        "location":  "Dark Shores",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_8",
-        "location": "Dark Shores",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Dark Shores: Lumina 4",
+        "location":  "Dark Shores",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_DarkShores_9",
-        "location": "Dark Shores",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Dark Shores: Lumina 5",
+        "location":  "Dark Shores",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_EsquiesNest_1",
-        "location": "Esquies Nest",
-        "original_item": "InitialAp+1C",
+        "name":  "Esquies Nest: InitialAp+1C",
+        "location":  "Esquies Nest",
+        "original_item":  "InitialAp+1C",
         "condition": {}
     },
     {
-        "name": "Chest_EsquiesNest_2",
-        "location": "Esquies Nest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Esquies Nest: Lumina 1",
+        "location":  "Esquies Nest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_EsquiesNest_3",
-        "location": "Esquies Nest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Esquies Nest: Lumina 2",
+        "location":  "Esquies Nest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_EsquiesNest_4",
-        "location": "Esquies Nest",
-        "original_item": "ChromaPack_Large",
+        "name":  "Esquies Nest: Chroma 1",
+        "location":  "Esquies Nest",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_EsquiesNest_5",
-        "location": "Esquies Nest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Esquies Nest: Lumina 3",
+        "location":  "Esquies Nest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_EsquiesNest_6",
-        "location": "Esquies Nest",
-        "original_item": "ChromaPack_Large",
+        "name":  "Esquies Nest: Chroma 2",
+        "location":  "Esquies Nest",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_EsquiesNest_7",
-        "location": "Esquies Nest",
-        "original_item": "Quest_Mushroom",
+        "name":  "Esquies Nest: Quest_Mushroom",
+        "location":  "Esquies Nest",
+        "original_item":  "Quest_Mushroom",
         "condition": {}
     },
     {
-        "name": "Chest_FallingLeaves_1",
-        "location": "Falling Leaves",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Falling Leaves: Chroma 1",
+        "location":  "Falling Leaves",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_FallingLeaves_2",
-        "location": "Falling Leaves",
-        "original_item": "SosRush",
+        "name":  "Falling Leaves: SosRush",
+        "location":  "Falling Leaves",
+        "original_item":  "SosRush",
         "condition": {}
     },
     {
-        "name": "Chest_FallingLeaves_3",
-        "location": "Falling Leaves",
-        "original_item": "ChromaPack_Large",
+        "name":  "Falling Leaves: Chroma 2",
+        "location":  "Falling Leaves",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_1",
-        "location": "Flying Manor",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Flying Manor: Lumina 1",
+        "location":  "Flying Manor",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_2",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 1",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_3",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_Large",
+        "name":  "Flying Manor: Chroma 1",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_4",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 2",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_5",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Flying Manor: Chroma 2",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_6",
-        "location": "Flying Manor",
-        "original_item": "ReviveWithPower",
+        "name":  "Flying Manor: ReviveWithPower",
+        "location":  "Flying Manor",
+        "original_item":  "ReviveWithPower",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_9",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_Large",
+        "name":  "Flying Manor: Chroma 3",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_10",
-        "location": "Flying Manor",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Flying Manor: Lumina 2",
+        "location":  "Flying Manor",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_11",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 3",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_12",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_Large",
+        "name":  "Flying Manor: Chroma 4",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_13",
-        "location": "Flying Manor",
-        "original_item": "GradientOnBuff",
+        "name":  "Flying Manor: GradientOnBuff",
+        "location":  "Flying Manor",
+        "original_item":  "GradientOnBuff",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_14",
-        "location": "Flying Manor",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Flying Manor: Lumina 3",
+        "location":  "Flying Manor",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_15",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 4",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_16",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Flying Manor: Chroma 5",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_17",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 5",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_18",
-        "location": "Flying Manor",
-        "original_item": "VersatileHealer",
+        "name":  "Flying Manor: VersatileHealer",
+        "location":  "Flying Manor",
+        "original_item":  "VersatileHealer",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_19",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_Large",
+        "name":  "Flying Manor: Chroma 6",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_21",
-        "location": "Flying Manor",
-        "original_item": "Roulette",
+        "name":  "Flying Manor: Roulette",
+        "location":  "Flying Manor",
+        "original_item":  "Roulette",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_22",
-        "location": "Flying Manor",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Flying Manor: Lumina 4",
+        "location":  "Flying Manor",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_23",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 6",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_24",
-        "location": "Flying Manor",
-        "original_item": "Painter",
+        "name":  "Flying Manor: Painter",
+        "location":  "Flying Manor",
+        "original_item":  "Painter",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_25",
-        "location": "Flying Manor",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Flying Manor: Lumina 5",
+        "location":  "Flying Manor",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_26",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 7",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_27",
-        "location": "Flying Manor",
-        "original_item": "PowerfulMark",
+        "name":  "Flying Manor: PowerfulMark",
+        "location":  "Flying Manor",
+        "original_item":  "PowerfulMark",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_28",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 8",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_29",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_Large",
+        "name":  "Flying Manor: Chroma 7",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_30",
-        "location": "Flying Manor",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Flying Manor: Lumina 6",
+        "location":  "Flying Manor",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_32",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_Large",
+        "name":  "Flying Manor: Chroma 8",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_33",
-        "location": "Flying Manor",
-        "original_item": "FreeAimShell",
+        "name":  "Flying Manor: FreeAimShell",
+        "location":  "Flying Manor",
+        "original_item":  "FreeAimShell",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_34",
-        "location": "Flying Manor",
-        "original_item": "ChromaPack_Large",
+        "name":  "Flying Manor: Chroma 9",
+        "location":  "Flying Manor",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_36",
-        "location": "Flying Manor",
-        "original_item": "FreeAimEnergy",
+        "name":  "Flying Manor: FreeAimEnergy",
+        "location":  "Flying Manor",
+        "original_item":  "FreeAimEnergy",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_37",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 9",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_38",
-        "location": "Flying Manor",
-        "original_item": "UpgradeMaterial",
+        "name":  "Flying Manor: Upgrade 10",
+        "location":  "Flying Manor",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_39",
-        "location": "Flying Manor",
-        "original_item": "BreakingStrong",
+        "name":  "Flying Manor: BreakingStrong",
+        "location":  "Flying Manor",
+        "original_item":  "BreakingStrong",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_40",
-        "location": "Flying Manor",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Flying Manor: Lumina 7",
+        "location":  "Flying Manor",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FlyingManor_41",
-        "location": "Flying Manor",
-        "original_item": "StunEnergy",
+        "name":  "Flying Manor: StunEnergy",
+        "location":  "Flying Manor",
+        "original_item":  "StunEnergy",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_1",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Forgotten Battlefield: Lumina 1",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_2",
-        "location": "Forgotten Battlefield",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Forgotten Battlefield: Chroma 1",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_3",
-        "location": "Forgotten Battlefield",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Forgotten Battlefield: Chroma 2",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_4",
-        "location": "Forgotten Battlefield",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Forgotten Battlefield: Chroma 3",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_5",
-        "location": "Forgotten Battlefield",
-        "original_item": "HealingTint_Shard",
+        "name":  "Forgotten Battlefield: HealingTint_Shard",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "HealingTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_6",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Forgotten Battlefield: Lumina 2",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_7",
-        "location": "Forgotten Battlefield",
-        "original_item": "UpgradeMaterial",
+        "name":  "Forgotten Battlefield: Upgrade 1",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_8",
-        "location": "Forgotten Battlefield",
-        "original_item": "SweetKill",
+        "name":  "Forgotten Battlefield: SweetKill",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "SweetKill",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_9",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Forgotten Battlefield: Lumina 3",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_10",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Forgotten Battlefield: Lumina 4",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_11",
-        "location": "Forgotten Battlefield",
-        "original_item": "ChromaPack_Large",
+        "name":  "Forgotten Battlefield: Chroma 4",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_12",
-        "location": "Forgotten Battlefield",
-        "original_item": "EnergyDeath",
+        "name":  "Forgotten Battlefield: EnergyDeath",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "EnergyDeath",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_13",
-        "location": "Forgotten Battlefield",
-        "original_item": "EnergyTint_Shard",
+        "name":  "Forgotten Battlefield: EnergyTint_Shard",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "EnergyTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_14",
-        "location": "Forgotten Battlefield",
-        "original_item": "PowerfulTint",
+        "name":  "Forgotten Battlefield: PowerfulTint",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "PowerfulTint",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_15",
-        "location": "Forgotten Battlefield",
-        "original_item": "ChromaPack_Large",
+        "name":  "Forgotten Battlefield: Chroma 5",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_16",
-        "location": "Forgotten Battlefield",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Forgotten Battlefield: Chroma 6",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_17",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Forgotten Battlefield: Lumina 5",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_18",
-        "location": "Forgotten Battlefield",
-        "original_item": "ReviveTintEnergy",
+        "name":  "Forgotten Battlefield: ReviveTintEnergy",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "ReviveTintEnergy",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_19",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Forgotten Battlefield: Lumina 6",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_20",
-        "location": "Forgotten Battlefield",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Forgotten Battlefield: ReviveTint_Shard",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_21",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_Respec",
+        "name":  "Forgotten Battlefield: Consumable_Respec",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_22",
-        "location": "Forgotten Battlefield",
-        "original_item": "InitialAp+1D",
+        "name":  "Forgotten Battlefield: InitialAp+1D",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "InitialAp+1D",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_23",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Forgotten Battlefield: Lumina 7",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_24",
-        "location": "Forgotten Battlefield",
-        "original_item": "UpgradeMaterial",
+        "name":  "Forgotten Battlefield: Upgrade 2",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_25",
-        "location": "Forgotten Battlefield",
-        "original_item": "PartyHealShard",
+        "name":  "Forgotten Battlefield: PartyHealShard",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "PartyHealShard",
         "condition": {}
     },
     {
-        "name": "Chest_ForgottenBattlefield_26",
-        "location": "Forgotten Battlefield",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Forgotten Battlefield: Lumina 8",
+        "location":  "Forgotten Battlefield",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_1",
-        "location": "Frozen Hearts",
-        "original_item": "BurnAffinity",
+        "name":  "Frozen Hearts: BurnAffinity",
+        "location":  "Frozen Hearts",
+        "original_item":  "BurnAffinity",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_2",
-        "location": "Frozen Hearts",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Frozen Hearts: Lumina 1",
+        "location":  "Frozen Hearts",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_3",
-        "location": "Frozen Hearts",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Frozen Hearts: Lumina 2",
+        "location":  "Frozen Hearts",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_4",
-        "location": "Frozen Hearts",
-        "original_item": "UpgradeMaterial",
+        "name":  "Frozen Hearts: Upgrade 1",
+        "location":  "Frozen Hearts",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_5",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Large",
+        "name":  "Frozen Hearts: Chroma 1",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_6",
-        "location": "Frozen Hearts",
-        "original_item": "UpgradeMaterial",
+        "name":  "Frozen Hearts: Upgrade 2",
+        "location":  "Frozen Hearts",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_7",
-        "location": "Frozen Hearts",
-        "original_item": "AntiFrozen",
+        "name":  "Frozen Hearts: AntiFrozen",
+        "location":  "Frozen Hearts",
+        "original_item":  "AntiFrozen",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_8",
-        "location": "Frozen Hearts",
-        "original_item": "UpgradeMaterial",
+        "name":  "Frozen Hearts: Upgrade 3",
+        "location":  "Frozen Hearts",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_9",
-        "location": "Frozen Hearts",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Frozen Hearts: ReviveTint_Shard",
+        "location":  "Frozen Hearts",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_10",
-        "location": "Frozen Hearts",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Frozen Hearts: Lumina 3",
+        "location":  "Frozen Hearts",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_11",
-        "location": "Frozen Hearts",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Frozen Hearts: Lumina 4",
+        "location":  "Frozen Hearts",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_12",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Frozen Hearts: Chroma 2",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_13",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Large",
+        "name":  "Frozen Hearts: Chroma 3",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_14",
-        "location": "Frozen Hearts",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Frozen Hearts: Lumina 5",
+        "location":  "Frozen Hearts",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_15",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Frozen Hearts: Chroma 4",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_16",
-        "location": "Frozen Hearts",
-        "original_item": "UpgradeMaterial",
+        "name":  "Frozen Hearts: Upgrade 4",
+        "location":  "Frozen Hearts",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_17",
-        "location": "Frozen Hearts",
-        "original_item": "UpgradeMaterial",
+        "name":  "Frozen Hearts: Upgrade 5",
+        "location":  "Frozen Hearts",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_18",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Large",
+        "name":  "Frozen Hearts: Chroma 5",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_19",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Large",
+        "name":  "Frozen Hearts: Chroma 6",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_20",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Frozen Hearts: Chroma 7",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_21",
-        "location": "Frozen Hearts",
-        "original_item": "BurningBreak",
+        "name":  "Frozen Hearts: BurningBreak",
+        "location":  "Frozen Hearts",
+        "original_item":  "BurningBreak",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_22",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Frozen Hearts: Chroma 8",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_23",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Large",
+        "name":  "Frozen Hearts: Chroma 9",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_24",
-        "location": "Frozen Hearts",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Frozen Hearts: Lumina 6",
+        "location":  "Frozen Hearts",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_25",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Frozen Hearts: Chroma 10",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_26",
-        "location": "Frozen Hearts",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Frozen Hearts: Lumina 7",
+        "location":  "Frozen Hearts",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_27",
-        "location": "Frozen Hearts",
-        "original_item": "UpgradeMaterial",
+        "name":  "Frozen Hearts: Upgrade 6",
+        "location":  "Frozen Hearts",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_29",
-        "location": "Frozen Hearts",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Frozen Hearts: Lumina 8",
+        "location":  "Frozen Hearts",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_30",
-        "location": "Frozen Hearts",
-        "original_item": "UpgradeMaterial",
+        "name":  "Frozen Hearts: Upgrade 7",
+        "location":  "Frozen Hearts",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_FrozenHearts_31",
-        "location": "Frozen Hearts",
-        "original_item": "ChromaPack_Large",
+        "name":  "Frozen Hearts: Chroma 11",
+        "location":  "Frozen Hearts",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_1",
-        "location": "Gestral Village",
-        "original_item": "ChromaPack_Large",
+        "name":  "Gestral Village: Chroma 1",
+        "location":  "Gestral Village",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_2",
-        "location": "Gestral Village",
-        "original_item": "ChromaPack_Large",
+        "name":  "Gestral Village: Chroma 2",
+        "location":  "Gestral Village",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_3",
-        "location": "Gestral Village",
-        "original_item": "ChromaPack_Large",
+        "name":  "Gestral Village: Chroma 3",
+        "location":  "Gestral Village",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_4",
-        "location": "Gestral Village",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Gestral Village: Lumina 1",
+        "location":  "Gestral Village",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_5",
-        "location": "Gestral Village",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Gestral Village: Chroma 4",
+        "location":  "Gestral Village",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_6",
-        "location": "Gestral Village",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Gestral Village: Lumina 2",
+        "location":  "Gestral Village",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_7",
-        "location": "Gestral Village",
-        "original_item": "Betelim",
+        "name":  "Gestral Village: Betelim",
+        "location":  "Gestral Village",
+        "original_item":  "Betelim",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_8",
-        "location": "Gestral Village",
-        "original_item": "FreeAimPowerful",
+        "name":  "Gestral Village: FreeAimPowerful",
+        "location":  "Gestral Village",
+        "original_item":  "FreeAimPowerful",
         "condition": {}
     },
     {
-        "name": "Chest_GestralVillage_9",
-        "location": "Gestral Village",
-        "original_item": "Consumable_Respec",
+        "name":  "Gestral Village: Consumable_Respec",
+        "location":  "Gestral Village",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_1",
-        "location": "Goblus Lair",
-        "original_item": "RewardingMark",
+        "name":  "Goblus Lair: RewardingMark",
+        "location":  "Goblus Lair",
+        "original_item":  "RewardingMark",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_2",
-        "location": "Goblus Lair",
-        "original_item": "UpgradeMaterial",
+        "name":  "Goblus Lair: Upgrade 1",
+        "location":  "Goblus Lair",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_3",
-        "location": "Goblus Lair",
-        "original_item": "ChromaPack_Large",
+        "name":  "Goblus Lair: Chroma 1",
+        "location":  "Goblus Lair",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_4",
-        "location": "Goblus Lair",
-        "original_item": "AugmentedAim",
+        "name":  "Goblus Lair: AugmentedAim",
+        "location":  "Goblus Lair",
+        "original_item":  "AugmentedAim",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_5",
-        "location": "Goblus Lair",
-        "original_item": "UpgradeMaterial",
+        "name":  "Goblus Lair: Upgrade 2",
+        "location":  "Goblus Lair",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_6",
-        "location": "Goblus Lair",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Goblus Lair: Chroma 2",
+        "location":  "Goblus Lair",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_7",
-        "location": "Goblus Lair",
-        "original_item": "SimpleBreaker",
+        "name":  "Goblus Lair: SimpleBreaker",
+        "location":  "Goblus Lair",
+        "original_item":  "SimpleBreaker",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_8",
-        "location": "Goblus Lair",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Goblus Lair: Lumina 1",
+        "location":  "Goblus Lair",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_9",
-        "location": "Goblus Lair",
-        "original_item": "EnergyBreak",
+        "name":  "Goblus Lair: EnergyBreak",
+        "location":  "Goblus Lair",
+        "original_item":  "EnergyBreak",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_10",
-        "location": "Goblus Lair",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Goblus Lair: Chroma 3",
+        "location":  "Goblus Lair",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_11",
-        "location": "Goblus Lair",
-        "original_item": "UpgradeMaterial",
+        "name":  "Goblus Lair: Upgrade 3",
+        "location":  "Goblus Lair",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_12",
-        "location": "Goblus Lair",
-        "original_item": "Versatile",
+        "name":  "Goblus Lair: Versatile",
+        "location":  "Goblus Lair",
+        "original_item":  "Versatile",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_13",
-        "location": "Goblus Lair",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Goblus Lair: Lumina 2",
+        "location":  "Goblus Lair",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_14",
-        "location": "Goblus Lair",
-        "original_item": "SosShell",
+        "name":  "Goblus Lair: SosShell",
+        "location":  "Goblus Lair",
+        "original_item":  "SosShell",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_15",
-        "location": "Goblus Lair",
-        "original_item": "Consumable_Respec",
+        "name":  "Goblus Lair: Consumable_Respec",
+        "location":  "Goblus Lair",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_16",
-        "location": "Goblus Lair",
-        "original_item": "ChromaPack_Large",
+        "name":  "Goblus Lair: Chroma 4",
+        "location":  "Goblus Lair",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_17",
-        "location": "Goblus Lair",
-        "original_item": "EnergyTint_Shard",
+        "name":  "Goblus Lair: EnergyTint_Shard",
+        "location":  "Goblus Lair",
+        "original_item":  "EnergyTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_18",
-        "location": "Goblus Lair",
-        "original_item": "UpgradeMaterial",
+        "name":  "Goblus Lair: Upgrade 4",
+        "location":  "Goblus Lair",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_19",
-        "location": "Goblus Lair",
-        "original_item": "UpgradeMaterial",
+        "name":  "Goblus Lair: Upgrade 5",
+        "location":  "Goblus Lair",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_20",
-        "location": "Goblus Lair",
-        "original_item": "Quest_Mine",
+        "name":  "Goblus Lair: Quest_Mine",
+        "location":  "Goblus Lair",
+        "original_item":  "Quest_Mine",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_21",
-        "location": "Goblus Lair",
-        "original_item": "FreeAimMarkingShot",
+        "name":  "Goblus Lair: FreeAimMarkingShot",
+        "location":  "Goblus Lair",
+        "original_item":  "FreeAimMarkingShot",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_22",
-        "location": "Goblus Lair",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Goblus Lair: Lumina 3",
+        "location":  "Goblus Lair",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_23",
-        "location": "Goblus Lair",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Goblus Lair: Lumina 4",
+        "location":  "Goblus Lair",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_24",
-        "location": "Goblus Lair",
-        "original_item": "PartyHealShard",
+        "name":  "Goblus Lair: PartyHealShard",
+        "location":  "Goblus Lair",
+        "original_item":  "PartyHealShard",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_25",
-        "location": "Goblus Lair",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Goblus Lair: Lumina 5",
+        "location":  "Goblus Lair",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_26",
-        "location": "Goblus Lair",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Goblus Lair: ReviveTint_Shard",
+        "location":  "Goblus Lair",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_GoblusLair_27",
-        "location": "Goblus Lair",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Goblus Lair: Lumina 6",
+        "location":  "Goblus Lair",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GrandisStation_1",
-        "location": "Grandis Station",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Grandis Station: Lumina 1",
+        "location":  "Grandis Station",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_GrandisStation_2",
-        "location": "Grandis Station",
-        "original_item": "ChromaPack_Large",
+        "name":  "Grandis Station: Chroma 1",
+        "location":  "Grandis Station",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_1",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Large",
+        "name":  "Lumiere: Chroma 1",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_2",
-        "location": "Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Lumiere: Upgrade 1",
+        "location":  "Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_3",
-        "location": "Lumiere",
-        "original_item": "APOnPowerful",
+        "name":  "Lumiere: APOnPowerful",
+        "location":  "Lumiere",
+        "original_item":  "APOnPowerful",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_4",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Large",
+        "name":  "Lumiere: Chroma 2",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_5",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Large",
+        "name":  "Lumiere: Chroma 3",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_6",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 1",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_7",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere: Chroma 4",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_8",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere: Chroma 5",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_9",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 2",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_10",
-        "location": "Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Lumiere: Upgrade 2",
+        "location":  "Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_11",
-        "location": "Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Lumiere: Upgrade 3",
+        "location":  "Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_12",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 3",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_13",
-        "location": "Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Lumiere: Upgrade 4",
+        "location":  "Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_14",
-        "location": "Lumiere",
-        "original_item": "GradientOnStun",
+        "name":  "Lumiere: GradientOnStun",
+        "location":  "Lumiere",
+        "original_item":  "GradientOnStun",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_15",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere: Chroma 6",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_16",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 4",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_17",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 5",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_18",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 6",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_19",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 7",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_20",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 8",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_21",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere: Chroma 7",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_22",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 9",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_23",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 10",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_24",
-        "location": "Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Lumiere: Upgrade 5",
+        "location":  "Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_25",
-        "location": "Lumiere",
-        "original_item": "HealingStun",
+        "name":  "Lumiere: HealingStun",
+        "location":  "Lumiere",
+        "original_item":  "HealingStun",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_26",
-        "location": "Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Lumiere: Upgrade 6",
+        "location":  "Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_27",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 11",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_28",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere: Chroma 8",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_29",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 12",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_30",
-        "location": "Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Lumiere: Upgrade 7",
+        "location":  "Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_31",
-        "location": "Lumiere",
-        "original_item": "Consumable_Respec",
+        "name":  "Lumiere: Consumable_Respec",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_32",
-        "location": "Lumiere",
-        "original_item": "Consumable_Respec",
+        "name":  "Lumiere: Consumable_Respec",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_33",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 13",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_34",
-        "location": "Lumiere",
-        "original_item": "Consumable_Respec",
+        "name":  "Lumiere: Consumable_Respec",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_35",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere: Chroma 9",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_36",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere: Chroma 10",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_37",
-        "location": "Lumiere",
-        "original_item": "Consumable_Respec",
+        "name":  "Lumiere: Consumable_Respec",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_38",
-        "location": "Lumiere",
-        "original_item": "GradientFighter",
+        "name":  "Lumiere: GradientFighter",
+        "location":  "Lumiere",
+        "original_item":  "GradientFighter",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_39",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 14",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_40",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 15",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_41",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 16",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_42",
-        "location": "Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere: Chroma 11",
+        "location":  "Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_43",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Lumiere: Lumina 17",
+        "location":  "Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_44",
-        "location": "Lumiere",
-        "original_item": "MusicRecord_2",
+        "name":  "Lumiere: MusicRecord_2",
+        "location":  "Lumiere",
+        "original_item":  "MusicRecord_2",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_ACT1_1",
-        "location": "Lumiere ACT1",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere ACT1: Chroma 1",
+        "location":  "Lumiere ACT1",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_ACT1_2",
-        "location": "Lumiere ACT1",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere ACT1: Chroma 2",
+        "location":  "Lumiere ACT1",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_ACT1_3",
-        "location": "Lumiere ACT1",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere ACT1: Chroma 3",
+        "location":  "Lumiere ACT1",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Lumiere_ACT1_4",
-        "location": "Lumiere ACT1",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Lumiere ACT1: Chroma 4",
+        "location":  "Lumiere ACT1",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_1",
-        "location": "Manor",
-        "original_item": "ConsumableUpgradeMaterial_AP",
+        "name":  "Manor: ConsumableUpgradeMaterial_AP",
+        "location":  "Manor",
+        "original_item":  "ConsumableUpgradeMaterial_AP",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_2",
-        "location": "Manor",
-        "original_item": "MusicRecord_19",
+        "name":  "Manor: MusicRecord_19",
+        "location":  "Manor",
+        "original_item":  "MusicRecord_19",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_3",
-        "location": "Manor",
-        "original_item": "ConsumableUpgradeMaterial_Revive",
+        "name":  "Manor: ConsumableUpgradeMaterial_Revive",
+        "location":  "Manor",
+        "original_item":  "ConsumableUpgradeMaterial_Revive",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_4",
-        "location": "Manor",
-        "original_item": "MusicRecord_26",
+        "name":  "Manor: MusicRecord_26",
+        "location":  "Manor",
+        "original_item":  "MusicRecord_26",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_5",
-        "location": "Manor",
-        "original_item": "FaceMaelle_Rebellious",
+        "name":  "Manor: FaceMaelle_Rebellious",
+        "location":  "Manor",
+        "original_item":  "FaceMaelle_Rebellious",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_6",
-        "location": "Manor",
-        "original_item": "ConsumableUpgradeMaterial_AP",
+        "name":  "Manor: ConsumableUpgradeMaterial_AP",
+        "location":  "Manor",
+        "original_item":  "ConsumableUpgradeMaterial_AP",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_7",
-        "location": "Manor",
-        "original_item": "MusicRecord_1",
+        "name":  "Manor: MusicRecord_1",
+        "location":  "Manor",
+        "original_item":  "MusicRecord_1",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_8",
-        "location": "Manor",
-        "original_item": "MusicRecord_31",
+        "name":  "Manor: MusicRecord_31",
+        "location":  "Manor",
+        "original_item":  "MusicRecord_31",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_9",
-        "location": "Manor",
-        "original_item": "MusicRecord_29",
+        "name":  "Manor: MusicRecord_29",
+        "location":  "Manor",
+        "original_item":  "MusicRecord_29",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_11",
-        "location": "Manor",
-        "original_item": "SkinMaelle_Alicia",
+        "name":  "Manor: SkinMaelle_Alicia",
+        "location":  "Manor",
+        "original_item":  "SkinMaelle_Alicia",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_12",
-        "location": "Manor",
-        "original_item": "MusicRecord_8",
+        "name":  "Manor: MusicRecord_8",
+        "location":  "Manor",
+        "original_item":  "MusicRecord_8",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_13",
-        "location": "Manor",
-        "original_item": "SkinMaelle_CivilianSkirt",
+        "name":  "Manor: SkinMaelle_CivilianSkirt",
+        "location":  "Manor",
+        "original_item":  "SkinMaelle_CivilianSkirt",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_14",
-        "location": "Manor",
-        "original_item": "ConsumableUpgradeMaterial_Health",
+        "name":  "Manor: ConsumableUpgradeMaterial_Health",
+        "location":  "Manor",
+        "original_item":  "ConsumableUpgradeMaterial_Health",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_15",
-        "location": "Manor",
-        "original_item": "MusicRecord_22",
+        "name":  "Manor: MusicRecord_22",
+        "location":  "Manor",
+        "original_item":  "MusicRecord_22",
         "condition": {}
     },
     {
-        "name": "Chest_Manor_16",
-        "location": "Manor",
-        "original_item": "SkinVerso_Civil",
+        "name":  "Manor: SkinVerso_Civil",
+        "location":  "Manor",
+        "original_item":  "SkinVerso_Civil",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_1",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 1",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_2",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Large",
+        "name":  "Monolith: Chroma 1",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_3",
-        "location": "Monolith",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Monolith: ReviveTint_Shard",
+        "location":  "Monolith",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_4",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 2",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_5",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 3",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_6",
-        "location": "Monolith",
-        "original_item": "StayMarked",
+        "name":  "Monolith: StayMarked",
+        "location":  "Monolith",
+        "original_item":  "StayMarked",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_7",
-        "location": "Monolith",
-        "original_item": "UpgradeMaterial",
+        "name":  "Monolith: Upgrade 1",
+        "location":  "Monolith",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_8",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 4",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_9",
-        "location": "Monolith",
-        "original_item": "UpgradeMaterial",
+        "name":  "Monolith: Upgrade 2",
+        "location":  "Monolith",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_10",
-        "location": "Monolith",
-        "original_item": "Reacherim_2",
+        "name":  "Monolith: Reacherim_2",
+        "location":  "Monolith",
+        "original_item":  "Reacherim_2",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_11",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 5",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_12",
-        "location": "Monolith",
-        "original_item": "UpgradeMaterial",
+        "name":  "Monolith: Upgrade 3",
+        "location":  "Monolith",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_13",
-        "location": "Monolith",
-        "original_item": "RandomDefense",
+        "name":  "Monolith: RandomDefense",
+        "location":  "Monolith",
+        "original_item":  "RandomDefense",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_14",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Monolith: Chroma 2",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_15",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 6",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_16",
-        "location": "Monolith",
-        "original_item": "UpgradeMaterial",
+        "name":  "Monolith: Upgrade 4",
+        "location":  "Monolith",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_17",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Large",
+        "name":  "Monolith: Chroma 3",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_18",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Monolith: Chroma 4",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_19",
-        "location": "Monolith",
-        "original_item": "Consumable_Respec",
+        "name":  "Monolith: Consumable_Respec",
+        "location":  "Monolith",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_20",
-        "location": "Monolith",
-        "original_item": "WeaknessGain",
+        "name":  "Monolith: WeaknessGain",
+        "location":  "Monolith",
+        "original_item":  "WeaknessGain",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_21",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Monolith: Chroma 5",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_22",
-        "location": "Monolith",
-        "original_item": "UpgradeMaterial",
+        "name":  "Monolith: Upgrade 5",
+        "location":  "Monolith",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_23",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 7",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_24",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Monolith: Chroma 6",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_25",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Monolith: Chroma 7",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_26",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 8",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_27",
-        "location": "Monolith",
-        "original_item": "UpgradeMaterial",
+        "name":  "Monolith: Upgrade 6",
+        "location":  "Monolith",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_28",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 9",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_29",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Large",
+        "name":  "Monolith: Chroma 8",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_30",
-        "location": "Monolith",
-        "original_item": "PowerlessStrike",
+        "name":  "Monolith: PowerlessStrike",
+        "location":  "Monolith",
+        "original_item":  "PowerlessStrike",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_31",
-        "location": "Monolith",
-        "original_item": "ReinforcementParade",
+        "name":  "Monolith: ReinforcementParade",
+        "location":  "Monolith",
+        "original_item":  "ReinforcementParade",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_32",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 10",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_33",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 11",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_34",
-        "location": "Monolith",
-        "original_item": "Consumable_Respec",
+        "name":  "Monolith: Consumable_Respec",
+        "location":  "Monolith",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_35",
-        "location": "Monolith",
-        "original_item": "ChromaPack_Large",
+        "name":  "Monolith: Chroma 9",
+        "location":  "Monolith",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_36",
-        "location": "Monolith",
-        "original_item": "UpgradeMaterial",
+        "name":  "Monolith: Upgrade 7",
+        "location":  "Monolith",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_37",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 12",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_38",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 13",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_39",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 14",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_40",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 15",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Monolith_41",
-        "location": "Monolith",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Monolith: Lumina 16",
+        "location":  "Monolith",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_1",
-        "location": "Old Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Old Lumiere: Lumina 1",
+        "location":  "Old Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_2",
-        "location": "Old Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Old Lumiere: Upgrade 1",
+        "location":  "Old Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_3",
-        "location": "Old Lumiere",
-        "original_item": "TimeTint",
+        "name":  "Old Lumiere: TimeTint",
+        "location":  "Old Lumiere",
+        "original_item":  "TimeTint",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_4",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Old Lumiere: Chroma 1",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_5",
-        "location": "Old Lumiere",
-        "original_item": "AutoRush",
+        "name":  "Old Lumiere: AutoRush",
+        "location":  "Old Lumiere",
+        "original_item":  "AutoRush",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_6",
-        "location": "Old Lumiere",
-        "original_item": "UpgradeMaterial",
+        "name":  "Old Lumiere: Upgrade 2",
+        "location":  "Old Lumiere",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_7",
-        "location": "Old Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Old Lumiere: Lumina 2",
+        "location":  "Old Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_8",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Old Lumiere: Chroma 2",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_9",
-        "location": "Old Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Old Lumiere: Lumina 3",
+        "location":  "Old Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_10",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_Large",
+        "name":  "Old Lumiere: Chroma 3",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_11",
-        "location": "Old Lumiere",
-        "original_item": "Reacharo_1",
+        "name":  "Old Lumiere: Reacharo_1",
+        "location":  "Old Lumiere",
+        "original_item":  "Reacharo_1",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_12",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Old Lumiere: Chroma 4",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_13",
-        "location": "Old Lumiere",
-        "original_item": "HealingDeath",
+        "name":  "Old Lumiere: HealingDeath",
+        "location":  "Old Lumiere",
+        "original_item":  "HealingDeath",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_14",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_Large",
+        "name":  "Old Lumiere: Chroma 5",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_15",
-        "location": "Old Lumiere",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Old Lumiere: Lumina 4",
+        "location":  "Old Lumiere",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_16",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Old Lumiere: Chroma 6",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_17",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_Large",
+        "name":  "Old Lumiere: Chroma 7",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_18",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Old Lumiere: Chroma 8",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_19",
-        "location": "Old Lumiere",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Old Lumiere: Chroma 9",
+        "location":  "Old Lumiere",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_OldLumiere_20",
-        "location": "Old Lumiere",
-        "original_item": "Redalim",
+        "name":  "Old Lumiere: Redalim",
+        "location":  "Old Lumiere",
+        "original_item":  "Redalim",
         "condition": {}
     },
     {
@@ -2028,849 +2028,849 @@
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_1",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_Large",
+        "name":  "Sea Cliff: Chroma 1",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_2",
-        "location": "Sea Cliff",
-        "original_item": "ReviveWithRegen",
+        "name":  "Sea Cliff: ReviveWithRegen",
+        "location":  "Sea Cliff",
+        "original_item":  "ReviveWithRegen",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_3",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 1",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_4",
-        "location": "Sea Cliff",
-        "original_item": "Coralim",
+        "name":  "Sea Cliff: Coralim",
+        "location":  "Sea Cliff",
+        "original_item":  "Coralim",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_5",
-        "location": "Sea Cliff",
-        "original_item": "Delaram",
+        "name":  "Sea Cliff: Delaram",
+        "location":  "Sea Cliff",
+        "original_item":  "Delaram",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_6",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_Large",
+        "name":  "Sea Cliff: Chroma 2",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_7",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_Respec",
+        "name":  "Sea Cliff: Consumable_Respec",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_8",
-        "location": "Sea Cliff",
-        "original_item": "HealingTint_Shard",
+        "name":  "Sea Cliff: HealingTint_Shard",
+        "location":  "Sea Cliff",
+        "original_item":  "HealingTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_9",
-        "location": "Sea Cliff",
-        "original_item": "BreakingCounter",
+        "name":  "Sea Cliff: BreakingCounter",
+        "location":  "Sea Cliff",
+        "original_item":  "BreakingCounter",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_10",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 2",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_11",
-        "location": "Sea Cliff",
-        "original_item": "HealingTintEnergy",
+        "name":  "Sea Cliff: HealingTintEnergy",
+        "location":  "Sea Cliff",
+        "original_item":  "HealingTintEnergy",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_12",
-        "location": "Sea Cliff",
-        "original_item": "Duenum",
+        "name":  "Sea Cliff: Duenum",
+        "location":  "Sea Cliff",
+        "original_item":  "Duenum",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_13",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 3",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_14",
-        "location": "Sea Cliff",
-        "original_item": "DefensiveMode",
+        "name":  "Sea Cliff: DefensiveMode",
+        "location":  "Sea Cliff",
+        "original_item":  "DefensiveMode",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_15",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Sea Cliff: Chroma 3",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_16",
-        "location": "Sea Cliff",
-        "original_item": "FirstStrike",
+        "name":  "Sea Cliff: FirstStrike",
+        "location":  "Sea Cliff",
+        "original_item":  "FirstStrike",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_17",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_Respec",
+        "name":  "Sea Cliff: Consumable_Respec",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_18",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 4",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_19",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Sea Cliff: Chroma 4",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_20",
-        "location": "Sea Cliff",
-        "original_item": "EnergyTint_Shard",
+        "name":  "Sea Cliff: EnergyTint_Shard",
+        "location":  "Sea Cliff",
+        "original_item":  "EnergyTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_21",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Sea Cliff: Chroma 5",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_22",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 5",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_23",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Sea Cliff: Chroma 6",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_24",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Sea Cliff: Chroma 7",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_25",
-        "location": "Sea Cliff",
-        "original_item": "SosPower",
+        "name":  "Sea Cliff: SosPower",
+        "location":  "Sea Cliff",
+        "original_item":  "SosPower",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_26",
-        "location": "Sea Cliff",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sea Cliff: Upgrade 1",
+        "location":  "Sea Cliff",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_27",
-        "location": "Sea Cliff",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sea Cliff: Upgrade 2",
+        "location":  "Sea Cliff",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_28",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 6",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_29",
-        "location": "Sea Cliff",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Sea Cliff: ReviveTint_Shard",
+        "location":  "Sea Cliff",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_30",
-        "location": "Sea Cliff",
-        "original_item": "BreakShot",
+        "name":  "Sea Cliff: BreakShot",
+        "location":  "Sea Cliff",
+        "original_item":  "BreakShot",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_31",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 7",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_32",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Sea Cliff: Chroma 8",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_33",
-        "location": "Sea Cliff",
-        "original_item": "WeakeningMark",
+        "name":  "Sea Cliff: WeakeningMark",
+        "location":  "Sea Cliff",
+        "original_item":  "WeakeningMark",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_34",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Sea Cliff: Chroma 9",
+        "location":  "Sea Cliff",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_35",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 8",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_36",
-        "location": "Sea Cliff",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sea Cliff: Lumina 9",
+        "location":  "Sea Cliff",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_37",
-        "location": "Sea Cliff",
-        "original_item": "AutoShell",
+        "name":  "Sea Cliff: AutoShell",
+        "location":  "Sea Cliff",
+        "original_item":  "AutoShell",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_38",
-        "location": "Sea Cliff",
-        "original_item": "Quest_HexgaRock",
+        "name":  "Sea Cliff: Quest_HexgaRock",
+        "location":  "Sea Cliff",
+        "original_item":  "Quest_HexgaRock",
         "condition": {}
     },
     {
-        "name": "Chest_SeaCliff_39",
-        "location": "Sea Cliff",
-        "original_item": "MusicRecord_3",
+        "name":  "Sea Cliff: MusicRecord_3",
+        "location":  "Sea Cliff",
+        "original_item":  "MusicRecord_3",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_1",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 1",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_2",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 2",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_3",
-        "location": "Sirene",
-        "original_item": "ShieldAffinity",
+        "name":  "Sirene: ShieldAffinity",
+        "location":  "Sirene",
+        "original_item":  "ShieldAffinity",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_4",
-        "location": "Sirene",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sirene: Lumina 1",
+        "location":  "Sirene",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_6",
-        "location": "Sirene",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sirene: Lumina 2",
+        "location":  "Sirene",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_7",
-        "location": "Sirene",
-        "original_item": "ProtectingDeath",
+        "name":  "Sirene: ProtectingDeath",
+        "location":  "Sirene",
+        "original_item":  "ProtectingDeath",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_8",
-        "location": "Sirene",
-        "original_item": "ChromaPack_Large",
+        "name":  "Sirene: Chroma 1",
+        "location":  "Sirene",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_9",
-        "location": "Sirene",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sirene: Lumina 3",
+        "location":  "Sirene",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_10",
-        "location": "Sirene",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sirene: Lumina 4",
+        "location":  "Sirene",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_11",
-        "location": "Sirene",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sirene: Lumina 5",
+        "location":  "Sirene",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_12",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 3",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_13",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 4",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_14",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 5",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_15",
-        "location": "Sirene",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sirene: Lumina 6",
+        "location":  "Sirene",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_16",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 6",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_17",
-        "location": "Sirene",
-        "original_item": "EffectiveHeal",
+        "name":  "Sirene: EffectiveHeal",
+        "location":  "Sirene",
+        "original_item":  "EffectiveHeal",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_18",
-        "location": "Sirene",
-        "original_item": "GreaterShell",
+        "name":  "Sirene: GreaterShell",
+        "location":  "Sirene",
+        "original_item":  "GreaterShell",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_19",
-        "location": "Sirene",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Sirene: ReviveTint_Shard",
+        "location":  "Sirene",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_20",
-        "location": "Sirene",
-        "original_item": "AutoRegen",
+        "name":  "Sirene: AutoRegen",
+        "location":  "Sirene",
+        "original_item":  "AutoRegen",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_21",
-        "location": "Sirene",
-        "original_item": "ChromaPack_Large",
+        "name":  "Sirene: Chroma 2",
+        "location":  "Sirene",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_22",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 7",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_23",
-        "location": "Sirene",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Sirene: Lumina 7",
+        "location":  "Sirene",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_24",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 8",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_25",
-        "location": "Sirene",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Sirene: Chroma 3",
+        "location":  "Sirene",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_26",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 9",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_27",
-        "location": "Sirene",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Sirene: Chroma 4",
+        "location":  "Sirene",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_28",
-        "location": "Sirene",
-        "original_item": "EnergyTint_Shard",
+        "name":  "Sirene: EnergyTint_Shard",
+        "location":  "Sirene",
+        "original_item":  "EnergyTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_29",
-        "location": "Sirene",
-        "original_item": "UpgradeMaterial",
+        "name":  "Sirene: Upgrade 10",
+        "location":  "Sirene",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Sirene_30",
-        "location": "Sirene",
-        "original_item": "HealingFire",
+        "name":  "Sirene: HealingFire",
+        "location":  "Sirene",
+        "original_item":  "HealingFire",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RedWoods_1",
-        "location": "Small Level Red Woods",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Red Woods: Lumina 1",
+        "location":  "Small Level Red Woods",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_GoblusLair_02_1",
-        "location": "Small Level Goblus Lair 02",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Goblus Lair 02: Lumina 1",
+        "location":  "Small Level Goblus Lair 02",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_StonewaveCliffsCave_1",
-        "location": "Small Level Stonewave Cliffs Cave",
-        "original_item": "ExhaustAffinity",
+        "name":  "Small Level Stonewave Cliffs Cave: ExhaustAffinity",
+        "location":  "Small Level Stonewave Cliffs Cave",
+        "original_item":  "ExhaustAffinity",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_StonewaveCliffsCave_2",
-        "location": "Small Level Stonewave Cliffs Cave",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Stonewave Cliffs Cave: Lumina 1",
+        "location":  "Small Level Stonewave Cliffs Cave",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_StonewaveCliffsCave_3",
-        "location": "Small Level Stonewave Cliffs Cave",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Stonewave Cliffs Cave: Lumina 2",
+        "location":  "Small Level Stonewave Cliffs Cave",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_StonewaveCliffsCave_4",
-        "location": "Small Level Stonewave Cliffs Cave",
-        "original_item": "PartyHealShard",
+        "name":  "Small Level Stonewave Cliffs Cave: PartyHealShard",
+        "location":  "Small Level Stonewave Cliffs Cave",
+        "original_item":  "PartyHealShard",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_ChosenPath_1",
-        "location": "Small Level Chosen Path",
-        "original_item": "BaseShield",
+        "name":  "Small Level Chosen Path: BaseShield",
+        "location":  "Small Level Chosen Path",
+        "original_item":  "BaseShield",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_FloatingIsland_1",
-        "location": "Small Level Floating Island",
-        "original_item": "GreaterSlow",
+        "name":  "Small Level Floating Island: GreaterSlow",
+        "location":  "Small Level Floating Island",
+        "original_item":  "GreaterSlow",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_Visages_1",
-        "location": "Small Level Visages",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Visages: Lumina 1",
+        "location":  "Small Level Visages",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_Visages_2",
-        "location": "Small Level Visages",
-        "original_item": "UpgradeMaterial",
+        "name":  "Small Level Visages: Upgrade 1",
+        "location":  "Small Level Visages",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_Reacher_1",
-        "location": "Small Level Reacher",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Reacher: Lumina 1",
+        "location":  "Small Level Reacher",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RockTrailing_1",
-        "location": "Small Level Rock Trailing",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Rock Trailing: Lumina 1",
+        "location":  "Small Level Rock Trailing",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RockTrailing_2",
-        "location": "Small Level Rock Trailing",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Rock Trailing: Lumina 2",
+        "location":  "Small Level Rock Trailing",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RockTrailing_3",
-        "location": "Small Level Rock Trailing",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Small Level Rock Trailing: Chroma 1",
+        "location":  "Small Level Rock Trailing",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RockTrailing_4",
-        "location": "Small Level Rock Trailing",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Rock Trailing: Lumina 3",
+        "location":  "Small Level Rock Trailing",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RockTrailing_5",
-        "location": "Small Level Rock Trailing",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Rock Trailing: Lumina 4",
+        "location":  "Small Level Rock Trailing",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RockTrailing_6",
-        "location": "Small Level Rock Trailing",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Small Level Rock Trailing: Chroma 2",
+        "location":  "Small Level Rock Trailing",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RockTrailing_7",
-        "location": "Small Level Rock Trailing",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Rock Trailing: Lumina 5",
+        "location":  "Small Level Rock Trailing",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_RockTrailing_8",
-        "location": "Small Level Rock Trailing",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Rock Trailing: Lumina 6",
+        "location":  "Small Level Rock Trailing",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_Cemetery_1",
-        "location": "Small Level Cemetery",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Cemetery: Lumina 1",
+        "location":  "Small Level Cemetery",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_Cemetery_2",
-        "location": "Small Level Cemetery",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Cemetery: Lumina 2",
+        "location":  "Small Level Cemetery",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_Cemetery_3",
-        "location": "Small Level Cemetery",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Small Level Cemetery: Chroma 1",
+        "location":  "Small Level Cemetery",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_Cemetery_4",
-        "location": "Small Level Cemetery",
-        "original_item": "Consumable_Respec",
+        "name":  "Small Level Cemetery: Consumable_Respec",
+        "location":  "Small Level Cemetery",
+        "original_item":  "Consumable_Respec",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_CoastalCave_1",
-        "location": "Small Level Coastal Cave",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Coastal Cave: Lumina 1",
+        "location":  "Small Level Coastal Cave",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_CavernCrusher_1",
-        "location": "Small Level Cavern Crusher",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Cavern Crusher: Lumina 1",
+        "location":  "Small Level Cavern Crusher",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_DoorMaze_1",
-        "location": "Small Level Door Maze",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Door Maze: Lumina 1",
+        "location":  "Small Level Door Maze",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_DoorMaze_2",
-        "location": "Small Level Door Maze",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Small Level Door Maze: Chroma 1",
+        "location":  "Small Level Door Maze",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_DoorMaze_3",
-        "location": "Small Level Door Maze",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Door Maze: Lumina 2",
+        "location":  "Small Level Door Maze",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_DoorMaze_4",
-        "location": "Small Level Door Maze",
-        "original_item": "Quest_WoodBoards",
+        "name":  "Small Level Door Maze: Quest_WoodBoards",
+        "location":  "Small Level Door Maze",
+        "original_item":  "Quest_WoodBoards",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_DoorMaze_5",
-        "location": "Small Level Door Maze",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Door Maze: Lumina 3",
+        "location":  "Small Level Door Maze",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_SinisterCave_1",
-        "location": "Small Level Sinister Cave",
-        "original_item": "Elerim",
+        "name":  "Small Level Sinister Cave: Elerim",
+        "location":  "Small Level Sinister Cave",
+        "original_item":  "Elerim",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_SinisterCave_2",
-        "location": "Small Level Sinister Cave",
-        "original_item": "MusicRecord_13",
+        "name":  "Small Level Sinister Cave: MusicRecord_13",
+        "location":  "Small Level Sinister Cave",
+        "original_item":  "MusicRecord_13",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_SinisterCave_3",
-        "location": "Small Level Sinister Cave",
-        "original_item": "Corderon",
+        "name":  "Small Level Sinister Cave: Corderon",
+        "location":  "Small Level Sinister Cave",
+        "original_item":  "Corderon",
         "condition": {}
     },
     {
-        "name": "Chest_MiniLevels_1",
-        "location": "Mini Levels",
-        "original_item": "MusicRecord_20",
+        "name":  "Mini Levels: MusicRecord_20",
+        "location":  "Mini Levels",
+        "original_item":  "MusicRecord_20",
         "condition": {}
     },
     {
-        "name": "Chest_MiniLevels_2",
-        "location": "Mini Levels",
-        "original_item": "MusicRecord_21",
+        "name":  "Mini Levels: MusicRecord_21",
+        "location":  "Mini Levels",
+        "original_item":  "MusicRecord_21",
         "condition": {}
     },
     {
-        "name": "Chest_MiniLevels_3",
-        "location": "Mini Levels",
-        "original_item": "MusicRecord_16",
+        "name":  "Mini Levels: MusicRecord_16",
+        "location":  "Mini Levels",
+        "original_item":  "MusicRecord_16",
         "condition": {}
     },
     {
-        "name": "Chest_MiniLevels_4",
-        "location": "Mini Levels",
-        "original_item": "MusicRecord_23",
+        "name":  "Mini Levels: MusicRecord_23",
+        "location":  "Mini Levels",
+        "original_item":  "MusicRecord_23",
         "condition": {}
     },
     {
-        "name": "Chest_MiniLevels_5",
-        "location": "Mini Levels",
-        "original_item": "MusicRecord_24",
+        "name":  "Mini Levels: MusicRecord_24",
+        "location":  "Mini Levels",
+        "original_item":  "MusicRecord_24",
         "condition": {}
     },
     {
-        "name": "Chest_MiniLevels_6",
-        "location": "Mini Levels",
-        "original_item": "MusicRecord_25",
+        "name":  "Mini Levels: MusicRecord_25",
+        "location":  "Mini Levels",
+        "original_item":  "MusicRecord_25",
         "condition": {}
     },
     {
-        "name": "Chest_MiniLevels_7",
-        "location": "Mini Levels",
-        "original_item": "MusicRecord_11",
+        "name":  "Mini Levels: MusicRecord_11",
+        "location":  "Mini Levels",
+        "original_item":  "MusicRecord_11",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_SpringMeadows_1",
-        "location": "Small Level Spring Meadows",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Spring Meadows: Lumina 1",
+        "location":  "Small Level Spring Meadows",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_FlyingCasinoEntrance_1",
-        "location": "Small Level Flying Casino Entrance",
-        "original_item": "MusicRecord_10",
+        "name":  "Small Level Flying Casino Entrance: MusicRecord_10",
+        "location":  "Small Level Flying Casino Entrance",
+        "original_item":  "MusicRecord_10",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_TheCarrousel_1",
-        "location": "Small Level The Carrousel",
-        "original_item": "MusicRecord_12",
+        "name":  "Small Level The Carrousel: MusicRecord_12",
+        "location":  "Small Level The Carrousel",
+        "original_item":  "MusicRecord_12",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_TheCarrousel_2",
-        "location": "Small Level The Carrousel",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level The Carrousel: Lumina 1",
+        "location":  "Small Level The Carrousel",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_WhiteSands_1",
-        "location": "Small Level White Sands",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level White Sands: Lumina 1",
+        "location":  "Small Level White Sands",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_WhiteSands_2",
-        "location": "Small Level White Sands",
-        "original_item": "MusicRecord_28",
+        "name":  "Small Level White Sands: MusicRecord_28",
+        "location":  "Small Level White Sands",
+        "original_item":  "MusicRecord_28",
         "condition": {}
     },
     {
-        "name": "Chest_SmallLevel_SacredRiver_1",
-        "location": "Small Level Sacred River",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Small Level Sacred River: Lumina 1",
+        "location":  "Small Level Sacred River",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_1",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Spring Meadows: Chroma 1",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_2",
-        "location": "Spring Meadows",
-        "original_item": "CritChanceBurn",
+        "name":  "Spring Meadows: CritChanceBurn",
+        "location":  "Spring Meadows",
+        "original_item":  "CritChanceBurn",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_3",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Spring Meadows: Chroma 2",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_4",
-        "location": "Spring Meadows",
-        "original_item": "EnergyTint_Shard",
+        "name":  "Spring Meadows: EnergyTint_Shard",
+        "location":  "Spring Meadows",
+        "original_item":  "EnergyTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_5",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_Large",
+        "name":  "Spring Meadows: Chroma 3",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_6",
-        "location": "Spring Meadows",
-        "original_item": "UpgradeMaterial",
+        "name":  "Spring Meadows: Upgrade 1",
+        "location":  "Spring Meadows",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_7",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Spring Meadows: Chroma 4",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_8",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Spring Meadows: Chroma 5",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_9",
-        "location": "Spring Meadows",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Spring Meadows: Lumina 1",
+        "location":  "Spring Meadows",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_10",
-        "location": "Spring Meadows",
-        "original_item": "AegisRevival",
+        "name":  "Spring Meadows: AegisRevival",
+        "location":  "Spring Meadows",
+        "original_item":  "AegisRevival",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_11",
-        "location": "Spring Meadows",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Spring Meadows: Lumina 2",
+        "location":  "Spring Meadows",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_12",
-        "location": "Spring Meadows",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Spring Meadows: Lumina 3",
+        "location":  "Spring Meadows",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_13",
-        "location": "Spring Meadows",
-        "original_item": "BootyHunter",
+        "name":  "Spring Meadows: BootyHunter",
+        "location":  "Spring Meadows",
+        "original_item":  "BootyHunter",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_14",
-        "location": "Spring Meadows",
-        "original_item": "UpgradeMaterial",
+        "name":  "Spring Meadows: Upgrade 2",
+        "location":  "Spring Meadows",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_15",
-        "location": "Spring Meadows",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Spring Meadows: Lumina 4",
+        "location":  "Spring Meadows",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_16",
-        "location": "Spring Meadows",
-        "original_item": "Quest_Resin",
+        "name":  "Spring Meadows: Quest_Resin",
+        "location":  "Spring Meadows",
+        "original_item":  "Quest_Resin",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_17",
-        "location": "Spring Meadows",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Spring Meadows: Lumina 5",
+        "location":  "Spring Meadows",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_18",
-        "location": "Spring Meadows",
-        "original_item": "FreeAimBurnShot",
+        "name":  "Spring Meadows: FreeAimBurnShot",
+        "location":  "Spring Meadows",
+        "original_item":  "FreeAimBurnShot",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_19",
-        "location": "Spring Meadows",
-        "original_item": "PowerfulStrike",
+        "name":  "Spring Meadows: PowerfulStrike",
+        "location":  "Spring Meadows",
+        "original_item":  "PowerfulStrike",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_20",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Spring Meadows: Chroma 6",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_21",
-        "location": "Spring Meadows",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Spring Meadows: Lumina 6",
+        "location":  "Spring Meadows",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_22",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Spring Meadows: Chroma 7",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_23",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Spring Meadows: Chroma 8",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_24",
-        "location": "Spring Meadows",
-        "original_item": "UpgradeMaterial",
+        "name":  "Spring Meadows: Upgrade 3",
+        "location":  "Spring Meadows",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_25",
-        "location": "Spring Meadows",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Spring Meadows: Chroma 9",
+        "location":  "Spring Meadows",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_SpringMeadows_26",
-        "location": "Spring Meadows",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Spring Meadows: ReviveTint_Shard",
+        "location":  "Spring Meadows",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
@@ -2970,561 +2970,561 @@
         "condition": {}
     },
     {
-        "name": "Chest_Visages_1",
-        "location": "Visages",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Visages: Lumina 1",
+        "location":  "Visages",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_2",
-        "location": "Visages",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Visages: Chroma 1",
+        "location":  "Visages",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_3",
-        "location": "Visages",
-        "original_item": "DoubleBurn",
+        "name":  "Visages: DoubleBurn",
+        "location":  "Visages",
+        "original_item":  "DoubleBurn",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_4",
-        "location": "Visages",
-        "original_item": "FullEnergyAttack",
+        "name":  "Visages: FullEnergyAttack",
+        "location":  "Visages",
+        "original_item":  "FullEnergyAttack",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_5",
-        "location": "Visages",
-        "original_item": "ChromaPack_Large",
+        "name":  "Visages: Chroma 2",
+        "location":  "Visages",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_6",
-        "location": "Visages",
-        "original_item": "ReviveTint_Shard",
+        "name":  "Visages: ReviveTint_Shard",
+        "location":  "Visages",
+        "original_item":  "ReviveTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_7",
-        "location": "Visages",
-        "original_item": "UpgradeMaterial",
+        "name":  "Visages: Upgrade 1",
+        "location":  "Visages",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_8",
-        "location": "Visages",
-        "original_item": "UpgradeMaterial",
+        "name":  "Visages: Upgrade 2",
+        "location":  "Visages",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_10",
-        "location": "Visages",
-        "original_item": "HealingTint_Shard",
+        "name":  "Visages: HealingTint_Shard",
+        "location":  "Visages",
+        "original_item":  "HealingTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_11",
-        "location": "Visages",
-        "original_item": "ChromaPack_Large",
+        "name":  "Visages: Chroma 3",
+        "location":  "Visages",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_12",
-        "location": "Visages",
-        "original_item": "ConfidentFighter",
+        "name":  "Visages: ConfidentFighter",
+        "location":  "Visages",
+        "original_item":  "ConfidentFighter",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_13",
-        "location": "Visages",
-        "original_item": "Confuso",
+        "name":  "Visages: Confuso",
+        "location":  "Visages",
+        "original_item":  "Confuso",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_14",
-        "location": "Visages",
-        "original_item": "ChromaPack_Large",
+        "name":  "Visages: Chroma 4",
+        "location":  "Visages",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_15",
-        "location": "Visages",
-        "original_item": "GlassCanon",
+        "name":  "Visages: GlassCanon",
+        "location":  "Visages",
+        "original_item":  "GlassCanon",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_16",
-        "location": "Visages",
-        "original_item": "EnergyTint_Shard",
+        "name":  "Visages: EnergyTint_Shard",
+        "location":  "Visages",
+        "original_item":  "EnergyTint_Shard",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_17",
-        "location": "Visages",
-        "original_item": "UpgradeMaterial",
+        "name":  "Visages: Upgrade 3",
+        "location":  "Visages",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_18",
-        "location": "Visages",
-        "original_item": "UpgradeMaterial",
+        "name":  "Visages: Upgrade 4",
+        "location":  "Visages",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_19",
-        "location": "Visages",
-        "original_item": "ChromaPack_Large",
+        "name":  "Visages: Chroma 5",
+        "location":  "Visages",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Visages_20",
-        "location": "Visages",
-        "original_item": "UpgradeMaterial",
+        "name":  "Visages: Upgrade 5",
+        "location":  "Visages",
+        "original_item":  "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_1",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 1",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_2",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 2",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_3",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 1",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_4",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 3",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_5",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 4",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_6",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 5",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_7",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 6",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_8",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 2",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_9",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 7",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_10",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 8",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_11",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 9",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_12",
-        "location": "World Map",
-        "original_item": "HealingParry",
+        "name":  "World Map: HealingParry",
+        "location":  "World Map",
+        "original_item":  "HealingParry",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_13",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 3",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_14",
-        "location": "World Map",
-        "original_item": "InitialAp+1A",
+        "name":  "World Map: InitialAp+1A",
+        "location":  "World Map",
+        "original_item":  "InitialAp+1A",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_15",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 4",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_16",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 10",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_17",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 11",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_18",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 12",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_19",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 13",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_20",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 14",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_21",
-        "location": "World Map",
-        "original_item": "SharedCare",
+        "name":  "World Map: SharedCare",
+        "location":  "World Map",
+        "original_item":  "SharedCare",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_22",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 15",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_23",
-        "location": "World Map",
-        "original_item": "EnergizingHeal",
+        "name":  "World Map: EnergizingHeal",
+        "location":  "World Map",
+        "original_item":  "EnergizingHeal",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_24",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 16",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_25",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 17",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_26",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 18",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_27",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 19",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_28",
-        "location": "World Map",
-        "original_item": "DeadEnergy",
+        "name":  "World Map: DeadEnergy",
+        "location":  "World Map",
+        "original_item":  "DeadEnergy",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_29",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 20",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_30",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 21",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_31",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 22",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_32",
-        "location": "World Map",
-        "original_item": "ShieldingTint",
+        "name":  "World Map: ShieldingTint",
+        "location":  "World Map",
+        "original_item":  "ShieldingTint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_33",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 23",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_34",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 24",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_35",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 5",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_36",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 25",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_37",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 26",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_38",
-        "location": "World Map",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "World Map: Chroma 6",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_39",
-        "location": "World Map",
-        "original_item": "GreatFireBreak",
+        "name":  "World Map: GreatFireBreak",
+        "location":  "World Map",
+        "original_item":  "GreatFireBreak",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_40",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 27",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_41",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 7",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_42",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 28",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_43",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 29",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_44",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 30",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_45",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 31",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_46",
-        "location": "World Map",
-        "original_item": "BreakDamageOnBurn",
+        "name":  "World Map: BreakDamageOnBurn",
+        "location":  "World Map",
+        "original_item":  "BreakDamageOnBurn",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_47",
-        "location": "World Map",
-        "original_item": "GradientTint",
+        "name":  "World Map: GradientTint",
+        "location":  "World Map",
+        "original_item":  "GradientTint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_48",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 8",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_49",
-        "location": "World Map",
-        "original_item": "CritChanceOnDefenseless",
+        "name":  "World Map: CritChanceOnDefenseless",
+        "location":  "World Map",
+        "original_item":  "CritChanceOnDefenseless",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_50",
-        "location": "World Map",
-        "original_item": "AcceleratorHeal",
+        "name":  "World Map: AcceleratorHeal",
+        "location":  "World Map",
+        "original_item":  "AcceleratorHeal",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_51",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 9",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_52",
-        "location": "World Map",
-        "original_item": "EffectivSupport",
+        "name":  "World Map: EffectivSupport",
+        "location":  "World Map",
+        "original_item":  "EffectivSupport",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_53",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 10",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_54",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 11",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_55",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 32",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_56",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 12",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_57",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 13",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_58",
-        "location": "World Map",
-        "original_item": "BreakDamageOnCrit",
+        "name":  "World Map: BreakDamageOnCrit",
+        "location":  "World Map",
+        "original_item":  "BreakDamageOnCrit",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_59",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 14",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_60",
-        "location": "World Map",
-        "original_item": "PowerDodgeCombo",
+        "name":  "World Map: PowerDodgeCombo",
+        "location":  "World Map",
+        "original_item":  "PowerDodgeCombo",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_61",
-        "location": "World Map",
-        "original_item": "LongerRush",
+        "name":  "World Map: LongerRush",
+        "location":  "World Map",
+        "original_item":  "LongerRush",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_62",
-        "location": "World Map",
-        "original_item": "BreakDamageOnSlow",
+        "name":  "World Map: BreakDamageOnSlow",
+        "location":  "World Map",
+        "original_item":  "BreakDamageOnSlow",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_63",
-        "location": "World Map",
-        "original_item": "ChromaPack_Large",
+        "name":  "World Map: Chroma 15",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_64",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 33",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_65",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 34",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_66",
-        "location": "World Map",
-        "original_item": "APOnShell",
+        "name":  "World Map: APOnShell",
+        "location":  "World Map",
+        "original_item":  "APOnShell",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_67",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "World Map: Lumina 35",
+        "location":  "World Map",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_WorldMap_68",
-        "location": "World Map",
-        "original_item": "ChromaPack_Regular",
+        "name":  "World Map: Chroma 16",
+        "location":  "World Map",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_YellowForest_1",
-        "location": "Yellow Forest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Yellow Forest: Lumina 1",
+        "location":  "Yellow Forest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_YellowForest_2",
-        "location": "Yellow Forest",
-        "original_item": "ChromaPack_Regular",
+        "name":  "Yellow Forest: Chroma 1",
+        "location":  "Yellow Forest",
+        "original_item":  "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_YellowForest_3",
-        "location": "Yellow Forest",
-        "original_item": "ChromaPack_ExtraLarge",
+        "name":  "Yellow Forest: Chroma 2",
+        "location":  "Yellow Forest",
+        "original_item":  "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
-        "name": "Chest_YellowForest_4",
-        "location": "Yellow Forest",
-        "original_item": "ChromaPack_Large",
+        "name":  "Yellow Forest: Chroma 3",
+        "location":  "Yellow Forest",
+        "original_item":  "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_YellowForest_5",
-        "location": "Yellow Forest",
-        "original_item": "Consumable_LuminaPoint",
+        "name":  "Yellow Forest: Lumina 2",
+        "location":  "Yellow Forest",
+        "original_item":  "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_YellowForest_6",
-        "location": "Yellow Forest",
-        "original_item": "DeathBombPhysical",
+        "name":  "Yellow Forest: DeathBombPhysical",
+        "location":  "Yellow Forest",
+        "original_item":  "DeathBombPhysical",
         "condition": {}
     }
 ]
