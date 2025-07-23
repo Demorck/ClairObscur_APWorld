@@ -1956,73 +1956,73 @@
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_1",
+        "name": "Renoir's Draft: Item Near Triple Contortionniste",
         "location": "Renoir SDraft",
         "original_item": "BreakMomentum",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_2",
+        "name": "Renoir's Draft: Item Near First Echassier",
         "location": "Renoir SDraft",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_3",
+        "name": "Renoir's Draft: Item Near The Abyss Entrance",
         "location": "Renoir SDraft",
         "original_item": "RushOnPowerful",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_4",
+        "name": "Renoir's Draft: Item Leading to Merchant 1",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_5",
+        "name": "Renoir's Draft: Item Leading to Merchant 2",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_6",
+        "name": "Renoir's Draft: Item After Platforms Near Merchant",
         "location": "Renoir SDraft",
         "original_item": "GradientOnCrit",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_7",
+        "name": "Renoir's Draft: Grandiose Chroma Catalyst 3",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_8",
+        "name": "Renoir's Draft: Item Near Merchant 1",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_9",
+        "name": "Renoir's Draft: Item Near Second Flag",
         "location": "Renoir SDraft",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_10",
+        "name": "Renoir's Draft: Item Near Merchant 2",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_11",
+        "name": "Renoir's Draft: Item On Bridge Behind Merchant",
         "location": "Renoir SDraft",
         "original_item": "GradientOnBurn",
         "condition": {}
     },
     {
-        "name": "Chest_RenoirSDraft_12",
+        "name": "Renoir's Draft: Music Near Triple Contortionniste",
         "location": "Renoir SDraft",
         "original_item": "MusicRecord_32",
         "condition": {}
