@@ -1800,157 +1800,157 @@
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_1",
+        "name": "Reacher: Chroma 1",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_2",
+        "name": "Reacher: Item Above First Echassier 1",
         "location": "Reacher",
         "original_item": "GradientStacker",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_3",
+        "name": "Reacher: Item Above First Echassier 2",
         "location": "Reacher",
         "original_item": "GradientCounterCharge",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_4",
+        "name": "Reacher: Item Near Foggy Area Flag",
         "location": "Reacher",
         "original_item": "ShellTint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_5",
+        "name": "Reacher: Chroma 2",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_6",
+        "name": "Reacher: Item After Wooden Plank Platforms",
         "location": "Reacher",
         "original_item": "LongerShell",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_7",
+        "name": "Reacher: Chroma 3",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_8",
+        "name": "Reacher: Lumina 1",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_9",
+        "name": "Reacher: Chroma 4",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_10",
+        "name": "Reacher: Lumina 2",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_11",
+        "name": "Reacher: Chroma 5",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_12",
+        "name": "Reacher: Lumina 3",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_13",
+        "name": "Reacher: Chroma 6",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_14",
+        "name": "Reacher: Lumina 4",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_15",
+        "name": "Reacher: Chroma 7",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_16",
+        "name": "Reacher: Lumina 5",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_17",
+        "name": "Reacher: Item Above Petank",
         "location": "Reacher",
         "original_item": "HealOnBuff",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_18",
+        "name": "Reacher: Chroma 8",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_19",
+        "name": "Reacher: Lumina 6",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_20",
+        "name": "Reacher: Chroma 9",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_21",
+        "name": "Reacher: Chroma 10",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_22",
+        "name": "Reacher: Lumina 7",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_23",
+        "name": "Reacher: Chroma 11",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_24",
+        "name": "Reacher: Item Near Ladle and Hammer Orphelin Early",
         "location": "Reacher",
         "original_item": "DispelOnAPConsume",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_25",
+        "name": "Reacher: Lumina 8",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_Reacher_26",
+        "name": "Reacher: Lumina 9",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -2874,97 +2874,97 @@
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_1",
+        "name": "Endless Night Sanctuary: Lumina 1",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_2",
+        "name": "Endless Night Sanctuary: Chroma 1",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_3",
+        "name": "Endless Night Sanctuary: Lumina 2",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_4",
+        "name": "Endless Night Sanctuary: Upgrade 1",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_5",
+        "name": "Endless Night Sanctuary: Chroma 2",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_6",
+        "name": "Endless Night Sanctuary: Lumina 3",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_7",
+        "name": "Endless Night Sanctuary: Upgrade 2",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_8",
+        "name": "Endless Night Sanctuary: Chroma 3",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_9",
+        "name": "Endless Night Sanctuary: Lumina 4",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_10",
+        "name": "Endless Night Sanctuary: Chroma 4",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_11",
+        "name": "Endless Night Sanctuary: Upgrade 3",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_12",
+        "name": "Endless Night Sanctuary: Chroma 5",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_13",
+        "name": "Endless Night Sanctuary: Lumina 5",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_14",
+        "name": "Endless Night Sanctuary: Chroma 6",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_15",
+        "name": "Endless Night Sanctuary: Upgrade 4",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
-        "name": "Chest_TwilightSanctuary_16",
+        "name": "Endless Night Sanctuary: Item Inside Small Rock Tunnel",
         "location": "Twilight Sanctuary",
         "original_item": "GradientBreak",
         "condition": {}
