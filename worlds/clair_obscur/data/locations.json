@@ -3018,35 +3018,35 @@
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_1",
-        "internal_name": "Door Maze: Side pat near statue",
+        "internal_name": "Esoteric Ruins: Side pat near statue",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_2",
-        "internal_name": "Door Maze: Paint Cage",
+        "internal_name": "Esoteric Ruins: Paint Cage",
         "location": "Small Level Door Maze",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_3",
-        "internal_name": "Door Maze: Item after maze 1",
+        "internal_name": "Esoteric Ruins: Item after maze 1",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_4",
-        "internal_name": "Door Maze: Item after maze 2",
+        "internal_name": "Esoteric Ruins: Item after maze 2",
         "location": "Small Level Door Maze",
         "original_item": "Quest_WoodBoards",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_5",
-        "internal_name": "Door Maze: Item after maze 3",
+        "internal_name": "Esoteric Ruins: Item after maze 3",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
