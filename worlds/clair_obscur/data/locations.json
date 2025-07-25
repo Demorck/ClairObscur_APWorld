@@ -757,210 +757,210 @@
     },
     {
         "name": "Chest_FrozenHearts_1",
-        "internal_name": "Frozen Hearts: BurnAffinity",
+        "internal_name": "Frozen Hearts: Chromatic Veilleur Ice Cave item 1",
         "location": "Frozen Hearts",
         "original_item": "BurnAffinity",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_2",
-        "internal_name": "Frozen Hearts: Lumina 1",
+        "internal_name": "Frozen Hearts: Icebound Train Station - On broken train tracks",
         "location": "Frozen Hearts",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_3",
-        "internal_name": "Frozen Hearts: Lumina 2",
+        "internal_name": "Frozen Hearts: Icebound Train Station - Platform to left of entrance to first room",
         "location": "Frozen Hearts",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_4",
-        "internal_name": "Frozen Hearts: Upgrade 1",
+        "internal_name": "Frozen Hearts: Icebount Train Station - Chromatic Veilleur Ice Cave item 2",
         "location": "Frozen Hearts",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_5",
-        "internal_name": "Frozen Hearts: Chroma 1",
+        "internal_name": "Frozen Hearts: Icebound Train Station - Past Paint Cage",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_6",
-        "internal_name": "Frozen Hearts: Upgrade 2",
+        "internal_name": "Frozen Hearts: Glacial Falls - Right of station entrance near Danseuse corpse",
         "location": "Frozen Hearts",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_7",
-        "internal_name": "Frozen Hearts: AntiFrozen",
+        "internal_name": "Frozen Hearts: Glacial Falls - Paint Cage",
         "location": "Frozen Hearts",
         "original_item": "AntiFrozen",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_8",
-        "internal_name": "Frozen Hearts: Upgrade 3",
+        "internal_name": "Frozen Hearts: Glacial Falls - Chromatic Veilleur Ice Cave item 4",
         "location": "Frozen Hearts",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_9",
-        "internal_name": "Frozen Hearts: ReviveTint_Shard",
+        "internal_name": "Frozen Hearts: Glacial Falls - Paint Cage",
         "location": "Frozen Hearts",
         "original_item": "ReviveTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_10",
-        "internal_name": "Frozen Hearts: Lumina 3",
+        "internal_name": "Frozen Hearts: Glacial Falls - Between Expedition Flag and tracks to Danseuse Teacher",
         "location": "Frozen Hearts",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_11",
-        "internal_name": "Frozen Hearts: Lumina 4",
+        "internal_name": "Frozen Hearts: Icebound Train Station - Behind train near entrance",
         "location": "Frozen Hearts",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_12",
-        "internal_name": "Frozen Hearts: Chroma 2",
+        "internal_name": "Frozen Hearts: Icebound Train Station - Red ice nook in first area",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_13",
-        "internal_name": "Frozen Hearts: Chroma 3",
+        "internal_name": "Frozen Hearts: Glacial Falls - Above Expedition Flag item 1",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_14",
-        "internal_name": "Frozen Hearts: Lumina 5",
+        "internal_name": "Frozen Hearts: Icebound Train Station - Ledge overlooking entrance",
         "location": "Frozen Hearts",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_15",
-        "internal_name": "Frozen Hearts: Chroma 4",
+        "internal_name": "Frozen Hearts: Glacial Falls - Above giant pit item 1",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_16",
-        "internal_name": "Frozen Hearts: Upgrade 4",
+        "internal_name": "Frozen Hearts: Glacial Falls - Behind double Braseleur near giant pit",
         "location": "Frozen Hearts",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_17",
-        "internal_name": "Frozen Hearts: Upgrade 5",
+        "internal_name": "Frozen Hearts: Glacial Falls - Near handholds leading to shortcut back to Expedition Flag",
         "location": "Frozen Hearts",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_18",
-        "internal_name": "Frozen Hearts: Chroma 5",
+        "internal_name": "Frozen Hearts: Glacial Falls - On train tracks above handholds",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_19",
-        "internal_name": "Frozen Hearts: Chroma 6",
+        "internal_name": "Frozen Hearts: Icebound Train Station - First room right path on cliffside",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_20",
-        "internal_name": "Frozen Hearts: Chroma 7",
+        "internal_name": "Frozen Hearts: Glacial Falls - above giant pit item 2",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_21",
-        "internal_name": "Frozen Hearts: BurningBreak",
+        "internal_name": "Frozen Hearts: Glacial Falls - Above Expedition Flag item 2",
         "location": "Frozen Hearts",
         "original_item": "BurningBreak",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_22",
-        "internal_name": "Frozen Hearts: Chroma 8",
+        "internal_name": "Frozen Hearts: Glacial Falls - Chromatic Veilleur Ice Cave item 3",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_23",
-        "internal_name": "Frozen Hearts: Chroma 9",
+        "internal_name": "Frozen Hearts: Icebound Terminal - Behind zone boss",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_24",
-        "internal_name": "Frozen Hearts: Lumina 6",
+        "internal_name": "Frozen Hearts: Iced Heart - Near Expedition Flag",
         "location": "Frozen Hearts",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_25",
-        "internal_name": "Frozen Hearts: Chroma 10",
+        "internal_name": "Frozen Hearts: Icebound Train Station - Under dead Grandis",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_26",
-        "internal_name": "Frozen Hearts: Lumina 7",
+        "internal_name": "Frozen Hearts: Iced Heart - Near Mime after floating trains item 1",
         "location": "Frozen Hearts",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_27",
-        "internal_name": "Frozen Hearts: Upgrade 6",
+        "internal_name": "Frozen Hearts: Iced Heart - Near Mime after floating trains item 2",
         "location": "Frozen Hearts",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_29",
-        "internal_name": "Frozen Hearts: Lumina 8",
+        "internal_name": "Frozen Hearts: Glacial Falls - Above Danseuse Teacher",
         "location": "Frozen Hearts",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_30",
-        "internal_name": "Frozen Hearts: Upgrade 7",
+        "internal_name": "Frozen Hearts: Iced Heart - Near Mime after floating trains item 3",
         "location": "Frozen Hearts",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_31",
-        "internal_name": "Frozen Hearts: Chroma 11",
+        "internal_name": "Frozen Hearts: Glacial Falls - Behind Stalact near station entrance",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Large",
         "condition": {}
@@ -2101,70 +2101,70 @@
     },
     {
         "name": "Chest_Reacher_1",
-        "internal_name": "The Reacher: Chroma 1",
+        "internal_name": "The Reacher: Entrance - early handholds",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_2",
-        "internal_name": "The Reacher: Item Above First Echassier 1",
+        "internal_name": "The Reacher: Mountain - boxes by cliffside",
         "location": "Reacher",
         "original_item": "GradientStacker",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_3",
-        "internal_name": "The Reacher: Item Above First Echassier 2",
+        "internal_name": "The Reacher: Mountain - Above First Echassier 2",
         "location": "Reacher",
         "original_item": "GradientCounterCharge",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_4",
-        "internal_name": "The Reacher: Item Near Foggy Area Flag",
+        "internal_name": "The Reacher: Foggy Area - Foggy Area flag",
         "location": "Reacher",
         "original_item": "ShellTint",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_5",
-        "internal_name": "The Reacher: Chroma 2",
+        "internal_name": "The Reacher: Mountain - on cliffside",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_6",
-        "internal_name": "The Reacher: Item After Wooden Plank Platforms",
+        "internal_name": "The Reacher: Mountain - after wooden plank platforms",
         "location": "Reacher",
         "original_item": "LongerShell",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_7",
-        "internal_name": "The Reacher: Chroma 3",
+        "internal_name": "The Reacher: Entrance - in nook near double Orphelin",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_8",
-        "internal_name": "The Reacher: Lumina 1",
+        "internal_name": "The Reacher: Foggy Area - Above Veilleur by cliffside",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_9",
-        "internal_name": "The Reacher: Chroma 4",
+        "internal_name": "The Reacher: Foggy Area - Veilleur",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_10",
-        "internal_name": "The Reacher: Lumina 2",
+        "internal_name": "The Reacher: Foggy Bank - Platform above Merchant",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -2178,14 +2178,14 @@
     },
     {
         "name": "Chest_Reacher_12",
-        "internal_name": "The Reacher: Lumina 3",
+        "internal_name": "The Reacher: Entrance - after Orphelin builders",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_13",
-        "internal_name": "The Reacher: Chroma 6",
+        "internal_name": "The Reacher: Entrance - on Orphelin builder platform",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
@@ -2199,56 +2199,56 @@
     },
     {
         "name": "Chest_Reacher_15",
-        "internal_name": "The Reacher: Chroma 7",
+        "internal_name": "The Reacher: Peak - dead Orphelin",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_16",
-        "internal_name": "The Reacher: Lumina 5",
+        "internal_name": "The Reacher: Entrance - After Paint Spike",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
-        "condition": {}
+        "condition": {"PB": "true"}
     },
     {
         "name": "Chest_Reacher_17",
-        "internal_name": "The Reacher: Item Above Petank",
+        "internal_name": "The Reacher: Foggy Bank - After triple Orphelin platform",
         "location": "Reacher",
         "original_item": "HealOnBuff",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_18",
-        "internal_name": "The Reacher: Chroma 8",
+        "internal_name": "The Reacher: Foggy Area - above patrolling Veilleur",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_19",
-        "internal_name": "The Reacher: Lumina 6",
+        "internal_name": "The Reacher: Ladder Area - Mime",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_20",
-        "internal_name": "The Reacher: Chroma 9",
+        "internal_name": "The Reacher: Ladder Area - Nailed Orphelin near Petank platform",
         "location": "Reacher",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_21",
-        "internal_name": "The Reacher: Chroma 10",
+        "internal_name": "The Reacher: Mountain - before wooden plank platforming",
         "location": "Reacher",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_22",
-        "internal_name": "The Reacher: Lumina 7",
+        "internal_name": "The Reacher: Ladder Area - behind Manor door",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -2262,105 +2262,105 @@
     },
     {
         "name": "Chest_Reacher_24",
-        "internal_name": "The Reacher: Item Near Ladle and Hammer Orphelin Early",
+        "internal_name": "The Reacher: Entrance - under Orphelin builder platform",
         "location": "Reacher",
         "original_item": "DispelOnAPConsume",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_25",
-        "internal_name": "The Reacher: Lumina 8",
+        "internal_name": "The Reacher: Entrance - hot air balloon",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Reacher_26",
-        "internal_name": "The Reacher: Lumina 9",
+        "internal_name": "The Reacher: Foggy Bank - Triple Orphelin platform",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_1",
-        "internal_name": "Renoir's Draft: Item Near Triple Contortionniste",
+        "internal_name": "Renoir's Draft: Entrance - triple Contortionniste",
         "location": "Renoir SDraft",
         "original_item": "BreakMomentum",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_2",
-        "internal_name": "Renoir's Draft: Item Near First Echassier",
+        "internal_name": "Renoir's Draft: Entrance - Moissonneuse",
         "location": "Renoir SDraft",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_3",
-        "internal_name": "Renoir's Draft: Item Near The Abyss Entrance",
+        "internal_name": "Renoir's Draft: Golden Tree - above The Abyss entrance",
         "location": "Renoir SDraft",
         "original_item": "RushOnPowerful",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_4",
-        "internal_name": "Renoir's Draft: Item Leading to Merchant 1",
+        "internal_name": "Renoir's Draft: Entrance - giant bronze ball",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_5",
-        "internal_name": "Renoir's Draft: Item Leading to Merchant 2",
+        "internal_name": "Renoir's Draft: Entrance - next to Merchant",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_6",
-        "internal_name": "Renoir's Draft: Item After Platforms Near Merchant",
+        "internal_name": "Renoir's Draft: Entrance - after platforms near Merchant",
         "location": "Renoir SDraft",
         "original_item": "GradientOnCrit",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_7",
-        "internal_name": "Renoir's Draft: Grandiose Chroma Catalyst 3",
+        "internal_name": "Renoir's Draft: Entrance - in tunnel under room with red lights",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_8",
-        "internal_name": "Renoir's Draft: Item Near Merchant 1",
+        "internal_name": "Renoir's Draft: Entrance - buried building and double Creation",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_9",
-        "internal_name": "Renoir's Draft: Item Near Second Flag",
+        "internal_name": "Renoir's Draft: Entrance - under toppled fuzzy pillar",
         "location": "Renoir SDraft",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_10",
-        "internal_name": "Renoir's Draft: Item Near Merchant 2",
+        "internal_name": "Renoir's Draft: Entrance - Boucheclier",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_11",
-        "internal_name": "Renoir's Draft: Item On Bridge Behind Merchant",
+        "internal_name": "Renoir's Draft: Entrance - on bridge behind Merchant",
         "location": "Renoir SDraft",
         "original_item": "GradientOnBurn",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_12",
-        "internal_name": "Renoir's Draft: Music Near Triple Contortionniste",
+        "internal_name": "Renoir's Draft: Entrance - Music near Triple Contortionniste",
         "location": "Renoir SDraft",
         "original_item": "MusicRecord_32",
         "condition": {}
@@ -2843,231 +2843,231 @@
     },
     {
         "name": "Chest_SmallLevel_RedWoods_1",
-        "internal_name": "Small Level Red Woods: Lumina 1",
+        "internal_name": "Red Woods: Lumina 1",
         "location": "Small Level Red Woods",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_GoblusLair_02_1",
-        "internal_name": "Small Level Goblus Lair 02: Lumina 1",
+        "internal_name": "Goblus Lair 02: Lumina 1",
         "location": "Small Level Goblus Lair 02",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_StonewaveCliffsCave_1",
-        "internal_name": "Small Level Stonewave Cliffs Cave: ExhaustAffinity",
+        "internal_name": "Stonewave Cliffs Cave: ExhaustAffinity",
         "location": "Small Level Stonewave Cliffs Cave",
         "original_item": "ExhaustAffinity",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_StonewaveCliffsCave_2",
-        "internal_name": "Small Level Stonewave Cliffs Cave: Lumina 1",
+        "internal_name": "Stonewave Cliffs Cave: Lumina 1",
         "location": "Small Level Stonewave Cliffs Cave",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_StonewaveCliffsCave_3",
-        "internal_name": "Small Level Stonewave Cliffs Cave: Lumina 2",
+        "internal_name": "Stonewave Cliffs Cave: Lumina 2",
         "location": "Small Level Stonewave Cliffs Cave",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_StonewaveCliffsCave_4",
-        "internal_name": "Small Level Stonewave Cliffs Cave: PartyHealShard",
+        "internal_name": "Stonewave Cliffs Cave: PartyHealShard",
         "location": "Small Level Stonewave Cliffs Cave",
         "original_item": "PartyHealShard",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_ChosenPath_1",
-        "internal_name": "Small Level Chosen Path: BaseShield",
+        "internal_name": "Chosen Path: BaseShield",
         "location": "Small Level Chosen Path",
         "original_item": "BaseShield",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_FloatingIsland_1",
-        "internal_name": "Small Level Floating Island: GreaterSlow",
+        "internal_name": "Floating Island: GreaterSlow",
         "location": "Small Level Floating Island",
         "original_item": "GreaterSlow",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_Visages_1",
-        "internal_name": "Small Level Visages: Lumina 1",
+        "internal_name": "Visages: Lumina 1",
         "location": "Small Level Visages",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_Visages_2",
-        "internal_name": "Small Level Visages: Upgrade 1",
+        "internal_name": "Visages: Upgrade 1",
         "location": "Small Level Visages",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_Reacher_1",
-        "internal_name": "Small Level Reacher: Lumina 1",
+        "internal_name": "Reacher: Lumina 1",
         "location": "Small Level Reacher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_RockTrailing_1",
-        "internal_name": "Small Level Rock Trailing: Lumina 1",
+        "internal_name": "Rock Trailing: Lumina 1",
         "location": "Small Level Rock Trailing",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_RockTrailing_2",
-        "internal_name": "Small Level Rock Trailing: Lumina 2",
+        "internal_name": "Rock Trailing: Lumina 2",
         "location": "Small Level Rock Trailing",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_RockTrailing_3",
-        "internal_name": "Small Level Rock Trailing: Chroma 1",
+        "internal_name": "Rock Trailing: Chroma 1",
         "location": "Small Level Rock Trailing",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_RockTrailing_4",
-        "internal_name": "Small Level Rock Trailing: Lumina 3",
+        "internal_name": "Rock Trailing: Lumina 3",
         "location": "Small Level Rock Trailing",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_RockTrailing_5",
-        "internal_name": "Small Level Rock Trailing: Lumina 4",
+        "internal_name": "Rock Trailing: Lumina 4",
         "location": "Small Level Rock Trailing",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_RockTrailing_6",
-        "internal_name": "Small Level Rock Trailing: Chroma 2",
+        "internal_name": "Rock Trailing: Chroma 2",
         "location": "Small Level Rock Trailing",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_RockTrailing_7",
-        "internal_name": "Small Level Rock Trailing: Lumina 5",
+        "internal_name": "Rock Trailing: Lumina 5",
         "location": "Small Level Rock Trailing",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_RockTrailing_8",
-        "internal_name": "Small Level Rock Trailing: Lumina 6",
+        "internal_name": "Rock Trailing: Lumina 6",
         "location": "Small Level Rock Trailing",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_Cemetery_1",
-        "internal_name": "Small Level Cemetery: Lumina 1",
+        "internal_name": "Cemetery: Lumina 1",
         "location": "Small Level Cemetery",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_Cemetery_2",
-        "internal_name": "Small Level Cemetery: Lumina 2",
+        "internal_name": "Cemetery: Lumina 2",
         "location": "Small Level Cemetery",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_Cemetery_3",
-        "internal_name": "Small Level Cemetery: Chroma 1",
+        "internal_name": "Cemetery: Chroma 1",
         "location": "Small Level Cemetery",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_Cemetery_4",
-        "internal_name": "Small Level Cemetery: Consumable_Respec",
+        "internal_name": "Cemetery: Consumable_Respec",
         "location": "Small Level Cemetery",
         "original_item": "Consumable_Respec",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_CoastalCave_1",
-        "internal_name": "Small Level Coastal Cave: Lumina 1",
+        "internal_name": "Coastal Cave: Lumina 1",
         "location": "Small Level Coastal Cave",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_CavernCrusher_1",
-        "internal_name": "Small Level Cavern Crusher: Lumina 1",
+        "internal_name": "Cavern Crusher: Lumina 1",
         "location": "Small Level Cavern Crusher",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_1",
-        "internal_name": "Small Level Door Maze: Lumina 1",
+        "internal_name": "Door Maze: Side pat near statue",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_2",
-        "internal_name": "Small Level Door Maze: Chroma 1",
+        "internal_name": "Door Maze: Paint Cage",
         "location": "Small Level Door Maze",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_3",
-        "internal_name": "Small Level Door Maze: Lumina 2",
+        "internal_name": "Door Maze: Item after maze 1",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_4",
-        "internal_name": "Small Level Door Maze: Quest_WoodBoards",
+        "internal_name": "Door Maze: Item after maze 2",
         "location": "Small Level Door Maze",
         "original_item": "Quest_WoodBoards",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_5",
-        "internal_name": "Small Level Door Maze: Lumina 3",
+        "internal_name": "Door Maze: Item after maze 3",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_SinisterCave_1",
-        "internal_name": "Small Level Sinister Cave: Elerim",
+        "internal_name": "SSinister Cave: Near glowing nevron",
         "location": "Small Level Sinister Cave",
         "original_item": "Elerim",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_SinisterCave_2",
-        "internal_name": "Small Level Sinister Cave: MusicRecord_13",
+        "internal_name": "Sinister Cave: After long fall",
         "location": "Small Level Sinister Cave",
         "original_item": "MusicRecord_13",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_SinisterCave_3",
-        "internal_name": "Small Level Sinister Cave: Corderon",
+        "internal_name": "Sinister Cave: Beside dead Gestral Merchant",
         "location": "Small Level Sinister Cave",
         "original_item": "Corderon",
         "condition": {}
@@ -3123,49 +3123,49 @@
     },
     {
         "name": "Chest_SmallLevel_SpringMeadows_1",
-        "internal_name": "Small Level Spring Meadows: Lumina 1",
+        "internal_name": "Spring Meadows: Lumina 1",
         "location": "Small Level Spring Meadows",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_FlyingCasinoEntrance_1",
-        "internal_name": "Small Level Flying Casino Entrance: MusicRecord_10",
+        "internal_name": "Flying Casino Entrance: MusicRecord_10",
         "location": "Small Level Flying Casino Entrance",
         "original_item": "MusicRecord_10",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_TheCarrousel_1",
-        "internal_name": "Small Level The Carrousel: MusicRecord_12",
+        "internal_name": "The Carrousel: MusicRecord_12",
         "location": "Small Level The Carrousel",
         "original_item": "MusicRecord_12",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_TheCarrousel_2",
-        "internal_name": "Small Level The Carrousel: Lumina 1",
+        "internal_name": "The Carrousel: Lumina 1",
         "location": "Small Level The Carrousel",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_WhiteSands_1",
-        "internal_name": "Small Level White Sands: Lumina 1",
+        "internal_name": "White Sands: Lumina 1",
         "location": "Small Level White Sands",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_WhiteSands_2",
-        "internal_name": "Small Level White Sands: MusicRecord_28",
+        "internal_name": "White Sands: MusicRecord_28",
         "location": "Small Level White Sands",
         "original_item": "MusicRecord_28",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_SacredRiver_1",
-        "internal_name": "Small Level Sacred River: Lumina 1",
+        "internal_name": "Sacred River: Lumina 1",
         "location": "Small Level Sacred River",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -3354,112 +3354,112 @@
     },
     {
         "name": "Chest_TwilightSanctuary_1",
-        "internal_name": "Endless Night Sanctuary: Lumina 1",
+        "internal_name": "Endless Night Sanctuary: Warrior's Route - Near expeditioner corpse",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_2",
-        "internal_name": "Endless Night Sanctuary: Chroma 1",
+        "internal_name": "Endless Night Sanctuary: Entrance - Near Contortionniste corpses",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_3",
-        "internal_name": "Endless Night Sanctuary: Lumina 2",
+        "internal_name": "Endless Night Sanctuary: Entrance - Right path before Warrior's Route flag",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_4",
-        "internal_name": "Endless Night Sanctuary: Upgrade 1",
+        "internal_name": "Endless Night Sanctuary: Left path before second flag 2",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_5",
-        "internal_name": "Endless Night Sanctuary: Chroma 2",
+        "internal_name": "Endless Night Sanctuary: Warrior's Route - After Petank 2",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_6",
-        "internal_name": "Endless Night Sanctuary: Lumina 3",
+        "internal_name": "Endless Night Sanctuary: Night Totem - after Merchant",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_7",
-        "internal_name": "Endless Night Sanctuary: Upgrade 2",
+        "internal_name": "Endless Night Sanctuary: Night Totem - Near bags and fallen giant vases",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_8",
-        "internal_name": "Endless Night Sanctuary: Chroma 3",
+        "internal_name": "Endless Night Sanctuary: Night Totem - Before shortcut back to flag",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_9",
-        "internal_name": "Endless Night Sanctuary: Lumina 4",
+        "internal_name": "Endless Night Sanctuary: Entrance - Left path before second flag 1",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_10",
-        "internal_name": "Endless Night Sanctuary: Chroma 4",
+        "internal_name": "Endless Night Sanctuary: Entrance - Before Warrior's Route flag",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_11",
-        "internal_name": "Endless Night Sanctuary: Upgrade 3",
+        "internal_name": "Endless Night Sanctuary: Warrior's Route - After Petank 3",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_12",
-        "internal_name": "Endless Night Sanctuary: Chroma 5",
+        "internal_name": "Endless Night Sanctuary: Warrior's Route - After Petank 1",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_13",
-        "internal_name": "Endless Night Sanctuary: Lumina 5",
+        "internal_name": "Endless Night Sanctuary: Night Totem - Near Merchant",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_14",
-        "internal_name": "Endless Night Sanctuary: Chroma 6",
+        "internal_name": "Endless Night Sanctuary: Entrance - Near Robust Sakapatate",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_15",
-        "internal_name": "Endless Night Sanctuary: Upgrade 4",
+        "internal_name": "Endless Night Sanctuary: Night Totem - Paint Cage above flag",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_16",
-        "internal_name": "Endless Night Sanctuary: Item Inside Small Rock Tunnel",
+        "internal_name": "Endless Night Sanctuary: Entrance - Right path inside small rock tunnel",
         "location": "Twilight Sanctuary",
         "original_item": "GradientBreak",
         "condition": {}
