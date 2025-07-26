@@ -127,63 +127,63 @@
     },
     {
         "name": "Chest_CrimsonForest_1",
-        "internal_name": "Crimson Forest: Lumina 1",
+        "internal_name": "Crimson Forest: Crimson Perch - Bottom floor near cave",
         "location": "Crimson Forest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_CrimsonForest_2",
-        "internal_name": "Crimson Forest: Chroma 1",
+        "internal_name": "Crimson Forest: Crimson Perch - Under Expedition Flag",
         "location": "Crimson Forest",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_CrimsonForest_3",
-        "internal_name": "Crimson Forest: Chroma 2",
+        "internal_name": "Crimson Forest: Crimson Perch - Near Expeditioner corpse before Expedition Flag",
         "location": "Crimson Forest",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_CrimsonForest_4",
-        "internal_name": "Crimson Forest: Lumina 2",
+        "internal_name": "Crimson Forest: The Three Blades - After left path Sword Statue",
         "location": "Crimson Forest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_CrimsonForest_5",
-        "internal_name": "Crimson Forest: Lumina 3",
+        "internal_name": "Crimson Forest: The Three Blades - Upper path after floating rock platforms",
         "location": "Crimson Forest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_CrimsonForest_6",
-        "internal_name": "Crimson Forest: Upgrade 1",
+        "internal_name": "Crimson Forest: The Three Blades - In boxes after floating rock platforms",
         "location": "Crimson Forest",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_CrimsonForest_7",
-        "internal_name": "Crimson Forest: Chevalam",
+        "internal_name": "Crimson Forest: The Three Blades - In soup (complete dungeon)",
         "location": "Crimson Forest",
         "original_item": "Chevalam",
         "condition": {}
     },
     {
         "name": "Chest_CrimsonForest_8",
-        "internal_name": "Crimson Forest: Upgrade 2",
+        "internal_name": "Crimson Forest: The Three Blades - Right path Sword Statue 2",
         "location": "Crimson Forest",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_CrimsonForest_9",
-        "internal_name": "Crimson Forest: Lumina 4",
+        "internal_name": "Crimson Forest: Crimson Perch - Above Expedition Flag",
         "location": "Crimson Forest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -302,276 +302,276 @@
     },
     {
         "name": "Chest_FallingLeaves_1",
-        "internal_name": "Falling Leaves: Chroma 1",
+        "internal_name": "Falling Leaves: Left path past Persik near fossilized expeditioners",
         "location": "Falling Leaves",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_FallingLeaves_2",
-        "internal_name": "Falling Leaves: SosRush",
+        "internal_name": "Falling Leaves: Near Glaise on path to Chromatic Ballet",
         "location": "Falling Leaves",
         "original_item": "SosRush",
         "condition": {}
     },
     {
         "name": "Chest_FallingLeaves_3",
-        "internal_name": "Falling Leaves: Chroma 2",
+        "internal_name": "Falling Leaves: Between Expedition Flag and Young Boy",
         "location": "Falling Leaves",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_1",
-        "internal_name": "Flying Manor: Lumina 1",
+        "internal_name": "Flying Manor: Central Platform - Near easels",
         "location": "Flying Manor",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_2",
-        "internal_name": "Flying Manor: Upgrade 1",
+        "internal_name": "Flying Manor: Dualliste Wing - Near Stalact",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_3",
-        "internal_name": "Flying Manor: Chroma 1",
+        "internal_name": "Flying Manor: Central Platform - Left of path to area boss",
         "location": "Flying Manor",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_4",
-        "internal_name": "Flying Manor: Upgrade 2",
+        "internal_name": "Flying Manor: Dualliste Wing - Behind double Gold Chevaliere",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_5",
-        "internal_name": "Flying Manor: Chroma 2",
+        "internal_name": "Flying Manor: Dualliste Wing - Behind Grosse Tete",
         "location": "Flying Manor",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_6",
-        "internal_name": "Flying Manor: ReviveWithPower",
+        "internal_name": "Flying Manor: Dualliste Wing - Paint Cage",
         "location": "Flying Manor",
         "original_item": "ReviveWithPower",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_FlyingManor_9",
-        "internal_name": "Flying Manor: Chroma 3",
+        "internal_name": "Flying Manor: Dualliste Wing - Right of Dualliste room entrance",
         "location": "Flying Manor",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_10",
-        "internal_name": "Flying Manor: Lumina 2",
+        "internal_name": "Flying Manor: Dualliste Wing - Behind Bourgeon",
         "location": "Flying Manor",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_11",
-        "internal_name": "Flying Manor: Upgrade 3",
+        "internal_name": "Flying Manor: Dualliste Wing - Behind Hexga near Hexga corpse",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_12",
-        "internal_name": "Flying Manor: Chroma 4",
+        "internal_name": "Flying Manor: Dualliste Wing - Left of Bourgeon",
         "location": "Flying Manor",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_13",
-        "internal_name": "Flying Manor: GradientOnBuff",
+        "internal_name": "Flying Manor: Lampmaster Wing - Floating island with easels",
         "location": "Flying Manor",
         "original_item": "GradientOnBuff",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_14",
-        "internal_name": "Flying Manor: Lumina 3",
+        "internal_name": "Flying Manor: Lampmaster Wing - Easels near patrolling Jar",
         "location": "Flying Manor",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_15",
-        "internal_name": "Flying Manor: Upgrade 4",
+        "internal_name": "Flying Manor: Lampmaster Wing - Near dead Stalact",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_16",
-        "internal_name": "Flying Manor: Chroma 5",
+        "internal_name": "Flying Manor: Lampmaster Wing - Behind Greatsword Cultist",
         "location": "Flying Manor",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_17",
-        "internal_name": "Flying Manor: Upgrade 5",
+        "internal_name": "Flying Manor: Lampmaster Wing - Near Gargant",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_18",
-        "internal_name": "Flying Manor: VersatileHealer",
+        "internal_name": "Flying Manor: Lampmaster Wing - Above Gargant",
         "location": "Flying Manor",
         "original_item": "VersatileHealer",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_19",
-        "internal_name": "Flying Manor: Chroma 6",
+        "internal_name": "Flying Manor: Lampmaster Wing - Behind Lampmaster",
         "location": "Flying Manor",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_21",
-        "internal_name": "Flying Manor: Roulette",
+        "internal_name": "Flying Manor: Eveque Wing - Inside library",
         "location": "Flying Manor",
         "original_item": "Roulette",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_22",
-        "internal_name": "Flying Manor: Lumina 4",
+        "internal_name": "Flying Manor: Eveque Wing - Easels near Petank start",
         "location": "Flying Manor",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_23",
-        "internal_name": "Flying Manor: Upgrade 6",
+        "internal_name": "Flying Manor: Eveque Wing - Ground floor behind Cruler",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_24",
-        "internal_name": "Flying Manor: Painter",
+        "internal_name": "Flying Manor: Eveque Wing - On bridge above Cruler",
         "location": "Flying Manor",
         "original_item": "Painter",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_25",
-        "internal_name": "Flying Manor: Lumina 5",
+        "internal_name": "Flying Manor: Eveque Wing - Near Portier by exit",
         "location": "Flying Manor",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_26",
-        "internal_name": "Flying Manor: Upgrade 7",
+        "internal_name": "Flying Manor: Eveque Wing - Ground floor by window in Eveque room",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_27",
-        "internal_name": "Flying Manor: PowerfulMark",
+        "internal_name": "Flying Manor: Goblu Wing - above handholds near patrolling Glaise",
         "location": "Flying Manor",
         "original_item": "PowerfulMark",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_28",
-        "internal_name": "Flying Manor: Upgrade 8",
+        "internal_name": "Flying Manor: Eveque Wing - On fallen bridge segment",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_29",
-        "internal_name": "Flying Manor: Chroma 7",
+        "internal_name": "Flying Manor: Lampmaster Wing (Honestly idk) - Near single Steel Chevaliere on broken platform",
         "location": "Flying Manor",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_30",
-        "internal_name": "Flying Manor: Lumina 6",
+        "internal_name": "Flying Manor: Goblu Wing - Left of entrance",
         "location": "Flying Manor",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_32",
-        "internal_name": "Flying Manor: Chroma 8",
+        "internal_name": "Flying Manor: Goblu Wing - Under main platform",
         "location": "Flying Manor",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_33",
-        "internal_name": "Flying Manor: FreeAimShell",
+        "internal_name": "Flying Manor: Central Platform - Right of entrance",
         "location": "Flying Manor",
         "original_item": "FreeAimShell",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_34",
-        "internal_name": "Flying Manor: Chroma 9",
+        "internal_name": "Flying Manor: Central Platform - Path to Eveque Wing on giant frame",
         "location": "Flying Manor",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_36",
-        "internal_name": "Flying Manor: FreeAimEnergy",
+        "internal_name": "Flying Manor: Goblu Wing - Next to Goblu",
         "location": "Flying Manor",
         "original_item": "FreeAimEnergy",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_37",
-        "internal_name": "Flying Manor: Upgrade 9",
+        "internal_name": "Flying Manor: Goblu Wing - On path to Goblu",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_38",
-        "internal_name": "Flying Manor: Upgrade 10",
+        "internal_name": "Flying Manor: Goblu Wing - Behind Fusoka",
         "location": "Flying Manor",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_39",
-        "internal_name": "Flying Manor: BreakingStrong",
+        "internal_name": "Flying Manor: Goblu Wing - Side path near Mime",
         "location": "Flying Manor",
         "original_item": "BreakingStrong",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_40",
-        "internal_name": "Flying Manor: Lumina 7",
+        "internal_name": "Flying Manor: Goblu Wing - Center of Bourgeon and Glaise patrol",
         "location": "Flying Manor",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FlyingManor_41",
-        "internal_name": "Flying Manor: StunEnergy",
+        "internal_name": "Flying Manor: Eveque Wing - Paint Cage",
         "location": "Flying Manor",
         "original_item": "StunEnergy",
-        "condition": {}
+        "condition": {"Paint Break": 1, "Free Aim": 1}
     },
     {
         "name": "Chest_ForgottenBattlefield_1",
@@ -788,7 +788,7 @@
         "internal_name": "Frozen Hearts: Icebound Train Station - Past Paint Cage",
         "location": "Frozen Hearts",
         "original_item": "ChromaPack_Large",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_FrozenHearts_6",
@@ -802,7 +802,7 @@
         "internal_name": "Frozen Hearts: Glacial Falls - Paint Cage",
         "location": "Frozen Hearts",
         "original_item": "AntiFrozen",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_FrozenHearts_8",
@@ -816,7 +816,7 @@
         "internal_name": "Frozen Hearts: Glacial Falls - Paint Cage",
         "location": "Frozen Hearts",
         "original_item": "ReviveTint_Shard",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_FrozenHearts_10",
@@ -2209,7 +2209,7 @@
         "internal_name": "The Reacher: Entrance - After Paint Spike",
         "location": "Reacher",
         "original_item": "Consumable_LuminaPoint",
-        "condition": {"PB": "true"}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_Reacher_17",
@@ -3028,7 +3028,7 @@
         "internal_name": "Esoteric Ruins: Paint Cage",
         "location": "Small Level Door Maze",
         "original_item": "ChromaPack_ExtraLarge",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_3",
@@ -3455,7 +3455,7 @@
         "internal_name": "Endless Night Sanctuary: Night Totem - Paint Cage above flag",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_TwilightSanctuary_16",
