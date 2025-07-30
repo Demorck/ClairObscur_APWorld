@@ -29,7 +29,7 @@
     },
     {
         "name": "Chest_AncientSanctuary_5",
-        "internal_name": "Ancient Sanctuary: Lumina 2",
+        "internal_name": "Ancient Sactuary: Gestral Totem - Base of the totem",
         "location": "Ancient Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -71,7 +71,7 @@
     },
     {
         "name": "Chest_AncientSanctuary_11",
-        "internal_name": "Ancient Sanctuary: Upgrade 1",
+        "internal_name": "Ancient Sactuary: Gestral Totem - Ink bottles on the cliff",
         "location": "Ancient Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
@@ -85,14 +85,14 @@
     },
     {
         "name": "Chest_AncientSanctuary_13",
-        "internal_name": "Ancient Sanctuary: PiercingShot",
+        "internal_name": "Ancient Sactuary: Gestral Totem - In the water",
         "location": "Ancient Sanctuary",
         "original_item": "PiercingShot",
         "condition": {}
     },
     {
         "name": "Chest_AncientSanctuary_14",
-        "internal_name": "Ancient Sanctuary: Chroma 2",
+        "internal_name": "Ancient Sactuary: Gestral Totem - Jump the gaps",
         "location": "Ancient Sanctuary",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
@@ -967,63 +967,63 @@
     },
     {
         "name": "Chest_GestralVillage_1",
-        "internal_name": "Gestral Village: Chroma 1",
+        "internal_name": "Gestral Village: Steal from Victorifo",
         "location": "Gestral Village",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_GestralVillage_2",
-        "internal_name": "Gestral Village: Chroma 2",
+        "internal_name": "Gestral Village: Behind the stage",
         "location": "Gestral Village",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_GestralVillage_3",
-        "internal_name": "Gestral Village: Chroma 3",
+        "internal_name": "Gestral Village: On scaffolding by the stage",
         "location": "Gestral Village",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_GestralVillage_4",
-        "internal_name": "Gestral Village: Lumina 1",
+        "internal_name": "Gestral Village: In the arena",
         "location": "Gestral Village",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_GestralVillage_5",
-        "internal_name": "Gestral Village: Chroma 4",
+        "internal_name": "Gestral Village: Above the Bazar",
         "location": "Gestral Village",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_GestralVillage_6",
-        "internal_name": "Gestral Village: Lumina 2",
+        "internal_name": "Gestral Village: Barrels near Chef’s House",
         "location": "Gestral Village",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_GestralVillage_7",
-        "internal_name": "Gestral Village: Betelim",
+        "internal_name": "Gestral Village: In paint spike room 1",
         "location": "Gestral Village",
         "original_item": "Betelim",
         "condition": {}
     },
     {
         "name": "Chest_GestralVillage_8",
-        "internal_name": "Gestral Village: FreeAimPowerful",
+        "internal_name": "Gestral Village: In paint spike room 2",
         "location": "Gestral Village",
         "original_item": "FreeAimPowerful",
         "condition": {}
     },
     {
         "name": "Chest_GestralVillage_9",
-        "internal_name": "Gestral Village: Consumable_Respec",
+        "internal_name": "Gestral Village: Near casino",
         "location": "Gestral Village",
         "original_item": "Consumable_Respec",
         "condition": {}
@@ -1219,14 +1219,14 @@
     },
     {
         "name": "Chest_GrandisStation_1",
-        "internal_name": "Grandis Station: Lumina 1",
+        "internal_name": "Grandis Station: Monoco's Station - Back of station",
         "location": "Grandis Station",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_GrandisStation_2",
-        "internal_name": "Grandis Station: Chroma 1",
+        "internal_name": "Grandis Station: Monoco's Station - Near Grandis Merchant",
         "location": "Grandis Station",
         "original_item": "ChromaPack_Large",
         "condition": {}
@@ -1674,430 +1674,430 @@
     },
     {
         "name": "Chest_Monolith_1",
-        "internal_name": "Monolith: Lumina 1",
+        "internal_name": "Monolith: Tainted Meadows - Detour near Eveque",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_2",
-        "internal_name": "Monolith: Chroma 1",
+        "internal_name": "Monolith: Tainted Meadows - After Aline memory",
         "location": "Monolith",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_3",
-        "internal_name": "Monolith: ReviveTint_Shard",
+        "internal_name": "Monolith: Tainted Cliffs - Paint Cage",
         "location": "Monolith",
         "original_item": "ReviveTint_Shard",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_Monolith_4",
-        "internal_name": "Monolith: Lumina 2",
+        "internal_name": "Monolith: Tainted Cliffs - In front of bastard Mime room zipline",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_5",
-        "internal_name": "Monolith: Lumina 3",
+        "internal_name": "Monolith: Tainted Meadows - Near Eveque",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_6",
-        "internal_name": "Monolith: StayMarked",
+        "internal_name": "Monolith: Tainted Waters - Behind Chromatic Bourgeon",
         "location": "Monolith",
         "original_item": "StayMarked",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_7",
-        "internal_name": "Monolith: Upgrade 1",
+        "internal_name": "Monolith: Tainted Waters - Right path in coral reef",
         "location": "Monolith",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_8",
-        "internal_name": "Monolith: Lumina 4",
+        "internal_name": "Monolith: Tainted Waters - In broken ship frame under barrels",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_9",
-        "internal_name": "Monolith: Upgrade 2",
+        "internal_name": "Monolith: Tainted Waters - Near giant anchor",
         "location": "Monolith",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_10",
-        "internal_name": "Monolith: Reacherim_2",
+        "internal_name": "Monolith: Tainted Lumiere - Zipline across fractured ground",
         "location": "Monolith",
         "original_item": "Reacherim_2",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_11",
-        "internal_name": "Monolith: Lumina 5",
+        "internal_name": "Monolith: Tainted Sanctuary - After Expedition Flag",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_12",
-        "internal_name": "Monolith: Upgrade 3",
+        "internal_name": "Monolith: Tainted Sanctuary - In roundabout near giant Sakapatate statue",
         "location": "Monolith",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_13",
-        "internal_name": "Monolith: RandomDefense",
+        "internal_name": "Monolith: Tainted Sanctuary - Paint Cage",
         "location": "Monolith",
         "original_item": "RandomDefense",
-        "condition": {}
+        "condition": {"Free Aim": 1, "Paint Break": 1}
     },
     {
         "name": "Chest_Monolith_14",
-        "internal_name": "Monolith: Chroma 2",
+        "internal_name": "Monolith: Tainted Sanctuary - Next to giant Sakapatate statue",
         "location": "Monolith",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_15",
-        "internal_name": "Monolith: Lumina 6",
+        "internal_name": "Monolith: Tainted Sanctuary - Before giant Sakapatate Statue",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_16",
-        "internal_name": "Monolith: Upgrade 4",
+        "internal_name": "Monolith: Tainted Cliffs - Top of spiral staircase",
         "location": "Monolith",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_17",
-        "internal_name": "Monolith: Chroma 3",
+        "internal_name": "Monolith: Tainted Cliffs - Path to lighthouse",
         "location": "Monolith",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_18",
-        "internal_name": "Monolith: Chroma 4",
+        "internal_name": "Monolith: Tainted Cliffs - Near Petank end platform",
         "location": "Monolith",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_19",
-        "internal_name": "Monolith: Consumable_Respec",
+        "internal_name": "Monolith: Tainted Cliffs - Behind Lighthouse near Petank",
         "location": "Monolith",
         "original_item": "Consumable_Respec",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_20",
-        "internal_name": "Monolith: WeaknessGain",
+        "internal_name": "Monolith: Tainted Cliffs - Room before exit item 1",
         "location": "Monolith",
         "original_item": "WeaknessGain",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_21",
-        "internal_name": "Monolith: Chroma 5",
+        "internal_name": "Monolith: Tainted Cliffs - Room before exit item 2",
         "location": "Monolith",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_22",
-        "internal_name": "Monolith: Upgrade 5",
+        "internal_name": "Monolith: Tainted Battlefield - Next to Expedition Flag",
         "location": "Monolith",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_23",
-        "internal_name": "Monolith: Lumina 7",
+        "internal_name": "Monolith: Tainted Battlefield - Past Sakapatate corpses",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_24",
-        "internal_name": "Monolith: Chroma 6",
+        "internal_name": "Monolith: Tainted Battlefield - Left path after vertical zipline",
         "location": "Monolith",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_25",
-        "internal_name": "Monolith: Chroma 7",
+        "internal_name": "Monolith: Tainted Battlefield - Near broken -down cannon",
         "location": "Monolith",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_26",
-        "internal_name": "Monolith: Lumina 8",
+        "internal_name": "Monolith: Tainted Battlefield - Near exit",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_27",
-        "internal_name": "Monolith: Upgrade 6",
+        "internal_name": "Monolith: Tainted Hearts - Near Young Boy at station",
         "location": "Monolith",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_28",
-        "internal_name": "Monolith: Lumina 9",
+        "internal_name": "Monolith: Tainted Hearts - On train car hanging off cliff",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_29",
-        "internal_name": "Monolith: Chroma 8",
+        "internal_name": "Monolith: Tainted Hearts - On cliffside near crane",
         "location": "Monolith",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_30",
-        "internal_name": "Monolith: PowerlessStrike",
+        "internal_name": "Monolith: Tainted Hearts - Near Melosh",
         "location": "Monolith",
         "original_item": "PowerlessStrike",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_31",
-        "internal_name": "Monolith: ReinforcementParade",
+        "internal_name": "Monolith: Tainted Hearts - Paint Cage",
         "location": "Monolith",
         "original_item": "ReinforcementParade",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_Monolith_32",
-        "internal_name": "Monolith: Lumina 10",
+        "internal_name": "Monolith: Tainted Hearts - Left of station entrance",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_33",
-        "internal_name": "Monolith: Lumina 11",
+        "internal_name": "Monolith: Tainted Lumiere - Before crossing fractured land",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_34",
-        "internal_name": "Monolith: Consumable_Respec",
+        "internal_name": "Monolith: Tainted Lumiere - Next to large fountain",
         "location": "Monolith",
         "original_item": "Consumable_Respec",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_35",
-        "internal_name": "Monolith: Chroma 9",
+        "internal_name": "Monolith: Tainted Lumiere - Deadend near crooked archway",
         "location": "Monolith",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_36",
-        "internal_name": "Monolith: Upgrade 7",
+        "internal_name": "Monolith: Tainted Lumiere - Side path near next Expedition Flag",
         "location": "Monolith",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_37",
-        "internal_name": "Monolith: Lumina 12",
+        "internal_name": "Monolith: Tainted Lumiere - Near harp",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_38",
-        "internal_name": "Monolith: Lumina 13",
+        "internal_name": "Monolith: Tainted Lumiere - Near dead Grandis",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_39",
-        "internal_name": "Monolith: Lumina 14",
+        "internal_name": "Monolith: Tainted Cliffs - Behind Petank starting position",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_40",
-        "internal_name": "Monolith: Lumina 15",
+        "internal_name": "Monolith: Tainted Lumiere - Next to festival stands",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Monolith_41",
-        "internal_name": "Monolith: Lumina 16",
+        "internal_name": "Monolith: Tainted Battlefield - After Expedition Flag",
         "location": "Monolith",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_1",
-        "internal_name": "Old Lumiere: Lumina 1",
+        "internal_name": "Old Lumiere: Left Street - In barrels after grapple",
         "location": "Old Lumiere",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_2",
-        "internal_name": "Old Lumiere: Upgrade 1",
+        "internal_name": "Old Lumiere: Left Street - On top of broken pipe",
         "location": "Old Lumiere",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_3",
-        "internal_name": "Old Lumiere: TimeTint",
+        "internal_name": "Old Lumiere: Right Street - On ledge overlooking rubble",
         "location": "Old Lumiere",
         "original_item": "TimeTint",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_4",
-        "internal_name": "Old Lumiere: Chroma 1",
+        "internal_name": "Old Lumiere: Right Street - In crawl space",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_5",
-        "internal_name": "Old Lumiere: AutoRush",
+        "internal_name": "Old Lumiere: Left Street - Past ruined doorway",
         "location": "Old Lumiere",
         "original_item": "AutoRush",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_6",
-        "internal_name": "Old Lumiere: Upgrade 2",
+        "internal_name": "Old Lumiere: Left Street - Before Manor Gardens",
         "location": "Old Lumiere",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_7",
-        "internal_name": "Old Lumiere: Lumina 2",
+        "internal_name": "Old Lumiere: Manor Gardens - Near Paint Cage",
         "location": "Old Lumiere",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_8",
-        "internal_name": "Old Lumiere: Chroma 2",
+        "internal_name": "Old Lumiere: Manor Gardens - Near Sword of Lumiere",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_9",
-        "internal_name": "Old Lumiere: Lumina 3",
+        "internal_name": "Old Lumiere: Right Street - Boxes near apartment building",
         "location": "Old Lumiere",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_10",
-        "internal_name": "Old Lumiere: Chroma 3",
+        "internal_name": "Old Lumiere: Right Street - After Expedition Flag",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_11",
-        "internal_name": "Old Lumiere: Reacharo_1",
+        "internal_name": "Old Lumiere: Right Street - After Expedition Flag on buried building",
         "location": "Old Lumiere",
         "original_item": "Reacharo_1",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_12",
-        "internal_name": "Old Lumiere: Chroma 4",
+        "internal_name": "Old Lumiere: Manor Gardens - In pit between building grapples",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_13",
-        "internal_name": "Old Lumiere: HealingDeath",
+        "internal_name": "Old Lumiere: Manor Gardens - Above Train Station Ruins Expedition Flag",
         "location": "Old Lumiere",
         "original_item": "HealingDeath",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_14",
-        "internal_name": "Old Lumiere: Chroma 5",
+        "internal_name": "Old Lumiere: Manor Gardens - Behind gate near hedge maze",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_15",
-        "internal_name": "Old Lumiere: Lumina 4",
+        "internal_name": "Old Lumiere: Left Street - Before Expedition Flag in ruins",
         "location": "Old Lumiere",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_16",
-        "internal_name": "Old Lumiere: Chroma 6",
+        "internal_name": "Old Lumiere: Manor Gardens - Above Chromatic boss",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_17",
-        "internal_name": "Old Lumiere: Chroma 7",
+        "internal_name": "Old Lumiere: Left Street - On Chevaliere corpse",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_18",
-        "internal_name": "Old Lumiere: Chroma 8",
+        "internal_name": "Old Lumiere: Train Station Ruins - Behind Chromatic boss",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_19",
-        "internal_name": "Old Lumiere: Chroma 9",
+        "internal_name": "Old Lumiere: Right Street - Overlooking carousel",
         "location": "Old Lumiere",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_OldLumiere_20",
-        "internal_name": "Old Lumiere: Redalim",
+        "internal_name": "Old Lumiere: Manor Gardens - Paint Cage",
         "location": "Old Lumiere",
         "original_item": "Redalim",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_Reacher_1",
@@ -2283,84 +2283,84 @@
     },
     {
         "name": "Chest_RenoirSDraft_1",
-        "internal_name": "Renoir's Draft: Entrance - triple Contortionniste",
+        "internal_name": "Renoir' Draft: Entrance - triple Contortionniste",
         "location": "Renoir SDraft",
         "original_item": "BreakMomentum",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_2",
-        "internal_name": "Renoir's Draft: Entrance - Moissonneuse",
+        "internal_name": "Renoir' Draft: Entrance - Moissonneuse",
         "location": "Renoir SDraft",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_3",
-        "internal_name": "Renoir's Draft: Golden Tree - above The Abyss entrance",
+        "internal_name": "Renoir' Draft: Golden Tree - above The Abyss entrance",
         "location": "Renoir SDraft",
         "original_item": "RushOnPowerful",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_4",
-        "internal_name": "Renoir's Draft: Entrance - giant bronze ball",
+        "internal_name": "Renoir' Draft: Entrance - giant bronze ball",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_5",
-        "internal_name": "Renoir's Draft: Entrance - next to Merchant",
+        "internal_name": "Renoir' Draft: Entrance - next to Merchant",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_6",
-        "internal_name": "Renoir's Draft: Entrance - after platforms near Merchant",
+        "internal_name": "Renoir' Draft: Entrance - after platforms near Merchant",
         "location": "Renoir SDraft",
         "original_item": "GradientOnCrit",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_7",
-        "internal_name": "Renoir's Draft: Entrance - in tunnel under room with red lights",
+        "internal_name": "Renoir' Draft: Entrance - in tunnel under room with red lights",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_8",
-        "internal_name": "Renoir's Draft: Entrance - buried building and double Creation",
+        "internal_name": "Renoir' Draft: Entrance - buried building and double Creation",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_9",
-        "internal_name": "Renoir's Draft: Entrance - under toppled fuzzy pillar",
+        "internal_name": "Renoir' Draft: Entrance - under toppled fuzzy pillar",
         "location": "Renoir SDraft",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_10",
-        "internal_name": "Renoir's Draft: Entrance - Boucheclier",
+        "internal_name": "Renoir' Draft: Entrance - Boucheclier",
         "location": "Renoir SDraft",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_11",
-        "internal_name": "Renoir's Draft: Entrance - on bridge behind Merchant",
+        "internal_name": "Renoir' Draft: Entrance - on bridge behind Merchant",
         "location": "Renoir SDraft",
         "original_item": "GradientOnBurn",
         "condition": {}
     },
     {
         "name": "Chest_RenoirSDraft_12",
-        "internal_name": "Renoir's Draft: Entrance - Music near Triple Contortionniste",
+        "internal_name": "Renoir' Draft: Entrance - Music near Triple Contortionniste",
         "location": "Renoir SDraft",
         "original_item": "MusicRecord_32",
         "condition": {}
@@ -2374,35 +2374,35 @@
     },
     {
         "name": "Chest_SeaCliff_2",
-        "internal_name": "Sea Cliff: ReviveWithRegen",
+        "internal_name": "Stone Wave Cliffs: Old Farm - Near Chromatic Gault 2",
         "location": "Sea Cliff",
         "original_item": "ReviveWithRegen",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_3",
-        "internal_name": "Sea Cliff: Lumina 1",
+        "internal_name": "Stone Wave Cliffs: Entrance - Ledge next to the tunnel",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_4",
-        "internal_name": "Sea Cliff: Coralim",
+        "internal_name": "Stone Wave Cliffs: Flooded Buildings - Indoor climbing wall",
         "location": "Sea Cliff",
         "original_item": "Coralim",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_5",
-        "internal_name": "Sea Cliff: Delaram",
+        "internal_name": "Stone Wave Cliffs: Entrance - Paint cage",
         "location": "Sea Cliff",
         "original_item": "Delaram",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_6",
-        "internal_name": "Sea Cliff: Chroma 2",
+        "internal_name": "Stone Wave Cliffs: Paintress Shrine - Ledge with climbing holds",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_Large",
         "condition": {}
@@ -2416,21 +2416,21 @@
     },
     {
         "name": "Chest_SeaCliff_8",
-        "internal_name": "Sea Cliff: HealingTint_Shard",
+        "internal_name": "Stone Wave Cliffs: Paintress Shrine - Ruined building near flag",
         "location": "Sea Cliff",
         "original_item": "HealingTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_9",
-        "internal_name": "Sea Cliff: BreakingCounter",
+        "internal_name": "Stone Wave Cliffs: Unknown 2",
         "location": "Sea Cliff",
         "original_item": "BreakingCounter",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_10",
-        "internal_name": "Sea Cliff: Lumina 2",
+        "internal_name": "Stone Wave Cliffs: Flooded Buildings - Up a small ledge",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -2444,84 +2444,84 @@
     },
     {
         "name": "Chest_SeaCliff_12",
-        "internal_name": "Sea Cliff: Duenum",
+        "internal_name": "Stone Wave Cliffs: Old Farm - Paint cage",
         "location": "Sea Cliff",
         "original_item": "Duenum",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_13",
-        "internal_name": "Sea Cliff: Lumina 3",
+        "internal_name": "Stone Wave Cliffs: Tide Caverns - Next to the rope down to manor door",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_14",
-        "internal_name": "Sea Cliff: DefensiveMode",
+        "internal_name": "Stone Wave Cliffs: Back entrance",
         "location": "Sea Cliff",
         "original_item": "DefensiveMode",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_15",
-        "internal_name": "Sea Cliff: Chroma 3",
+        "internal_name": "Stone Wave Cliffs: Old Farm - In front of the first hut",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_16",
-        "internal_name": "Sea Cliff: FirstStrike",
+        "internal_name": "Stone Wave Cliffs: Entrance - In front of monument",
         "location": "Sea Cliff",
         "original_item": "FirstStrike",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_17",
-        "internal_name": "Sea Cliff: Consumable_Respec",
+        "internal_name": "Stone Wave Cliffs: Tide Caverns - Across from the manor door",
         "location": "Sea Cliff",
         "original_item": "Consumable_Respec",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_18",
-        "internal_name": "Sea Cliff: Lumina 4",
+        "internal_name": "Stone Wave Cliffs: Paintress Shrine - Ledge in the open cave 1",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_19",
-        "internal_name": "Sea Cliff: Chroma 4",
+        "internal_name": "Stone Wave Cliffs: Paintress Shrine - Grapple platform",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_20",
-        "internal_name": "Sea Cliff: EnergyTint_Shard",
+        "internal_name": "Stone Wave Cliffs: Paintress Shrine - In front of the shrine",
         "location": "Sea Cliff",
         "original_item": "EnergyTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_21",
-        "internal_name": "Sea Cliff: Chroma 5",
+        "internal_name": "Stone Wave Cliffs: Old Farm - Before the rope up to the flag",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_22",
-        "internal_name": "Sea Cliff: Lumina 5",
+        "internal_name": "Stone Wave Cliffs: Old Farm - Ledge in the tunnel",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_23",
-        "internal_name": "Sea Cliff: Chroma 6",
+        "internal_name": "Stone Wave Cliffs: Entrance - Near the flag",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_Regular",
         "condition": {}
@@ -2542,14 +2542,14 @@
     },
     {
         "name": "Chest_SeaCliff_26",
-        "internal_name": "Sea Cliff: Upgrade 1",
+        "internal_name": "Stone Wave Cliffs: Old Farm - By the ramp",
         "location": "Sea Cliff",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_27",
-        "internal_name": "Sea Cliff: Upgrade 2",
+        "internal_name": "Stone Wave Cliffs: Old Farm - Towards the merchant",
         "location": "Sea Cliff",
         "original_item": "UpgradeMaterial",
         "condition": {}
@@ -2563,63 +2563,63 @@
     },
     {
         "name": "Chest_SeaCliff_29",
-        "internal_name": "Sea Cliff: ReviveTint_Shard",
+        "internal_name": "Stone Wave Cliffs: Flooded Buildings - Under the climbing holds",
         "location": "Sea Cliff",
         "original_item": "ReviveTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_30",
-        "internal_name": "Sea Cliff: BreakShot",
+        "internal_name": "Stone Wave Cliffs: Tide Caverns - Jump across the pillars",
         "location": "Sea Cliff",
         "original_item": "BreakShot",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_31",
-        "internal_name": "Sea Cliff: Lumina 7",
+        "internal_name": "Stone Wave Cliffs: Tide Caverns - In the rock crystal room",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_32",
-        "internal_name": "Sea Cliff: Chroma 8",
+        "internal_name": "Stone Wave Cliffs: Tide Caverns - Next to the manor door",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_33",
-        "internal_name": "Sea Cliff: WeakeningMark",
+        "internal_name": "Stone Wave Cliffs: Flooded Buildings - Dead hexga",
         "location": "Sea Cliff",
         "original_item": "WeakeningMark",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_34",
-        "internal_name": "Sea Cliff: Chroma 9",
+        "internal_name": "Stone Wave Cliffs: Unknown 1",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_35",
-        "internal_name": "Sea Cliff: Lumina 8",
+        "internal_name": "Stone Wave Cliffs: Entrance - Tiny gazebo",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_36",
-        "internal_name": "Sea Cliff: Lumina 9",
+        "internal_name": "Stone Wave Cliffs: Entrance - By the first grapple point",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_37",
-        "internal_name": "Sea Cliff: AutoShell",
+        "internal_name": "Stone Wave Cliffs: Old Farm - Near Chromatic Gault 1",
         "location": "Sea Cliff",
         "original_item": "AutoShell",
         "condition": {}
@@ -2633,210 +2633,210 @@
     },
     {
         "name": "Chest_SeaCliff_39",
-        "internal_name": "Sea Cliff: MusicRecord_3",
+        "internal_name": "Stone Wave Cliffs: Basalt Waves - Return to the boss arena",
         "location": "Sea Cliff",
         "original_item": "MusicRecord_3",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_1",
-        "internal_name": "Sirene: Upgrade 1",
+        "internal_name": "Sirene: Dancing Classes - Down verical zipline in first room",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_2",
-        "internal_name": "Sirene: Upgrade 2",
+        "internal_name": "Sirene: Dancing Classes - Under Paint Spike",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_Sirene_3",
-        "internal_name": "Sirene: ShieldAffinity",
+        "internal_name": "Sirene: Dancing Classes - Paint Cage",
         "location": "Sirene",
         "original_item": "ShieldAffinity",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_Sirene_4",
-        "internal_name": "Sirene: Lumina 1",
+        "internal_name": "Sirene: Crumbling Path - Near Petank",
         "location": "Sirene",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_6",
-        "internal_name": "Sirene: Lumina 2",
+        "internal_name": "Sirene: Sewing Atelier - Near Young Boy and Manor Door",
         "location": "Sirene",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_7",
-        "internal_name": "Sirene: ProtectingDeath",
+        "internal_name": "Sirene: Sewing Atelier - After Young Boy before Grapple",
         "location": "Sirene",
         "original_item": "ProtectingDeath",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_8",
-        "internal_name": "Sirene: Chroma 1",
+        "internal_name": "Sirene: Dancing Classes - In bowl near Petank start",
         "location": "Sirene",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_9",
-        "internal_name": "Sirene: Lumina 3",
+        "internal_name": "Sirene: Dancing Classes - Near large room before Petank",
         "location": "Sirene",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_10",
-        "internal_name": "Sirene: Lumina 4",
+        "internal_name": "Sirene: Dancing Classes - On foggy platform",
         "location": "Sirene",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_11",
-        "internal_name": "Sirene: Lumina 5",
+        "internal_name": "Sirene: Sewing Atelier - Near brazier and fabric -wrapped pillar",
         "location": "Sirene",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_12",
-        "internal_name": "Sirene: Upgrade 3",
+        "internal_name": "Sirene: Dancing Classes - Before next Expedition Flag on ledge",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_13",
-        "internal_name": "Sirene: Upgrade 4",
+        "internal_name": "Sirene: Sewing Atelier - Near mini -boss",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_14",
-        "internal_name": "Sirene: Upgrade 5",
+        "internal_name": "Sirene: Sewing Atelier - Upper path near mini -boss",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_15",
-        "internal_name": "Sirene: Lumina 6",
+        "internal_name": "Sirene: Dancing Classes - Railing overlooking giant Ballet",
         "location": "Sirene",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_16",
-        "internal_name": "Sirene: Upgrade 6",
+        "internal_name": "Sirene: Dancing Classes - Before elevator",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_17",
-        "internal_name": "Sirene: EffectiveHeal",
+        "internal_name": "Sirene: Dancing Classes - Behind Chromatic enemy",
         "location": "Sirene",
         "original_item": "EffectiveHeal",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_18",
-        "internal_name": "Sirene: GreaterShell",
+        "internal_name": "Sirene: Dancing Classes - Below handholds",
         "location": "Sirene",
         "original_item": "GreaterShell",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_19",
-        "internal_name": "Sirene: ReviveTint_Shard",
+        "internal_name": "Sirene: Sewing Atelier - Paint Cage",
         "location": "Sirene",
         "original_item": "ReviveTint_Shard",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_Sirene_20",
-        "internal_name": "Sirene: AutoRegen",
+        "internal_name": "Sirene: Dancing Classes - Bottom of winding fabric room",
         "location": "Sirene",
         "original_item": "AutoRegen",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_21",
-        "internal_name": "Sirene: Chroma 2",
+        "internal_name": "Sirene: Dancing Classes - Middle of winding fabric room",
         "location": "Sirene",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_22",
-        "internal_name": "Sirene: Upgrade 7",
+        "internal_name": "Sirene: Dancing Classes - Near corpse overlooking Glissando corpse",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_23",
-        "internal_name": "Sirene: Lumina 7",
+        "internal_name": "Sirene: Dancing Classes - Top of winding fabric room",
         "location": "Sirene",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_24",
-        "internal_name": "Sirene: Upgrade 8",
+        "internal_name": "Sirene: Dancing Classes - Before end of detour leading back to Expedition Flag",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_25",
-        "internal_name": "Sirene: Chroma 3",
+        "internal_name": "Sirene: Sewing Atelier - Before Zipline to next Expedition Flag",
         "location": "Sirene",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_26",
-        "internal_name": "Sirene: Upgrade 9",
+        "internal_name": "Sirene: Dancing Classes - Before Expedition Flag",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_27",
-        "internal_name": "Sirene: Chroma 4",
+        "internal_name": "Sirene: Crumbling Path - Left of mini -boss",
         "location": "Sirene",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_28",
-        "internal_name": "Sirene: EnergyTint_Shard",
+        "internal_name": "Sirene: Crumbling Path - Before mini -boss",
         "location": "Sirene",
         "original_item": "EnergyTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_29",
-        "internal_name": "Sirene: Upgrade 10",
+        "internal_name": "Sirene: Dancing Arena - Near Expedition Flag",
         "location": "Sirene",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Sirene_30",
-        "internal_name": "Sirene: HealingFire",
+        "internal_name": "Sirene: Crumbling Path - Detour left of mini -boss",
         "location": "Sirene",
         "original_item": "HealingFire",
         "condition": {}
@@ -2857,31 +2857,31 @@
     },
     {
         "name": "Chest_SmallLevel_StonewaveCliffsCave_1",
-        "internal_name": "Stonewave Cliffs Cave: ExhaustAffinity",
+        "internal_name": "Stone Wave Cliffs Cave: Behind Chromatic Hexga",
         "location": "Small Level Stonewave Cliffs Cave",
         "original_item": "ExhaustAffinity",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_StonewaveCliffsCave_2",
-        "internal_name": "Stonewave Cliffs Cave: Lumina 1",
+        "internal_name": "Stone Wave Cliffs Cave: Through ruined archway",
         "location": "Small Level Stonewave Cliffs Cave",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_StonewaveCliffsCave_3",
-        "internal_name": "Stonewave Cliffs Cave: Lumina 2",
+        "internal_name": "Stone Wave Cliffs Cave: Near rocks before Chromatic Hexga",
         "location": "Small Level Stonewave Cliffs Cave",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SmallLevel_StonewaveCliffsCave_4",
-        "internal_name": "Stonewave Cliffs Cave: PartyHealShard",
+        "internal_name": "Stone Wave Cliffs Cave: Paint Cage",
         "location": "Small Level Stonewave Cliffs Cave",
         "original_item": "PartyHealShard",
-        "condition": {}
+        "condition": {"Free Aim": 1, "Grapple": 1}
     },
     {
         "name": "Chest_SmallLevel_ChosenPath_1",
@@ -3172,189 +3172,189 @@
     },
     {
         "name": "Chest_SpringMeadows_1",
-        "internal_name": "Spring Meadows: Chroma 1",
+        "internal_name": "Spring Meadows: Unknown 1",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_2",
-        "internal_name": "Spring Meadows: CritChanceBurn",
+        "internal_name": "Spring Meadows: Meadows Corridor - Small cave",
         "location": "Spring Meadows",
         "original_item": "CritChanceBurn",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_3",
-        "internal_name": "Spring Meadows: Chroma 2",
+        "internal_name": "Spring Meadows: Meadows Corridor -",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_4",
-        "internal_name": "Spring Meadows: EnergyTint_Shard",
+        "internal_name": "Spring Meadows: Meadows Corridor - In the house 1",
         "location": "Spring Meadows",
         "original_item": "EnergyTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_5",
-        "internal_name": "Spring Meadows: Chroma 3",
+        "internal_name": "Spring Meadows: Meadows Corridor - On ledge beside house",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_6",
-        "internal_name": "Spring Meadows: Upgrade 1",
+        "internal_name": "Spring Meadows: Meadows Corridor - In the house 2",
         "location": "Spring Meadows",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_7",
-        "internal_name": "Spring Meadows: Chroma 4",
+        "internal_name": "Spring Meadows: Grand Meadow - Behind Chromatic Lancelier",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_8",
-        "internal_name": "Spring Meadows: Chroma 5",
+        "internal_name": "Spring Meadows: Grand Meadow - Right path after grapple",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_9",
-        "internal_name": "Spring Meadows: Lumina 1",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - On cliff behind paint spike 2",
         "location": "Spring Meadows",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_10",
-        "internal_name": "Spring Meadows: AegisRevival",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - On cliff behind paint spike 1",
         "location": "Spring Meadows",
         "original_item": "AegisRevival",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_11",
-        "internal_name": "Spring Meadows: Lumina 2",
+        "internal_name": "Spring Meadows: The Indigo Tree - On the roots",
         "location": "Spring Meadows",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_12",
-        "internal_name": "Spring Meadows: Lumina 3",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - Small alcove",
         "location": "Spring Meadows",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_13",
-        "internal_name": "Spring Meadows: BootyHunter",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - Ledge above bridge",
         "location": "Spring Meadows",
         "original_item": "BootyHunter",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_14",
-        "internal_name": "Spring Meadows: Upgrade 2",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - Boxes near bridge",
         "location": "Spring Meadows",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_15",
-        "internal_name": "Spring Meadows: Lumina 4",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - Between paint spikes",
         "location": "Spring Meadows",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_16",
-        "internal_name": "Spring Meadows: Quest_Resin",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - Barrels by wall",
         "location": "Spring Meadows",
         "original_item": "Quest_Resin",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_17",
-        "internal_name": "Spring Meadows: Lumina 5",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - Under the bridge",
         "location": "Spring Meadows",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_18",
-        "internal_name": "Spring Meadows: FreeAimBurnShot",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - On cliff near upper paint spike",
         "location": "Spring Meadows",
         "original_item": "FreeAimBurnShot",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_19",
-        "internal_name": "Spring Meadows: PowerfulStrike",
+        "internal_name": "Spring Meadows: The Indigo Tree - On a branch",
         "location": "Spring Meadows",
         "original_item": "PowerfulStrike",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_20",
-        "internal_name": "Spring Meadows: Chroma 6",
+        "internal_name": "Spring Meadows: Grand Meadow - Left path near flag 2",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_21",
-        "internal_name": "Spring Meadows: Lumina 6",
+        "internal_name": "Spring Meadows: Grand Meadow - Right path near flag 1",
         "location": "Spring Meadows",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_22",
-        "internal_name": "Spring Meadows: Chroma 7",
+        "internal_name": "Spring Meadows: Grand Meadow - Before grapple spot to mime",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_23",
-        "internal_name": "Spring Meadows: Chroma 8",
+        "internal_name": "Spring Meadows: Grand Meadow - Left path near flag 1",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_24",
-        "internal_name": "Spring Meadows: Upgrade 3",
+        "internal_name": "Spring Meadows: Grand Meadow - Right path near flag 2",
         "location": "Spring Meadows",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_25",
-        "internal_name": "Spring Meadows: Chroma 9",
+        "internal_name": "Spring Meadows: Grand Meadow - Lower cliff before grapple",
         "location": "Spring Meadows",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_SpringMeadows_26",
-        "internal_name": "Spring Meadows: ReviveTint_Shard",
+        "internal_name": "Spring Meadows: Abandoned Expeditioner Camp - Near lower paint spike",
         "location": "Spring Meadows",
         "original_item": "ReviveTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_1",
-        "internal_name": "Endless Night Sanctuary: Warrior's Route - Near expeditioner corpse",
+        "internal_name": "Endless Night Sanctuary: Warrior' Route - Near expeditioner corpse",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -3368,7 +3368,7 @@
     },
     {
         "name": "Chest_TwilightSanctuary_3",
-        "internal_name": "Endless Night Sanctuary: Entrance - Right path before Warrior's Route flag",
+        "internal_name": "Endless Night Sanctuary: Entrance - Right path before Warrior' Route flag",
         "location": "Twilight Sanctuary",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -3382,7 +3382,7 @@
     },
     {
         "name": "Chest_TwilightSanctuary_5",
-        "internal_name": "Endless Night Sanctuary: Warrior's Route - After Petank 2",
+        "internal_name": "Endless Night Sanctuary: Warrior' Route - After Petank 2",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
@@ -3417,21 +3417,21 @@
     },
     {
         "name": "Chest_TwilightSanctuary_10",
-        "internal_name": "Endless Night Sanctuary: Entrance - Before Warrior's Route flag",
+        "internal_name": "Endless Night Sanctuary: Entrance - Before Warrior' Route flag",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_11",
-        "internal_name": "Endless Night Sanctuary: Warrior's Route - After Petank 3",
+        "internal_name": "Endless Night Sanctuary: Warrior' Route - After Petank 3",
         "location": "Twilight Sanctuary",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_TwilightSanctuary_12",
-        "internal_name": "Endless Night Sanctuary: Warrior's Route - After Petank 1",
+        "internal_name": "Endless Night Sanctuary: Warrior' Route - After Petank 1",
         "location": "Twilight Sanctuary",
         "original_item": "ChromaPack_Regular",
         "condition": {}
@@ -3466,651 +3466,651 @@
     },
     {
         "name": "Chest_Visages_1",
-        "internal_name": "Visages: Lumina 1",
+        "internal_name": "Visages: Plazza - On cliffside overlooking ocean",
         "location": "Visages",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_Visages_2",
-        "internal_name": "Visages: Chroma 1",
+        "internal_name": "Visages: Plazza - Near entrance to Anger Vale under boxes",
         "location": "Visages",
         "original_item": "ChromaPack_Regular",
-        "condition": {}
+        "condition": {"Attack": 1}
     },
     {
         "name": "Chest_Visages_3",
-        "internal_name": "Visages: DoubleBurn",
+        "internal_name": "Visages: Anger Vale - Near chroma-less Expeditioner",
         "location": "Visages",
         "original_item": "DoubleBurn",
         "condition": {}
     },
     {
         "name": "Chest_Visages_4",
-        "internal_name": "Visages: FullEnergyAttack",
+        "internal_name": "Visages: Anger Vale - Left of boss",
         "location": "Visages",
         "original_item": "FullEnergyAttack",
         "condition": {}
     },
     {
         "name": "Chest_Visages_5",
-        "internal_name": "Visages: Chroma 2",
+        "internal_name": "Visages: Anger Vale - Overlooking tower of masks",
         "location": "Visages",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Visages_6",
-        "internal_name": "Visages: ReviveTint_Shard",
+        "internal_name": "Visages: Anger Vale - On ledge surrounded by enemies",
         "location": "Visages",
         "original_item": "ReviveTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_Visages_7",
-        "internal_name": "Visages: Upgrade 1",
+        "internal_name": "Visages: Anger Vale - Under Contortionniste corpse",
         "location": "Visages",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Visages_8",
-        "internal_name": "Visages: Upgrade 2",
+        "internal_name": "Visages: Joy Vale - Near floral mannequin",
         "location": "Visages",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Visages_10",
-        "internal_name": "Visages: HealingTint_Shard",
+        "internal_name": "Visages: Joy Vale - To the right after Expedition Flag",
         "location": "Visages",
         "original_item": "HealingTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_Visages_11",
-        "internal_name": "Visages: Chroma 3",
+        "internal_name": "Visages: Joy Vale - Left of Expedition Flag near big tree",
         "location": "Visages",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Visages_12",
-        "internal_name": "Visages: ConfidentFighter",
+        "internal_name": "Visages: Joy Vale - Right of boss near tree",
         "location": "Visages",
         "original_item": "ConfidentFighter",
         "condition": {}
     },
     {
         "name": "Chest_Visages_13",
-        "internal_name": "Visages: Confuso",
+        "internal_name": "Visages: Joy Vale - Left of boss",
         "location": "Visages",
         "original_item": "Confuso",
         "condition": {}
     },
     {
         "name": "Chest_Visages_14",
-        "internal_name": "Visages: Chroma 4",
+        "internal_name": "Visages: Sadness Vale - On ledge to the right of massive Contortionnistes",
         "location": "Visages",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Visages_15",
-        "internal_name": "Visages: GlassCanon",
+        "internal_name": "Visages: Sadness Vale - Behind Chromatic Miniboss",
         "location": "Visages",
         "original_item": "GlassCanon",
         "condition": {}
     },
     {
         "name": "Chest_Visages_16",
-        "internal_name": "Visages: EnergyTint_Shard",
+        "internal_name": "Visages: Sadness Vale - Right of boss right path",
         "location": "Visages",
         "original_item": "EnergyTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_Visages_17",
-        "internal_name": "Visages: Upgrade 3",
+        "internal_name": "Visages: Sadness Vale - Right of boss on cliffside",
         "location": "Visages",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Visages_18",
-        "internal_name": "Visages: Upgrade 4",
+        "internal_name": "Visages: Sadness Vale - Left of massive Contortionnistes",
         "location": "Visages",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_Visages_19",
-        "internal_name": "Visages: Chroma 5",
+        "internal_name": "Visages: Sadness Vale - Before Chromatic miniboss",
         "location": "Visages",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_Visages_20",
-        "internal_name": "Visages: Upgrade 5",
+        "internal_name": "Visages: Anger Vale - Right of boss near boxes",
         "location": "Visages",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_1",
-        "internal_name": "World Map: Lumina 1",
+        "internal_name": "World Map: First Continent - Outside Ancient Gestral City",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_2",
-        "internal_name": "World Map: Lumina 2",
+        "internal_name": "World Map: First Continent - Outside Abbest Cave",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_3",
-        "internal_name": "World Map: Chroma 1",
+        "internal_name": "World Map: First Continent - Northeast of Dark Shores beach",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_4",
-        "internal_name": "World Map: Lumina 3",
+        "internal_name": "World Map: First Continent - Beach outside The Meadows",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_5",
-        "internal_name": "World Map: Lumina 4",
+        "internal_name": "World Map: First Continent - Just outside Spring Meadows",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_6",
-        "internal_name": "World Map: Lumina 5",
+        "internal_name": "World Map: Unknown 2",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_7",
-        "internal_name": "World Map: Lumina 6",
+        "internal_name": "World Map: First Continent - Outside Twilight Quarry 1",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_8",
-        "internal_name": "World Map: Chroma 2",
+        "internal_name": "World Map: First Continent - Outside Twilight Quarry 2",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_9",
-        "internal_name": "World Map: Lumina 7",
+        "internal_name": "World Map: Unknown 1",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_10",
-        "internal_name": "World Map: Lumina 8",
+        "internal_name": "World Map: First Continent - Paint spike west of Flying Waters exit",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_WorldMap_11",
-        "internal_name": "World Map: Lumina 9",
+        "internal_name": "World Map: First Continent - Ruins between Gestral Village and Stone Wave Cliffs",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_12",
-        "internal_name": "World Map: HealingParry",
+        "internal_name": "World Map: First Continent - Past bourgeon outside Stone Wave Cliffs",
         "location": "World Map",
         "original_item": "HealingParry",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_13",
-        "internal_name": "World Map: Chroma 3",
+        "internal_name": "World Map: First Continent - Past blue spikes leading to Stone Wave Cliffs",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_14",
-        "internal_name": "World Map: InitialAp+1A",
+        "internal_name": "World Map: First Continent - Arc de Triomphe on the north beach",
         "location": "World Map",
         "original_item": "InitialAp+1A",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_15",
-        "internal_name": "World Map: Chroma 4",
+        "internal_name": "World Map: First Continent - Near Chromatic Bruler",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_16",
-        "internal_name": "World Map: Lumina 10",
+        "internal_name": "World Map: First Continent - Paint spike outside Gestral Village rock wall",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_17",
-        "internal_name": "World Map: Lumina 11",
+        "internal_name": "World Map: First Continent - Outside first Gestral Beach",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_18",
-        "internal_name": "World Map: Lumina 12",
+        "internal_name": "World Map: First Continent - Just outside The Small Bourgeon",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_19",
-        "internal_name": "World Map: Lumina 13",
+        "internal_name": "World Map: First Continent - Paint spike outside Yellow Harvest",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_WorldMap_20",
-        "internal_name": "World Map: Lumina 14",
+        "internal_name": "World Map: First Continent - Outside Gestral Village",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_21",
-        "internal_name": "World Map: SharedCare",
+        "internal_name": "World Map: On the island with White Tree",
         "location": "World Map",
         "original_item": "SharedCare",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_22",
-        "internal_name": "World Map: Lumina 15",
+        "internal_name": "World Map: Island southwest of White Tree island",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_23",
-        "internal_name": "World Map: EnergizingHeal",
+        "internal_name": "World Map: Beach at the base of Endless Tower",
         "location": "World Map",
         "original_item": "EnergizingHeal",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_24",
-        "internal_name": "World Map: Lumina 16",
+        "internal_name": "World Map: Bottom of the cliff next to Endless Tower",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_25",
-        "internal_name": "World Map: Lumina 17",
+        "internal_name": "World Map: First Continent Sea - Next to merchant on island near Sprong",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
-        "condition": {}
+        "condition": {"Attack": 1, "Swim": 1}
     },
     {
         "name": "Chest_WorldMap_26",
-        "internal_name": "World Map: Lumina 18",
+        "internal_name": "World Map: On the beach near Sprong",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_27",
-        "internal_name": "World Map: Lumina 19",
+        "internal_name": "World Map: Paint spike outside Stone Wave Cliffs Cave",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_28",
-        "internal_name": "World Map: DeadEnergy",
+        "internal_name": "World Map: First Continent - Near Dark Shores",
         "location": "World Map",
         "original_item": "DeadEnergy",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_29",
-        "internal_name": "World Map: Lumina 20",
+        "internal_name": "World Map: Cliff near Endless Tower",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_30",
-        "internal_name": "World Map: Lumina 21",
+        "internal_name": "World Map: Second Continent - Outside Boat Graveyard",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_31",
-        "internal_name": "World Map: Lumina 22",
+        "internal_name": "World Map: Second Continent - Ruined wall near Coastal Cave",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_32",
-        "internal_name": "World Map: ShieldingTint",
+        "internal_name": "World Map: Bourgeon plateau southeast of Forgotten Battlefield",
         "location": "World Map",
         "original_item": "ShieldingTint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_33",
-        "internal_name": "World Map: Lumina 23",
+        "internal_name": "World Map: Second Continent - On the hill north of Stone Quarry",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_34",
-        "internal_name": "World Map: Lumina 24",
+        "internal_name": "World Map: West of Forgotten Battlefield exit",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_35",
-        "internal_name": "World Map: Chroma 5",
+        "internal_name": "World Map: Second Continent - Paint spike far north of Forgotten Battlefield exit",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_WorldMap_36",
-        "internal_name": "World Map: Lumina 25",
+        "internal_name": "World Map: Second Continent - North of the ruined bridge",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_37",
-        "internal_name": "World Map: Lumina 26",
+        "internal_name": "World Map: Second Continent - Old camp northwest of Forgotten Battlefield exit",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_38",
-        "internal_name": "World Map: Chroma 6",
+        "internal_name": "World Map: Second Continent - Plateau west of Forgotten Battlefield exit",
         "location": "World Map",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_39",
-        "internal_name": "World Map: GreatFireBreak",
+        "internal_name": "World Map: Second Continent - Outside The Carousel",
         "location": "World Map",
         "original_item": "GreatFireBreak",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_40",
-        "internal_name": "World Map: Lumina 27",
+        "internal_name": "World Map: Second Continent - Southwest of The Carousel",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_41",
-        "internal_name": "World Map: Chroma 7",
+        "internal_name": "World Map: Second Continent - Paint spike on western plateau",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_WorldMap_42",
-        "internal_name": "World Map: Lumina 28",
+        "internal_name": "World Map: Second Continent - Crashed ships next to Forgotten Battlefield",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_43",
-        "internal_name": "World Map: Lumina 29",
+        "internal_name": "World Map: Second Continent - Ruins far south of Old Lumiere entrance",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_44",
-        "internal_name": "World Map: Lumina 30",
+        "internal_name": "World Map: Second Continent - Outside Old Lumiere",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_45",
-        "internal_name": "World Map: Lumina 31",
+        "internal_name": "World Map: Second Continent - Ruins near bent lighthouse",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_46",
-        "internal_name": "World Map: BreakDamageOnBurn",
+        "internal_name": "World Map: Second Continent - Behind western bourgeon",
         "location": "World Map",
         "original_item": "BreakDamageOnBurn",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_47",
-        "internal_name": "World Map: GradientTint",
+        "internal_name": "World Map: Second Continent - Southeast of the very tall Gestral Beach",
         "location": "World Map",
         "original_item": "GradientTint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_48",
-        "internal_name": "World Map: Chroma 8",
+        "internal_name": "World Map: Second Continent - East each along western river",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_49",
-        "internal_name": "World Map: CritChanceOnDefenseless",
+        "internal_name": "World Map: West beach along western river",
         "location": "World Map",
         "original_item": "CritChanceOnDefenseless",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_50",
-        "internal_name": "World Map: AcceleratorHeal",
+        "internal_name": "World Map: First Continent Sea - Island southeast of Forgotten Battlefield",
         "location": "World Map",
         "original_item": "AcceleratorHeal",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_51",
-        "internal_name": "World Map: Chroma 9",
+        "internal_name": "World Map: North Sea - Paint spike on beach east of Sirene island",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_52",
-        "internal_name": "World Map: EffectivSupport",
+        "internal_name": "World Map: North Sea - Northeast plateau",
         "location": "World Map",
         "original_item": "EffectivSupport",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_53",
-        "internal_name": "World Map: Chroma 10",
+        "internal_name": "World Map: East underwater plateau with Chromatic Goblu",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_54",
-        "internal_name": "World Map: Chroma 11",
+        "internal_name": "World Map: North Sea - Small island south of Sirene",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_55",
-        "internal_name": "World Map: Lumina 32",
+        "internal_name": "World Map: Second Continent Sea - Beach along east river",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_56",
-        "internal_name": "World Map: Chroma 12",
+        "internal_name": "World Map: Second Continent - Beach east of Old Lumiere north exit",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_57",
-        "internal_name": "World Map: Chroma 13",
+        "internal_name": "World Map: North Sea - West beach of southernmost red island",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_58",
-        "internal_name": "World Map: BreakDamageOnCrit",
+        "internal_name": "World Map: North Sea - Paint spike on yellow beach",
         "location": "World Map",
         "original_item": "BreakDamageOnCrit",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_59",
-        "internal_name": "World Map: Chroma 14",
+        "internal_name": "World Map: Yellow plateau northeast of Frozen Hearts",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_60",
-        "internal_name": "World Map: PowerDodgeCombo",
+        "internal_name": "World Map: Eastern red forest near Endless Night Sanctuary",
         "location": "World Map",
         "original_item": "PowerDodgeCombo",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_61",
-        "internal_name": "World Map: LongerRush",
+        "internal_name": "World Map: Second Continent - Snow plateau",
         "location": "World Map",
         "original_item": "LongerRush",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_62",
-        "internal_name": "World Map: BreakDamageOnSlow",
+        "internal_name": "World Map: First Continent - Plateau with paint spikes",
         "location": "World Map",
         "original_item": "BreakDamageOnSlow",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_63",
-        "internal_name": "World Map: Chroma 15",
+        "internal_name": "World Map: North Sea - Beach on island northeast of Sirene",
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_64",
-        "internal_name": "World Map: Lumina 33",
+        "internal_name": "World Map: Southeast valley - In the northern field",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_65",
-        "internal_name": "World Map: Lumina 34",
+        "internal_name": "World Map: Southeast valley - Near the ferris wheel",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_66",
-        "internal_name": "World Map: APOnShell",
+        "internal_name": "World Map: Southeast valley - Paint spike",
         "location": "World Map",
         "original_item": "APOnShell",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_67",
-        "internal_name": "World Map: Lumina 35",
+        "internal_name": "World Map: Second Continent - Outside Sacred River",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_68",
-        "internal_name": "World Map: Chroma 16",
+        "internal_name": "World Map: Second Continent - On the ruined bridge",
         "location": "World Map",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_YellowForest_1",
-        "internal_name": "Yellow Forest: Lumina 1",
+        "internal_name": "Yellow Forest: Entrance - Near broken fountain",
         "location": "Yellow Forest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_YellowForest_2",
-        "internal_name": "Yellow Forest: Chroma 1",
+        "internal_name": "Yellow Forest: Entrance - Path to sunken building",
         "location": "Yellow Forest",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_YellowForest_3",
-        "internal_name": "Yellow Forest: Chroma 2",
+        "internal_name": "Yellow Forest: Harvester' Hollow - Exit of crimson cave",
         "location": "Yellow Forest",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_YellowForest_4",
-        "internal_name": "Yellow Forest: Chroma 3",
+        "internal_name": "Yellow Forest: Harvester' Hollow - Peninsula facing sunken building",
         "location": "Yellow Forest",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_YellowForest_5",
-        "internal_name": "Yellow Forest: Lumina 2",
+        "internal_name": "Yellow Forest: Harvester' Hollow - On balcony of sunken building",
         "location": "Yellow Forest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_YellowForest_6",
-        "internal_name": "Yellow Forest: DeathBombPhysical",
+        "internal_name": "Yellow Forest: Harvester' Hollow - Near tent by sunken building",
         "location": "Yellow Forest",
         "original_item": "DeathBombPhysical",
         "condition": {}
