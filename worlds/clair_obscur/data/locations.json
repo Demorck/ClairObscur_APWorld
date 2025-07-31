@@ -253,49 +253,49 @@
     },
     {
         "name": "Chest_EsquiesNest_1",
-        "internal_name": "Esquies Nest: InitialAp+1C",
+        "internal_name": "Esquies Nest: Take shortcut out from Esquie's room. Wheeeeee",
         "location": "Esquies Nest",
         "original_item": "InitialAp+1C",
         "condition": {}
     },
     {
         "name": "Chest_EsquiesNest_2",
-        "internal_name": "Esquies Nest: Lumina 1",
+        "internal_name": "Esquies Nest: Francois - I hid this item - find it before Fran Fran",
         "location": "Esquies Nest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_EsquiesNest_3",
-        "internal_name": "Esquies Nest: Lumina 2",
+        "internal_name": "Esquies Nest: Esquie's Room - Did you get my rock from Fran Fran?",
         "location": "Esquies Nest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_EsquiesNest_4",
-        "internal_name": "Esquies Nest: Chroma 1",
+        "internal_name": "Esquies Nest: Esquie's Room - New friends!",
         "location": "Esquies Nest",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_EsquiesNest_5",
-        "internal_name": "Esquies Nest: Lumina 3",
+        "internal_name": "Esquies Nest: Get Outta My Way! - Don't be mean to Sunniso",
         "location": "Esquies Nest",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_EsquiesNest_6",
-        "internal_name": "Esquies Nest: Chroma 2",
+        "internal_name": "Esquies Nest: Francois - Bye bye Fran Fran!",
         "location": "Esquies Nest",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_EsquiesNest_7",
-        "internal_name": "Esquies Nest: Quest_Mushroom",
+        "internal_name": "Esquies Nest: Francois - Make another new friend after Fran Fran!",
         "location": "Esquies Nest",
         "original_item": "Quest_Mushroom",
         "condition": {}
@@ -575,189 +575,189 @@
     },
     {
         "name": "Chest_ForgottenBattlefield_1",
-        "internal_name": "Forgotten Battlefield: Lumina 1",
+        "internal_name": "Forgotten Battlefield: Main Gate - Left side wooden deck",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_2",
-        "internal_name": "Forgotten Battlefield: Chroma 1",
+        "internal_name": "Forgotten Battlefield: Main Gate - Right side near outer wall",
         "location": "Forgotten Battlefield",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_3",
-        "internal_name": "Forgotten Battlefield: Chroma 2",
+        "internal_name": "Forgotten Battlefield: Fort Ruins - In left ruins near dead end",
         "location": "Forgotten Battlefield",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_4",
-        "internal_name": "Forgotten Battlefield: Chroma 3",
+        "internal_name": "Forgotten Battlefield: Battlefield - On wooden platform near Petank end",
         "location": "Forgotten Battlefield",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_5",
-        "internal_name": "Forgotten Battlefield: HealingTint_Shard",
+        "internal_name": "Forgotten Battlefield: Main Gate - Near Chalier sword",
         "location": "Forgotten Battlefield",
         "original_item": "HealingTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_6",
-        "internal_name": "Forgotten Battlefield: Lumina 2",
+        "internal_name": "Forgotten Battlefield: Main Gate - Left side dead end",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_7",
-        "internal_name": "Forgotten Battlefield: Upgrade 1",
+        "internal_name": "Forgotten Battlefield: Main Gate - On platform after Expedition Flag",
         "location": "Forgotten Battlefield",
         "original_item": "UpgradeMaterial",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_8",
-        "internal_name": "Forgotten Battlefield: SweetKill",
+        "internal_name": "Forgotten Battlefield: Main Gate - Other side of left entrance corpse pile",
         "location": "Forgotten Battlefield",
         "original_item": "SweetKill",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_9",
-        "internal_name": "Forgotten Battlefield: Lumina 3",
+        "internal_name": "Forgotten Battlefield: Battlefield - Near Expedition Flag",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_10",
-        "internal_name": "Forgotten Battlefield: Lumina 4",
+        "internal_name": "Forgotten Battlefield: Vanguard Point - In maze",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_11",
-        "internal_name": "Forgotten Battlefield: Chroma 4",
+        "internal_name": "Forgotten Battlefield: Vanguard Point - In front of Chromatic miniboss",
         "location": "Forgotten Battlefield",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_12",
-        "internal_name": "Forgotten Battlefield: EnergyDeath",
+        "internal_name": "Forgotten Battlefield: Fort Ruins - On ledge overlooking battlefield",
         "location": "Forgotten Battlefield",
         "original_item": "EnergyDeath",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_13",
-        "internal_name": "Forgotten Battlefield: EnergyTint_Shard",
+        "internal_name": "Forgotten Battlefield: Vanguard Point - Below Expedition Flag",
         "location": "Forgotten Battlefield",
         "original_item": "EnergyTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_14",
-        "internal_name": "Forgotten Battlefield: PowerfulTint",
+        "internal_name": "Forgotten Battlefield: Vanguard Point - Above Chromatic miniboss",
         "location": "Forgotten Battlefield",
         "original_item": "PowerfulTint",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_15",
-        "internal_name": "Forgotten Battlefield: Chroma 5",
+        "internal_name": "Forgotten Battlefield: Battlefield - In box",
         "location": "Forgotten Battlefield",
         "original_item": "ChromaPack_Large",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_16",
-        "internal_name": "Forgotten Battlefield: Chroma 6",
+        "internal_name": "Forgotten Battlefield: Main Gate - Near Grandis corpses",
         "location": "Forgotten Battlefield",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_17",
-        "internal_name": "Forgotten Battlefield: Lumina 5",
+        "internal_name": "Forgotten Battlefield: Ancient Bridge - After bridge",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_18",
-        "internal_name": "Forgotten Battlefield: ReviveTintEnergy",
+        "internal_name": "Forgotten Battlefield: Ancient Bridge - Before grave",
         "location": "Forgotten Battlefield",
         "original_item": "ReviveTintEnergy",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_19",
-        "internal_name": "Forgotten Battlefield: Lumina 6",
+        "internal_name": "Forgotten Battlefield: Fort Ruins - Chest",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_20",
-        "internal_name": "Forgotten Battlefield: ReviveTint_Shard",
+        "internal_name": "Forgotten Battlefield: Main Gate - Near burning tree",
         "location": "Forgotten Battlefield",
         "original_item": "ReviveTint_Shard",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_21",
-        "internal_name": "Forgotten Battlefield: Consumable_Respec",
+        "internal_name": "Forgotten Battlefield: Main Gate - Left side in a box",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_Respec",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_22",
-        "internal_name": "Forgotten Battlefield: InitialAp+1D",
+        "internal_name": "Forgotten Battlefield: Main Gate - Near Grandis and Chalier corpses",
         "location": "Forgotten Battlefield",
         "original_item": "InitialAp+1D",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_23",
-        "internal_name": "Forgotten Battlefield: Lumina 7",
+        "internal_name": "Forgotten Battlefield: Fort Ruins - Dead end",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_ForgottenBattlefield_24",
-        "internal_name": "Forgotten Battlefield: Upgrade 2",
+        "internal_name": "Forgotten Battlefield: Fort Ruins - Behind Paint Spike",
         "location": "Forgotten Battlefield",
         "original_item": "UpgradeMaterial",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_ForgottenBattlefield_25",
-        "internal_name": "Forgotten Battlefield: PartyHealShard",
+        "internal_name": "Forgotten Battlefield: Battlefield - Paint Cage",
         "location": "Forgotten Battlefield",
         "original_item": "PartyHealShard",
-        "condition": {}
+        "condition": {"Free Aim": 1}
     },
     {
         "name": "Chest_ForgottenBattlefield_26",
-        "internal_name": "Forgotten Battlefield: Lumina 8",
+        "internal_name": "Forgotten Battlefield: Ancient Bridge - In crawlspace below bridge",
         "location": "Forgotten Battlefield",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_FrozenHearts_1",
-        "internal_name": "Frozen Hearts: Chromatic Veilleur Ice Cave item 1",
+        "internal_name": "Frozen Hearts: Glacial Falls - Chromatic Veilleur Ice Cave item 1",
         "location": "Frozen Hearts",
         "original_item": "BurnAffinity",
         "condition": {}
@@ -2409,7 +2409,7 @@
     },
     {
         "name": "Chest_SeaCliff_7",
-        "internal_name": "Sea Cliff: Consumable_Respec",
+        "internal_name": "Stone Wave Cliffs: Flooded Buildings - In barrels overlooking Monolith",
         "location": "Sea Cliff",
         "original_item": "Consumable_Respec",
         "condition": {}
@@ -2423,7 +2423,7 @@
     },
     {
         "name": "Chest_SeaCliff_9",
-        "internal_name": "Stone Wave Cliffs: Unknown 2",
+        "internal_name": "Stone Wave Cliffs: Entrance - Overturned tube thing",
         "location": "Sea Cliff",
         "original_item": "BreakingCounter",
         "condition": {}
@@ -2437,7 +2437,7 @@
     },
     {
         "name": "Chest_SeaCliff_11",
-        "internal_name": "Sea Cliff: HealingTintEnergy",
+        "internal_name": "Stone Wave Cliffs: Flooded Buildings - Near Expeditioner impaled with greatsword",
         "location": "Sea Cliff",
         "original_item": "HealingTintEnergy",
         "condition": {}
@@ -2447,7 +2447,7 @@
         "internal_name": "Stone Wave Cliffs: Old Farm - Paint cage",
         "location": "Sea Cliff",
         "original_item": "Duenum",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_SeaCliff_13",
@@ -2528,14 +2528,14 @@
     },
     {
         "name": "Chest_SeaCliff_24",
-        "internal_name": "Sea Cliff: Chroma 7",
+        "internal_name": "Stone Wave Cliffs: Paintress Shrine - Near Young Boy",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_Regular",
         "condition": {}
     },
     {
         "name": "Chest_SeaCliff_25",
-        "internal_name": "Sea Cliff: SosPower",
+        "internal_name": "Stone Wave Cliffs: Paintress Shrine - Upper maze near Expeditioner corpse",
         "location": "Sea Cliff",
         "original_item": "SosPower",
         "condition": {}
@@ -2556,7 +2556,7 @@
     },
     {
         "name": "Chest_SeaCliff_28",
-        "internal_name": "Sea Cliff: Lumina 6",
+        "internal_name": "Stone Wave Cliffs: Basalt Waves - Below vertical zipline before Expedition Flag",
         "location": "Sea Cliff",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -2598,7 +2598,7 @@
     },
     {
         "name": "Chest_SeaCliff_34",
-        "internal_name": "Stone Wave Cliffs: Unknown 1",
+        "internal_name": "Stone Wave Cliffs: Tide Caverns - Ruined building",
         "location": "Sea Cliff",
         "original_item": "ChromaPack_ExtraLarge",
         "condition": {}
@@ -2619,10 +2619,10 @@
     },
     {
         "name": "Chest_SeaCliff_37",
-        "internal_name": "Stone Wave Cliffs: Old Farm - Near Chromatic Gault 1",
+        "internal_name": "Stone Wave Cliffs: Old Farm - Near Chromatic miniboss",
         "location": "Sea Cliff",
         "original_item": "AutoShell",
-        "condition": {}
+        "condition": {"Paint Break": 1}
     },
     {
         "name": "Chest_SeaCliff_38",
@@ -3018,7 +3018,7 @@
     },
     {
         "name": "Chest_SmallLevel_DoorMaze_1",
-        "internal_name": "Esoteric Ruins: Side pat near statue",
+        "internal_name": "Esoteric Ruins: Side path near statue",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -3053,7 +3053,7 @@
     },
     {
         "name": "Chest_SmallLevel_SinisterCave_1",
-        "internal_name": "SSinister Cave: Near glowing nevron",
+        "internal_name": "Sinister Cave: Near glowing nevron",
         "location": "Small Level Sinister Cave",
         "original_item": "Elerim",
         "condition": {}
@@ -3774,14 +3774,14 @@
     },
     {
         "name": "Chest_WorldMap_26",
-        "internal_name": "World Map: On the beach near Sprong",
+        "internal_name": "World Map: First Continent Sea - On the beach near Sprong",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
     },
     {
         "name": "Chest_WorldMap_27",
-        "internal_name": "World Map: Paint spike outside Stone Wave Cliffs Cave",
+        "internal_name": "World Map: First Continent Sea - Paint spike outside Stone Wave Cliffs Cave",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
@@ -3795,7 +3795,7 @@
     },
     {
         "name": "Chest_WorldMap_29",
-        "internal_name": "World Map: Cliff near Endless Tower",
+        "internal_name": "World Map: Sky - Cliff near Endless Tower",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {}
