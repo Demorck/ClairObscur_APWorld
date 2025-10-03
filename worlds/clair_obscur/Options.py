@@ -138,6 +138,17 @@ class TrapChance(Range):
     range_end = 100
     default = 0
 
+class TrapChance(Range):
+    """
+    The chance for any filler item to be replaced with a trap.
+    Currently, the only implemented trap is the Feet Trap.
+    Feet Trap: plays the "My, what lovely feet" voice line and shows you some feet pics. Are you sure about this....?
+    """
+    display_name = "Trap Chance"
+    range_start = 0
+    range_end = 100
+    default = 0
+
 class ClairObscurStartInventory(StartInventory):
     """
     Start with these items
