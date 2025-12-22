@@ -22,14 +22,6 @@ class ClairObscurLocation(Location):
         super().__init__(player, name, code, parent)
         self.default_item = default_item_value
 
-# def set_weapons_to_normal(world: "ClairObscurWorld") -> None:
-#     """
-#     Sets all weapon item classifications to normal rather than useful. Necessary if Exclude Endgame Locations is on,
-#     otherwise there aren't enough filler items to fill the excluded locations.
-#     """
-#     for item in world.item_name_groups["Weapon"]:
-#         world.multiworld.get_items()
-
 def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> None:
 
     #These locations were in data dumps but not confirmed to be either accessible or inaccessible.
@@ -44,6 +36,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
     excluded_types = []
     excluded_conditions = []
+    excluded_locations = ["Manor: From Stone Wave Cliffs - In the wardrobe"]
     if not world.options.shuffle_free_aim: excluded_conditions.append("Free Aim")
     if not world.options.gestral_shuffle: excluded_conditions.append("Lost Gestral")
 
@@ -71,7 +64,8 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
             location_data = data.locations[location_name]
             location_level = max(location_data.pictos_level, region_level)
             if (location_data.type in excluded_types or
-                    (world.options.exclude_endgame_locations == 0 and location_level > exclusion_level)):
+                    (world.options.exclude_endgame_locations == 0 and location_level > exclusion_level) or
+                    location_name in excluded_locations):
                 continue
 
             loc_id = world.location_name_to_id[location_data.name]

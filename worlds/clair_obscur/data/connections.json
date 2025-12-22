@@ -452,5 +452,13 @@
     "from": "WM: First Continent North",
     "to": "Red Woods",
     "condition": {}
+  },
+  {
+    "from": "WM: Underwater",
+    "to": "Verso's Drafts",
+    "condition": {
+      "Painted Power": 1,
+      "Area - Verso's Drafts": 1
+    }
   }
 ]
