@@ -106,7 +106,7 @@ def populate_data_items() -> dict[int, ClairObscurItemData]:
         elif item["progressive"] == 5:
             classification = ItemClassification.trap
         else:
-            raise ValueError(f"Unknown classification '{item["progressive"]}' for {item_name}")
+            raise ValueError(f"Unknown classification '{item['progressive']}' for {item_name}")
 
         items[item_id] = ClairObscurItemData(
             item_name,
