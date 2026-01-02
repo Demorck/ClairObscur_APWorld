@@ -143,7 +143,7 @@ class ClairObscurWorld(World):
         #Options
         slot_data["options"] = self.options.as_dict(
             "goal", "char_shuffle", "starting_char", "gestral_shuffle", "gear_scaling", "shuffle_free_aim",
-            "exclude_endgame_locations", "exclude_endless_tower"
+            "exclude_endgame_locations", "exclude_endless_tower", "merchantsanity", "locations_per_merchant"
         )
 
         #Total counts for pictos and weapons. Currently static, but can support adding multiple copies later on.

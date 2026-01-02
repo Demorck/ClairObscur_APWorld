@@ -127,6 +127,24 @@ class CustomMaxEquipLevel(Range):
     range_end = 33
     default = 33
 
+class Merchantsanity(Toggle):
+    """
+    Adds locations to the pool for each merchant.
+    """
+    internal_name = "merchantsanity"
+    display_name = "Merchantsanity"
+    default = 1
+
+class LocationsPerMerchant(Range):
+    """
+    How many checks each merchant has.
+    """
+    internal_name = "locations_per_merchant"
+    display_name = "Locations Per Merchant"
+    range_start = 1
+    range_end = 5
+    default = 3
+
 class TrapChance(Range):
     """
     The chance for any filler item to be replaced with a trap.
@@ -156,6 +174,8 @@ class ClairObscurOptions(DeathLinkMixin, PerGameCommonOptions):
     max_equip_level: MaxEquipLevel
     custom_max_equip_level: CustomMaxEquipLevel
     area_logic: AreaLogic
+    merchantsanity: Merchantsanity
+    locations_per_merchant: LocationsPerMerchant
     trap_chance: TrapChance
 
     start_inventory: ClairObscurStartInventory
