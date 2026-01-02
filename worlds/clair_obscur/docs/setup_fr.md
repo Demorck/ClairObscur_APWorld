@@ -33,5 +33,7 @@
 3. Cliquez sur "Connect" et patientez jusqu'à que ce soit écrit: "Connected".
 4. Créez une nouvelle sauvegarde si vous vous connectez à la salle pour la première fois. __RIEN NE SE PASSERA JUSQU'AUX VALLONS FLEURIS. QUAND VOUS Y ÊTES, PRESSEZ CTRL + F2__ (le temps que je trouve une correction de bug)
 
+# FAITES LE PROLOGUE EN ÉTANT CONNECTÉ A ARCHIPELAGO, CAR BEAUCOUP DE CHOSES SE PASSE AVEC LE MOD QUAND LE PROLOGUE SE TERMINE. IL Y A JUSTE BESOIN DE PARLER A EMMA AU FESTIVAL.
+
 ## Pour aller plus loin
 - [wiki](https://github.com/Demorck/ClairObscur_APWorld/wiki/)
