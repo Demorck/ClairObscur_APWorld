@@ -6615,6 +6615,29 @@
         "type": "Boss",
         "boss_type": "Area",
         "pictos_level": 32
+    },
+    {
+        "name": "Gestral Village - Entrance: Jujubree Item 1",
+        "internal_name": "",
+        "original_item": "",
+        "condition": {},
+        "location": "Gestral Village",
+        "type": "Shop"
+    },
+    {
+        "name": "Gestral Village - Entrance: Jujubree Item 2",
+        "internal_name": "",
+        "original_item": "",
+        "condition": {},
+        "location": "Gestral Village",
+        "type": "Shop"
+    },
+    {
+        "name": "Gestral Village - Entrance: Jujubree Item 3",
+        "internal_name": "",
+        "original_item": "",
+        "condition": {},
+        "location": "Gestral Village",
+        "type": "Shop"
     }
-
 ]
