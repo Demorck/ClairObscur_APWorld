@@ -33,6 +33,9 @@
 3. Click on "Connect" and wait until it says connected.
 4. Create a new save if you are connected for the first time. __NOTHING WILL HAPPEN UNTIL SPRING MEADOWS. WHEN YOU ARE IN SPRING MEADOWS, PRESS CTRL + F2__ (for now)
 
+# CONNECT TO AP AND DO THE PROLOGUE (JUST NEED TO TALK TO EMMA AT THE END), THIS IS A MUST HAVE FOR THE MOD TO WORK NOW BECAUSE A LOT OF THINGS HAPPENS WHEN THE FESTIVAL ENDS.
+
 ## Further Reading
 - [wiki](https://github.com/Demorck/ClairObscur_APWorld/wiki/)
+
 
