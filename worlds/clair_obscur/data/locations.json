@@ -3507,7 +3507,7 @@
     },
     {
         "internal_name": "Chest_SmallLevel_TheCarrousel_1",
-        "name": "Carousel: In boxes",
+        "name": "Carousel: Left of Expedition Flag",
         "location": "Small Level The Carrousel",
         "original_item": "MusicRecord_12",
         "condition": {},
@@ -3515,7 +3515,7 @@
     },
     {
         "internal_name": "Chest_SmallLevel_TheCarrousel_2",
-        "name": "Carousel: Left of Expedition Flag",
+        "name": "Carousel: In boxes",
         "location": "Small Level The Carrousel",
         "original_item": "Consumable_LuminaPoint",
         "condition": {},
