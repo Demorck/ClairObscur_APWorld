@@ -6350,7 +6350,9 @@
         "name": "Verso's Drafts: On the train tracks through the door",
         "internal_name": "Chest_SideLevel_VersosDraft_16",
         "location": "Verso's Drafts",
-        "condition": {},
+        "condition": {
+            "Toy Boat": 1
+        },
         "original_item": "",
         "type": "Chest"
     },
@@ -6358,7 +6360,9 @@
         "name": "Verso's Drafts: On a box through the door",
         "internal_name": "Chest_SideLevel_VersosDraft_17",
         "location": "Verso's Drafts",
-        "condition": {},
+        "condition": {
+            "Toy Boat": 1
+        },
         "original_item": "",
         "type": "Chest"
     },
