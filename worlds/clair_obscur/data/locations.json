@@ -1374,7 +1374,7 @@
         "name": "Flying Waters: Entrance - On main path",
         "location": "Goblus Lair",
         "original_item": "PartyHealShard",
-        "condition": {},
+        "condition": {"Free Aim":  1},
         "type": "Chest"
     },
     {
