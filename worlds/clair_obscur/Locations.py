@@ -26,8 +26,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
     #These locations were in data dumps but not confirmed to be either accessible or inaccessible.
     #These will be left in the pool in case they're found in testing, but will contain filler to avoid softlocks.
-    unconfirmed_location_names = ["Monolith: Tower Peak - Left before Expedition Flag (This might be in the void)",
-        "World Map: Unknown 2",
+    unconfirmed_location_names = ["World Map: Unknown 2",
         "World Map: Unknown 1",
         "Lumiere (Act 3): Lumina 5",
         "Lumiere (Act 3): Upgrade 6",
@@ -36,7 +35,10 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
     excluded_types = []
     excluded_conditions = []
-    excluded_locations = ["Manor: From Stone Wave Cliffs - In the wardrobe", "Forgotten Battlefield: Fort Ruins - In left ruins near dead end"]
+    excluded_locations = ["Manor: From Stone Wave Cliffs - In the wardrobe",
+                          "Forgotten Battlefield: Fort Ruins - In left ruins near dead end",
+                          "Monolith: Tainted Lumiere - Left before Expedition Flag",
+                          "Esquies Nest: Get Outta My Way! - Go right from Sunniso"]
     if not world.options.shuffle_free_aim: excluded_conditions.append("Free Aim")
     if not world.options.gestral_shuffle: excluded_conditions.append("Lost Gestral")
 
