@@ -36,7 +36,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
     excluded_types = []
     excluded_conditions = []
-    excluded_locations = ["Manor: From Stone Wave Cliffs - In the wardrobe"]
+    excluded_locations = ["Manor: From Stone Wave Cliffs - In the wardrobe", "Forgotten Battlefield: Fort Ruins - In left ruins near dead end"]
     if not world.options.shuffle_free_aim: excluded_conditions.append("Free Aim")
     if not world.options.gestral_shuffle: excluded_conditions.append("Lost Gestral")
 
