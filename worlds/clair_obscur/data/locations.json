@@ -6615,6 +6615,14 @@
         "type": "Boss",
         "boss_type": "Area",
         "pictos_level": 32
+    },
+    {
+        "name": "Verso's Drafts: Mime",
+        "internal_name": "VD_Mime*1",
+        "location": "Verso's Drafts",
+        "condition": {},
+        "original_item": "",
+        "type": "Boss",
+        "boss_type": "Mime"
     }
-
 ]
