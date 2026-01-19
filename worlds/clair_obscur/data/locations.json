@@ -6628,5 +6628,47 @@
         "original_item": "",
         "type": "Boss",
         "boss_type": "Mime"
+    },
+    {
+        "name": "World Map: Bourgeon near Stone Wave Cliffs",
+        "internal_name": "WM_Bourgeon_Volester_Gault",
+        "location": "World Map",
+        "condition": {
+            "Progressive Rock": 1
+        },
+        "original_item": "",
+        "type": "Boss",
+        "boss_type": "Bourgeon",
+        "pictos_level": 8
+    },
+    {
+        "name": "World Map: Bourgeon near The Meadows",
+        "internal_name": "WM_Bourgeon_Rocher_Potier",
+        "location": "World Map",
+        "condition": {},
+        "original_item": "",
+        "type": "Boss",
+        "boss_type": "Bourgeon",
+        "pictos_level": 10
+    },
+    {
+        "name": "World Map: Bourgeon near Forgotten Battlefield",
+        "internal_name": "WM_Bourgeon_Benisseur_OrphelinNailBig",
+        "location": "World Map",
+        "condition": {},
+        "original_item": "",
+        "type": "Boss",
+        "boss_type": "Bourgeon",
+        "pictos_level": 24
+    },
+    {
+        "name": "World Map: Second Continent - Bourgeon far west",
+        "internal_name": "WM_Bourgeon_Ramasseur_Danseuse",
+        "location": "World Map",
+        "condition": {},
+        "original_item": "",
+        "type": "Boss",
+        "boss_type": "Bourgeon",
+        "pictos_level": 9
     }
 ]
