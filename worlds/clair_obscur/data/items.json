@@ -3029,5 +3029,26 @@
     "internal_name": "Quest_ToyBoat",
     "quantity": 1,
     "progressive": 1
+  },
+  {
+    "type": "Chroma",
+    "name": "Regular Chroma pack",
+    "internal_name": "ChromaPack_Regular",
+    "quantity": 1,
+    "progressive": 0
+  },
+  {
+    "type": "Chroma",
+    "name": "Large Chroma pack",
+    "internal_name": "ChromaPack_Large",
+    "quantity": 1,
+    "progressive": 0
+  },
+  {
+    "type": "Chroma",
+    "name": "Extra Large Chroma pack",
+    "internal_name": "ChromaPack_ExtraLarge",
+    "quantity": 1,
+    "progressive": 0
   }
 ]
