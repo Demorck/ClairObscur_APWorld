@@ -24,7 +24,7 @@
             "Ancient Sanctuary: Mime",
             "Ancient Sanctuary: Petank",
             "Ancient Sanctuary: Ultimate Sakapatate"
-        ]
+            ]
     },
     {
         "region_name": "Crimson Forest",
@@ -225,12 +225,7 @@
             "Gestral Village: Barrels near Chef’s House",
             "Gestral Village: In paint spike room 1",
             "Gestral Village: In paint spike room 2",
-            "Gestral Village: Near casino",
-            "Gestral Village - Entrance: Jujubree Item 1",
-            "Gestral Village - Entrance: Jujubree Item 2",
-            "Gestral Village - Entrance: Jujubree Item 3",
-            "Gestral Village - Entrance: Jujubree Item 4",
-            "Gestral Village - Entrance: Jujubree Item 5"
+            "Gestral Village: Near casino"
         ]
     },
     {
@@ -1216,6 +1211,32 @@
             "Verso's Drafts: Half-baked Gestral",
             "Verso's Drafts: Licornapieds",
             "Root of All Evil: Osquio"
+        ]
+    },
+    {
+        "region_name": "Merchants: Gestral Village",
+        "level": 1,
+        "locations": [
+            "Gestral Village: Jujubree Item 1",
+            "Gestral Village: Jujubree Item 2",
+            "Gestral Village: Jujubree Item 3",
+            "Gestral Village: Jujubree Item 4",
+            "Gestral Village: Jujubree Item 5",
+            "Gestral Village: Eesda Item 1",
+            "Gestral Village: Eesda Item 2",
+            "Gestral Village: Eesda Item 3",
+            "Gestral Village: Eesda Item 4",
+            "Gestral Village: Eesda Item 5",
+            "Gestral Village: Alexcyclo Item 1",
+            "Gestral Village: Alexcyclo Item 2",
+            "Gestral Village: Alexcyclo Item 3",
+            "Gestral Village: Alexcyclo Item 4",
+            "Gestral Village: Alexcyclo Item 5",
+            "Gestral Village: Delsitra Item 1",
+            "Gestral Village: Delsitra Item 2",
+            "Gestral Village: Delsitra Item 3",
+            "Gestral Village: Delsitra Item 4",
+            "Gestral Village: Delsitra Item 5"
         ]
     }
 ]

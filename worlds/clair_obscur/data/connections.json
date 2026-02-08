@@ -460,5 +460,10 @@
       "Painted Power": 1,
       "Area - Verso's Drafts": 1
     }
+  },
+  {
+    "from": "Gestral Village",
+    "to": "Merchants: Gestral Village",
+    "condition": {}
   }
 ]

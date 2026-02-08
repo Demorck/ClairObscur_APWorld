@@ -6749,27 +6749,1763 @@
     "pictos_level": 32
   },
   {
-    "name": "Gestral Village: Jujubree Item 1",
     "internal_name": "Merchant_GestralVillage1_1",
-    "original_item": "",
+    "name": "Gestral Village: Jujubree Item 1",
     "condition": {},
     "location": "Gestral Village",
+    "original_item": "",
     "type": "Shop"
   },
   {
-    "name": "Gestral Village: Jujubree Item 2",
     "internal_name": "Merchant_GestralVillage1_2",
-    "original_item": "",
+    "name": "Gestral Village: Jujubree Item 2",
     "condition": {},
     "location": "Gestral Village",
+    "original_item": "",
     "type": "Shop"
   },
   {
-    "name": "Gestral Village: Jujubree Item 3",
     "internal_name": "Merchant_GestralVillage1_3",
-    "original_item": "",
+    "name": "Gestral Village: Jujubree Item 3",
     "condition": {},
     "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GestralVillage1_4",
+    "name": "Gestral Village: Jujubree Item 4",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GestralVillage1_5",
+    "name": "Gestral Village: Jujubree Item 5",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Eesda Item 1",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Eesda Item 2",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Eesda Item 3",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Eesda Item 4",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Eesda Item 5",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Alexcyclo Item 1",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Alexcyclo Item 2",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Alexcyclo Item 3",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Alexcyclo Item 4",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Alexcyclo Item 5",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Delsitra Item 1",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Delsitra Item 2",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Delsitra Item 3",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Delsitra Item 4",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Gestral Village: Delsitra Item 5",
+    "condition": {},
+    "location": "Gestral Village",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GoblusLair_1",
+    "name": "Flying Waters: Entrance - Noco Item 1",
+    "condition": {},
+    "location": "Flying Waters",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GoblusLair_2",
+    "name": "Flying Waters: Entrance - Noco Item 2",
+    "condition": {},
+    "location": "Flying Waters",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GoblusLair_3",
+    "name": "Flying Waters: Entrance - Noco Item 3",
+    "condition": {},
+    "location": "Flying Waters",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GoblusLair_4",
+    "name": "Flying Waters: Entrance - Noco Item 4",
+    "condition": {},
+    "location": "Flying Waters",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GoblusLair_5",
+    "name": "Flying Waters: Entrance - Noco Item 5",
+    "condition": {},
+    "location": "Flying Waters",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SeaCliff_1",
+    "name": "Stone Wave Cliffs: Old Farm - Jerijeri Item 1",
+    "condition": {},
+    "location": "Stone Wave Cliffs",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SeaCliff_2",
+    "name": "Stone Wave Cliffs: Old Farm - Jerijeri Item 2",
+    "condition": {},
+    "location": "Stone Wave Cliffs",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SeaCliff_3",
+    "name": "Stone Wave Cliffs: Old Farm - Jerijeri Item 3",
+    "condition": {},
+    "location": "Stone Wave Cliffs",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SeaCliff_4",
+    "name": "Stone Wave Cliffs: Old Farm - Jerijeri Item 4",
+    "condition": {},
+    "location": "Stone Wave Cliffs",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SeaCliff_5",
+    "name": "Stone Wave Cliffs: Old Farm - Jerijeri Item 5",
+    "condition": {},
+    "location": "Stone Wave Cliffs",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_ForgottenBattlefield_1",
+    "name": "Forgotten Battlefield: Ancient Bridge - Kasumi Item 1",
+    "condition": {},
+    "location": "Forgotten Battlefield",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_ForgottenBattlefield_2",
+    "name": "Forgotten Battlefield: Ancient Bridge - Kasumi Item 2",
+    "condition": {},
+    "location": "Forgotten Battlefield",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_ForgottenBattlefield_3",
+    "name": "Forgotten Battlefield: Ancient Bridge - Kasumi Item 3",
+    "condition": {},
+    "location": "Forgotten Battlefield",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_ForgottenBattlefield_4",
+    "name": "Forgotten Battlefield: Ancient Bridge - Kasumi Item 4",
+    "condition": {},
+    "location": "Forgotten Battlefield",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_ForgottenBattlefield_5",
+    "name": "Forgotten Battlefield: Ancient Bridge - Kasumi Item 5",
+    "condition": {},
+    "location": "Forgotten Battlefield",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GrandisStation_1",
+    "name": "Monoco’s Station: Merchant Item 1",
+    "condition": {},
+    "location": "Monoco’s Station",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GrandisStation_2",
+    "name": "Monoco’s Station: Merchant Item 2",
+    "condition": {},
+    "location": "Monoco’s Station",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GrandisStation_3",
+    "name": "Monoco’s Station: Merchant Item 3",
+    "condition": {},
+    "location": "Monoco’s Station",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GrandisStation_4",
+    "name": "Monoco’s Station: Merchant Item 4",
+    "condition": {},
+    "location": "Monoco’s Station",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_GrandisStation_5",
+    "name": "Monoco’s Station: Merchant Item 5",
+    "condition": {},
+    "location": "Monoco’s Station",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OldLumiere_1",
+    "name": "Old Lumiere: Entrance - Mandelgo Item 1",
+    "condition": {},
+    "location": "Old Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OldLumiere_2",
+    "name": "Old Lumiere: Entrance - Mandelgo Item 2",
+    "condition": {},
+    "location": "Old Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OldLumiere_3",
+    "name": "Old Lumiere: Entrance - Mandelgo Item 3",
+    "condition": {},
+    "location": "Old Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OldLumiere_4",
+    "name": "Old Lumiere: Entrance - Mandelgo Item 4",
+    "condition": {},
+    "location": "Old Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OldLumiere_5",
+    "name": "Old Lumiere: Entrance - Mandelgo Item 5",
+    "condition": {},
+    "location": "Old Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Visages_1",
+    "name": "Visage: Plazza - Blooraga Item 1",
+    "condition": {},
+    "location": "Visages",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Visages_2",
+    "name": "Visage: Plazza - Blooraga Item 2",
+    "condition": {},
+    "location": "Visages",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Visages_3",
+    "name": "Visage: Plazza - Blooraga Item 3",
+    "condition": {},
+    "location": "Visages",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Visages_4",
+    "name": "Visage: Plazza - Blooraga Item 4",
+    "condition": {},
+    "location": "Visages",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Visages_5",
+    "name": "Visage: Plazza - Blooraga Item 5",
+    "condition": {},
+    "location": "Visages",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Sirene_1",
+    "name": "Sirene: Crumbling Path - Klaudiso Item 1",
+    "condition": {},
+    "location": "Sirene",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Sirene_2",
+    "name": "Sirene: Crumbling Path - Klaudiso Item 2",
+    "condition": {},
+    "location": "Sirene",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Sirene_3",
+    "name": "Sirene: Crumbling Path - Klaudiso Item 3",
+    "condition": {},
+    "location": "Sirene",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Sirene_4",
+    "name": "Sirene: Crumbling Path - Klaudiso Item 4",
+    "condition": {},
+    "location": "Sirene",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Sirene_5",
+    "name": "Sirene: Crumbling Path - Klaudiso Item 5",
+    "condition": {},
+    "location": "Sirene",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Meadows - Mistra Item 1",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Meadows - Mistra Item 2",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Meadows - Mistra Item 3",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Meadows - Mistra Item 4",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Meadows - Mistra Item 5",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Hearts - Melosh Item 1",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Hearts - Melosh Item 2",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Hearts - Melosh Item 3",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Hearts - Melosh Item 4",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "The Monolith: Tainted Hearts - Melosh Item 5",
+    "condition": {},
+    "location": "The Monolith",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Lumiere_1",
+    "name": "Lumiere (Act 3): Lumiere’s Garden - Cribappa Item 1",
+    "condition": {},
+    "location": "Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Lumiere_2",
+    "name": "Lumiere (Act 3): Lumiere’s Garden - Cribappa Item 2",
+    "condition": {},
+    "location": "Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Lumiere_3",
+    "name": "Lumiere (Act 3): Lumiere’s Garden - Cribappa Item 3",
+    "condition": {},
+    "location": "Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Lumiere_4",
+    "name": "Lumiere (Act 3): Lumiere’s Garden - Cribappa Item 4",
+    "condition": {},
+    "location": "Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Lumiere_5",
+    "name": "Lumiere (Act 3): Lumiere’s Garden - Cribappa Item 5",
+    "condition": {},
+    "location": "Lumiere",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_YellowForest_1",
+    "name": "Yellow Harvest: Harvester's Hollow - Pinabby Item 1",
+    "condition": {},
+    "location": "Yellow Harvest",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_YellowForest_2",
+    "name": "Yellow Harvest: Harvester's Hollow - Pinabby Item 2",
+    "condition": {},
+    "location": "Yellow Harvest",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_YellowForest_3",
+    "name": "Yellow Harvest: Harvester's Hollow - Pinabby Item 3",
+    "condition": {},
+    "location": "Yellow Harvest",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_YellowForest_4",
+    "name": "Yellow Harvest: Harvester's Hollow - Pinabby Item 4",
+    "condition": {},
+    "location": "Yellow Harvest",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_YellowForest_5",
+    "name": "Yellow Harvest: Harvester's Hollow - Pinabby Item 5",
+    "condition": {},
+    "location": "Yellow Harvest",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OrangeForest_1",
+    "name": "Falling Leaves: Persik Item 1",
+    "condition": {},
+    "location": "Falling Leaves",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OrangeForest_2",
+    "name": "Falling Leaves: Persik Item 2",
+    "condition": {},
+    "location": "Falling Leaves",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OrangeForest_3",
+    "name": "Falling Leaves: Persik Item 3",
+    "condition": {},
+    "location": "Falling Leaves",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OrangeForest_4",
+    "name": "Falling Leaves: Persik Item 4",
+    "condition": {},
+    "location": "Falling Leaves",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_OrangeForest_5",
+    "name": "Falling Leaves: Persik Item 5",
+    "condition": {},
+    "location": "Falling Leaves",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_CleasIsland_1",
+    "name": "Flying Manor: Goblu Wing - Fusoka Item 1",
+    "condition": {},
+    "location": "Flying Manor",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_CleasIsland_2",
+    "name": "Flying Manor: Goblu Wing - Fusoka Item 2",
+    "condition": {},
+    "location": "Flying Manor",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_CleasIsland_3",
+    "name": "Flying Manor: Goblu Wing - Fusoka Item 3",
+    "condition": {},
+    "location": "Flying Manor",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_CleasIsland_4",
+    "name": "Flying Manor: Goblu Wing - Fusoka Item 4",
+    "condition": {},
+    "location": "Flying Manor",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_CleasIsland_5",
+    "name": "Flying Manor: Goblu Wing - Fusoka Item 5",
+    "condition": {},
+    "location": "Flying Manor",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_MonocosMountain_1",
+    "name": "Frozen Hearts: Iced Heart - Verogo Item 1",
+    "condition": {},
+    "location": "Frozen Hearts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_MonocosMountain_2",
+    "name": "Frozen Hearts: Iced Heart - Verogo Item 2",
+    "condition": {},
+    "location": "Frozen Hearts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_MonocosMountain_3",
+    "name": "Frozen Hearts: Iced Heart - Verogo Item 3",
+    "condition": {},
+    "location": "Frozen Hearts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_MonocosMountain_4",
+    "name": "Frozen Hearts: Iced Heart - Verogo Item 4",
+    "condition": {},
+    "location": "Frozen Hearts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_MonocosMountain_5",
+    "name": "Frozen Hearts: Iced Heart - Verogo Item 5",
+    "condition": {},
+    "location": "Frozen Hearts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_TwilightSanctuary_1",
+    "name": "Endless Night Sanctuary: Night Totem - Anthonypo Item 1",
+    "condition": {},
+    "location": "Endless Night Sanctuary",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_TwilightSanctuary_2",
+    "name": "Endless Night Sanctuary: Night Totem - Anthonypo Item 2",
+    "condition": {},
+    "location": "Endless Night Sanctuary",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_TwilightSanctuary_3",
+    "name": "Endless Night Sanctuary: Night Totem - Anthonypo Item 3",
+    "condition": {},
+    "location": "Endless Night Sanctuary",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_TwilightSanctuary_4",
+    "name": "Endless Night Sanctuary: Night Totem - Anthonypo Item 4",
+    "condition": {},
+    "location": "Endless Night Sanctuary",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_TwilightSanctuary_5",
+    "name": "Endless Night Sanctuary: Night Totem - Anthonypo Item 5",
+    "condition": {},
+    "location": "Endless Night Sanctuary",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Reacher_1",
+    "name": "The Reacher: Foggy Area - Eragol Item 1",
+    "condition": {},
+    "location": "The Reacher",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Reacher_2",
+    "name": "The Reacher: Foggy Area - Eragol Item 2",
+    "condition": {},
+    "location": "The Reacher",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Reacher_3",
+    "name": "The Reacher: Foggy Area - Eragol Item 3",
+    "condition": {},
+    "location": "The Reacher",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Reacher_4",
+    "name": "The Reacher: Foggy Area - Eragol Item 4",
+    "condition": {},
+    "location": "The Reacher",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_Reacher_5",
+    "name": "The Reacher: Foggy Area - Eragol Item 5",
+    "condition": {},
+    "location": "The Reacher",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_RenoirSDraft_1",
+    "name": "Renoir’s Drafts: Golden Tree - Grour Item 1",
+    "condition": {},
+    "location": "Renoirâs Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_RenoirSDraft_2",
+    "name": "Renoir’s Drafts: Golden Tree - Grour Item 2",
+    "condition": {},
+    "location": "Renoirâs Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_RenoirSDraft_3",
+    "name": "Renoir’s Drafts: Golden Tree - Grour Item 3",
+    "condition": {},
+    "location": "Renoirâs Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_RenoirSDraft_4",
+    "name": "Renoir’s Drafts: Golden Tree - Grour Item 4",
+    "condition": {},
+    "location": "Renoirâs Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_RenoirSDraft_5",
+    "name": "Renoir’s Drafts: Golden Tree - Grour Item 5",
+    "condition": {},
+    "location": "Renoirâs Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_VersosDraft_1",
+    "name": "Verso's Drafts: Reverie Path - Najabla Item 1",
+    "condition": {},
+    "location": "Verso's Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_VersosDraft_2",
+    "name": "Verso's Drafts: Reverie Path - Najabla Item 2",
+    "condition": {},
+    "location": "Verso's Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_VersosDraft_3",
+    "name": "Verso's Drafts: Reverie Path - Najabla Item 3",
+    "condition": {},
+    "location": "Verso's Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_VersosDraft_4",
+    "name": "Verso's Drafts: Reverie Path - Najabla Item 4",
+    "condition": {},
+    "location": "Verso's Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_VersosDraft_5",
+    "name": "Verso's Drafts: Reverie Path - Najabla Item 5",
+    "condition": {},
+    "location": "Verso's Drafts",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_EsquieRealCousin_1",
+    "name": "Root of All Evil: Merchant Item 1",
+    "condition": {},
+    "location": "Root of All Evil",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_EsquieRealCousin_2",
+    "name": "Root of All Evil: Merchant Item 2",
+    "condition": {},
+    "location": "Root of All Evil",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_EsquieRealCousin_3",
+    "name": "Root of All Evil: Merchant Item 3",
+    "condition": {},
+    "location": "Root of All Evil",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_EsquieRealCousin_4",
+    "name": "Root of All Evil: Merchant Item 4",
+    "condition": {},
+    "location": "Root of All Evil",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_EsquieRealCousin_5",
+    "name": "Root of All Evil: Merchant Item 5",
+    "condition": {},
+    "location": "Root of All Evil",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SacredRiver_1",
+    "name": "Sacred River: Merchant Item 1",
+    "condition": {},
+    "location": "Sacred River",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SacredRiver_2",
+    "name": "Sacred River: Merchant Item 2",
+    "condition": {},
+    "location": "Sacred River",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SacredRiver_3",
+    "name": "Sacred River: Merchant Item 3",
+    "condition": {},
+    "location": "Sacred River",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SacredRiver_4",
+    "name": "Sacred River: Merchant Item 4",
+    "condition": {},
+    "location": "Sacred River",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "Merchant_SacredRiver_5",
+    "name": "Sacred River: Merchant Item 5",
+    "condition": {},
+    "location": "Sacred River",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Cruler Item 1",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Cruler Item 2",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Cruler Item 3",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Cruler Item 4",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Cruler Item 5",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Bruler Item 1",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Bruler Item 2",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Bruler Item 3",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Bruler Item 4",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "Coastal Cave: Bruler Item 5",
+    "condition": {},
+    "location": "Coastal Cave",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Blabary Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Blabary Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Blabary Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Blabary Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Blabary Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Carrabi Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Carrabi Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Carrabi Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Carrabi Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Carrabi Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Jumeliba Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Jumeliba Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Jumeliba Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Jumeliba Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Jumeliba Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Colaro Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Colaro Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Colaro Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Colaro Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent - Colaro Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Appla Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Appla Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Appla Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Appla Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Appla Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Geranjo Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Geranjo Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Geranjo Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Geranjo Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: First Continent Sea - Geranjo Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Pecha Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Pecha Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Pecha Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Pecha Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Pecha Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Strabami Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Strabami Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Strabami Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Strabami Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Strabami Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Blakora Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Blakora Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Blakora Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Blakora Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Blakora Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Carnovi Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Carnovi Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Carnovi Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Carnovi Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Carnovi Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Southeast Valley - Lucaroparfe Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Southeast Valley - Lucaroparfe Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Southeast Valley - Lucaroparfe Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Southeast Valley - Lucaroparfe Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Southeast Valley - Lucaroparfe Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Citrelo Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Citrelo Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Citrelo Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Citrelo Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Citrelo Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Sodasso Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Sodasso Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Sodasso Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Sodasso Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Sodasso Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rubiju Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rubiju Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rubiju Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rubiju Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rubiju Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Pearo Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Pearo Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Pearo Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Pearo Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Pearo Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Papasso Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Papasso Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Papasso Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Papasso Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: Second Continent - Papasso Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Granasori Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Granasori Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Granasori Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Granasori Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Granasori Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rederi Item 1",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rederi Item 2",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rederi Item 3",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rederi Item 4",
+    "condition": {},
+    "location": "",
+    "original_item": "",
+    "type": "Shop"
+  },
+  {
+    "internal_name": "",
+    "name": "World Map: North Sea - Rederi Item 5",
+    "condition": {},
+    "location": "",
+    "original_item": "",
     "type": "Shop"
   }
 ]
