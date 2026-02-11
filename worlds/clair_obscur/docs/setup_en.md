@@ -11,7 +11,8 @@
 
 * [Poptracker](https://poptracker.github.io/)
   * [Our autotracker for Poptracker](https://github.com/Demorck/ClairObscur-Archipelago-Poptracker/releases) (by @Yezzdia)
-* [A map tracker for COE33](https://www.nexusmods.com/clairobscurexpedition33/mods/383)
+* [Mod: a map tracker for COE33](https://www.nexusmods.com/clairobscurexpedition33/mods/383)
+* [Mod: a ping tracker to know where are the loots for COE33](https://www.nexusmods.com/clairobscurexpedition33/mods/215)
 
 ## Setup
 
@@ -37,5 +38,6 @@
 
 ## Further Reading
 - [wiki](https://github.com/Demorck/ClairObscur_APWorld/wiki/)
+
 
 
