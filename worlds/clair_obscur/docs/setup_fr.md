@@ -21,6 +21,7 @@
 4. Hébergez la partie. Soit localement ou avec le site d'Archipelago.
 5. Téléchargez la bonne version du mod (Steam ou Gamepass) 
 6. Extrayez le à la racine du jeu (directement dans `Expedition 33`). Pour être sûr qu'il est bien extrait au bon endroit, vous devez retrouver 3 fichiers appelés ClairObscurRandomizer.qqch dans `\Sandfall\Content\Paks\LogicMods` et le dossier ue4ss dans `\Sandfall\Binaries\[WinGDK or Win64]`
+7. **UTILISATEURS DE LINUX**: `WINEDLLOVERRIDES="dwmapi.dll=n,b" %command%` à mettre dans les options de lancements
 7. Profitez !
 
 ## Se connecter à la salle
