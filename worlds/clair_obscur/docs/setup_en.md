@@ -4,7 +4,7 @@
 
 * [Archipelago 0.6.1+](https://archipelago.gg/tutorial/Archipelago/setup/en)
 * A legal version of Clair Obscur: Expedition 33 (Steam or Gamepass)
-* [Latest clair_obscur.apworld](https://github.com/Demorck/ClairObscur_APWorld/releases) (by @Jostar)
+* [Latest clair_obscur.apworld](https://github.com/Demorck/ClairObscur_APWorld/releases) (by @Noeva)
 * [Latest version of the client mod](https://github.com/Demorck/ClairObscurArchipelagoRandomizer/releases) (by @Demorck)
 
 ## Recommended Software
