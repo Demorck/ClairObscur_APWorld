@@ -44,6 +44,20 @@ class ExcludeEndlessTower(Choice):
     option_included = 2
     default = 0
 
+class ExcludeSuperbosses(Choice):
+    """
+    Determines how to handle Superbosses (the four in the Endless Tower).
+    Excluded: Locations won't be added to the pool.
+    Filler: Locations will only contain filler items.
+    Included: All locations are included.
+    """
+    internal_name = "exclude_superbosses"
+    display_name = "Exclude Superbosses"
+    option_excluded = 0
+    option_filler = 1
+    option_included = 2
+    default = 0
+
 class ShuffleLostGestrals(Toggle):
     """
     Shuffles the lost gestrals into the item pool.
@@ -150,6 +164,7 @@ class ClairObscurOptions(DeathLinkMixin, PerGameCommonOptions):
     shuffle_free_aim: ShuffleFreeAim
     exclude_endgame_locations: ExcludeEndgameLocations
     exclude_endless_tower: ExcludeEndlessTower
+    exclude_superbosses: ExcludeSuperbosses
     gestral_shuffle: ShuffleLostGestrals
     starting_char: StartingCharacter
     gear_scaling: GearScaling

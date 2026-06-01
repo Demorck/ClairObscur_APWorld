@@ -365,6 +365,14 @@
   },
   {
     "from": "WM: Sky",
+    "to": "Endless Tower Superbosses",
+    "condition": {
+      "Painted Power": 1,
+      "Area - Endless Tower": 1
+    }
+  },
+  {
+    "from": "WM: Sky",
     "to": "Endless Tower",
     "condition": {
       "Painted Power": 1,

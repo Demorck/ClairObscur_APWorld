@@ -26,19 +26,20 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
     #These locations were in data dumps but not confirmed to be either accessible or inaccessible.
     #These will be left in the pool in case they're found in testing, but will contain filler to avoid softlocks.
-    unconfirmed_location_names = ["World Map: Unknown 2",
+    unconfirmed_location_names = [
+        "World Map: Unknown 2",
         "World Map: Unknown 1",
         "Lumiere (Act 3): Lumina 5",
         "Lumiere (Act 3): Upgrade 6",
         "Red Woods: Lumina 1",
-        "Sea Cliff: Chroma 1"]
+        "Sea Cliff: Chroma 1"
+    ]
 
     excluded_types = []
     excluded_conditions = []
-    excluded_locations = ["Manor: From Stone Wave Cliffs - In the wardrobe",
-                          "Forgotten Battlefield: Fort Ruins - In left ruins near dead end",
-                          "Monolith: Tainted Lumiere - Left before Expedition Flag",
-                          "Esquies Nest: Get Outta My Way! - Go right from Sunniso"]
+    excluded_locations = [
+        "Manor: From Stone Wave Cliffs - In the wardrobe",
+    ]
     if not world.options.shuffle_free_aim: excluded_conditions.append("Free Aim")
     if not world.options.gestral_shuffle: excluded_conditions.append("Lost Gestral")
 
@@ -54,9 +55,13 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
     if not world.options.gestral_shuffle:
         excluded_types.append("Lost Gestral")
 
+    multiple_locations = []
+
     for region_name, region in regions.items():
         if region_name == "Menu": continue
-        if world.options.exclude_endless_tower == 0 and region_name.startswith("Endless Tower"): continue
+        is_endless_tower = region_name.startswith("Endless Tower") and region_name != "Endless Tower Superbosses"
+
+        if world.options.exclude_endless_tower == 0 and is_endless_tower: continue
         region_data = data.regions[region_name]
         region_level = region_data.pictos_level
         if world.options.exclude_endgame_locations == 0 and region_level > exclusion_level: continue
@@ -67,7 +72,8 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
             location_level = max(location_data.pictos_level, region_level)
             if (location_data.type in excluded_types or
                     (world.options.exclude_endgame_locations == 0 and location_level > exclusion_level) or
-                    location_name in excluded_locations):
+                    location_name in excluded_locations or
+                    world.options.exclude_superbosses == 0):
                 continue
 
             loc_id = world.location_name_to_id[location_data.name]
@@ -98,13 +104,21 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
             if world.options.exclude_endgame_locations == 1 and location_level >= exclusion_level:
                 location.progress_type = LocationProgressType.EXCLUDED
 
-            if world.options.exclude_endless_tower == 1 and region_name.startswith("Endless Tower"):
+            if world.options.exclude_endless_tower == 1 and is_endless_tower:
+                location.progress_type = LocationProgressType.EXCLUDED
+
+            if world.options.exclude_superbosses == 1 and location_data.type == "Superbosses":
                 location.progress_type = LocationProgressType.EXCLUDED
 
             if location_name in unconfirmed_location_names:
                 location.progress_type = LocationProgressType.EXCLUDED
 
-            region.locations.append(location)
+            if location_data.multiple:
+                if location_name not in multiple_locations:
+                    region.locations.append(location)
+                    multiple_locations.append(location_name)
+            else:
+                region.locations.append(location)
 
 
 def offset_location_value(location_id: int) -> int:

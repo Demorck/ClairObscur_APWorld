@@ -8,7 +8,7 @@
             "Ancient Sanctuary: Giant Bell Alley - Up ramp after boss",
             "Ancient Sanctuary: Giant Bell Alley - Before Expedition Flag near dismantled Gestral",
             "Ancient Sanctuary: Gestral Totem - Base of the totem",
-            "Ancient Sanctuary: Entrance - Across bridge",
+            "Ancient Sanctuary or Forgotten Battlefield: Entrance - Across bridge or Fort Ruins - In left ruins near dead end",
             "Ancient Sanctuary: Sanctuary Maze - On path to flag 1 shortcut",
             "Ancient Sanctuary: Sanctuary Maze - On cliff after Mime",
             "Ancient Sanctuary: Sanctuary Maze - In hut near Mime",
@@ -66,7 +66,7 @@
             "Esquies Nest: Esquie's Room - Did you get my rock from Fran Fran?",
             "Esquies Nest: Esquie's Room - New friends!",
             "Esquies Nest: Get Outta My Way! - Don't be mean to Sunniso",
-            "Esquies Nest: Get Outta My Way! - Go right from Sunniso",
+            "Esquies Nest or Monolith: Get Outta My Way! - Go right from Sunniso or Tainted Lumiere - Left before Expedition Flag",
             "Esquies Nest: Francois - Bye bye Fran Fran!",
             "Esquies Nest: Francois - Make another new friend after Fran Fran!",
             "Esquie’s Nest: Mime",
@@ -141,7 +141,7 @@
         "locations": [
             "Forgotten Battlefield: Main Gate - Left side wooden deck",
             "Forgotten Battlefield: Main Gate - Right side near outer wall",
-            "Forgotten Battlefield: Fort Ruins - In left ruins near dead end",
+            "Ancient Sanctuary or Forgotten Battlefield: Entrance - Across bridge or Fort Ruins - In left ruins near dead end",
             "Forgotten Battlefield: Battlefield - On wooden platform near Petank end",
             "Forgotten Battlefield: Main Gate - Near Chalier sword",
             "Forgotten Battlefield: Main Gate - Left side dead end",
@@ -376,7 +376,7 @@
             "Monolith: Tainted Cliffs - Behind Petank starting position",
             "Monolith: Tainted Lumiere - Next to festival stands",
             "Monolith: Tainted Battlefield - After Expedition Flag",
-            "Monolith: Tainted Lumiere - Left before Expedition Flag",
+            "Esquies Nest or Monolith: Get Outta My Way! - Go right from Sunniso or Tainted Lumiere - Left before Expedition Flag",
             "The Monolith: Chromatic Bourgeon",
             "The Monolith: Chromatic Clair Obscur",
             "The Monolith: Clair Obscur",
@@ -621,8 +621,8 @@
         "region_name": "Isle of the Eyes",
         "level": 22,
         "locations": [
-            "Visages: Item 1",
-            "Visages: Item 2",
+            "Isle of the Eyes: Item 1",
+            "Isle of the Eyes - The Crows: Item 2 or Item",
             "Isle of the Eyes: Chromatic Boucheclier",
             "Isle of the Eyes: Petank"
         ]
@@ -631,7 +631,7 @@
         "region_name": "The Crows",
         "level": 1,
         "locations": [
-            "The Crows: Item",
+            "Isle of the Eyes - The Crows: Item 2 or Item",
             "The Crows: Chromatic Chapelier"
         ]
     },
@@ -1037,11 +1037,7 @@
         "locations": [
             "Endless Tower: Stage 1-1",
             "Endless Tower: Stage 1-2",
-            "Endless Tower: Stage 1-3",
-            "Endless Tower: Duollistes",
-            "Endless Tower: Chromatic Lampmaster",
-            "Endless Tower: Clea Unleashed",
-            "Endless Tower: Simon, the Divergent Star"
+            "Endless Tower: Stage 1-3"
         ]
     },
     {
@@ -1133,6 +1129,16 @@
             "Endless Tower: Stage 11-1",
             "Endless Tower: Stage 11-2",
             "Endless Tower: Stage 11-3"
+        ]
+    },
+    {
+        "region_name": "Endless Tower Superbosses",
+        "level": 33,
+        "locations": [
+            "Endless Tower: Duollistes",
+            "Endless Tower: Chromatic Lampmaster",
+            "Endless Tower: Clea Unleashed",
+            "Endless Tower: Simon, the Divergent Star"
         ]
     },
     {
