@@ -61,6 +61,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
         if region_name == "Menu": continue
         is_endless_tower = region_name.startswith("Endless Tower") and region_name != "Endless Tower Superbosses"
 
+        if world.options.exclude_superbosses == 0 and region_name == "Endless Tower Superbosses": continue
         if world.options.exclude_endless_tower == 0 and is_endless_tower: continue
         region_data = data.regions[region_name]
         region_level = region_data.pictos_level
@@ -72,8 +73,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
             location_level = max(location_data.pictos_level, region_level)
             if (location_data.type in excluded_types or
                     (world.options.exclude_endgame_locations == 0 and location_level > exclusion_level) or
-                    location_name in excluded_locations or
-                    world.options.exclude_superbosses == 0):
+                    location_name in excluded_locations):
                 continue
 
             loc_id = world.location_name_to_id[location_data.name]

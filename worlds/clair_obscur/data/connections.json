@@ -468,5 +468,38 @@
       "Painted Power": 1,
       "Area - Verso's Drafts": 1
     }
+  },
+
+  {
+    "from": "Isle of the Eyes",
+    "to": "Isle of the Eyes - The Crows",
+    "condition": {}
+  },
+  {
+    "from": "The Crows",
+    "to": "Isle of the Eyes - The Crows",
+    "condition": {}
+  },
+
+  {
+    "from": "Ancient Sanctuary",
+    "to": "Ancient Sanctuary or Forgotten Battlefield",
+    "condition": {}
+  },
+  {
+    "from": "Forgotten Battlefield",
+    "to": "Ancient Sanctuary or Forgotten Battlefield",
+    "condition": {}
+  },
+
+  {
+    "from": "Esquie's Nest",
+    "to": "Esquie's Nest or Monolith",
+    "condition": {}
+  },
+  {
+    "from": "The Monolith",
+    "to": "Esquie's Nest or Monolith",
+    "condition": {}
   }
 ]
