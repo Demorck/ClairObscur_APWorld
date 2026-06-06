@@ -26,13 +26,8 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
     #These locations were in data dumps but not confirmed to be either accessible or inaccessible.
     #These will be left in the pool in case they're found in testing, but will contain filler to avoid softlocks.
+    # I'm letting this empty, in case of updates
     unconfirmed_location_names = [
-        "World Map: Unknown 2",
-        "World Map: Unknown 1",
-        "Lumiere (Act 3): Lumina 5",
-        "Lumiere (Act 3): Upgrade 6",
-        "Red Woods: Lumina 1",
-        "Sea Cliff: Chroma 1"
     ]
 
     excluded_types = []

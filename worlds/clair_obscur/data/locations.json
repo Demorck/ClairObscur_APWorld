@@ -1548,14 +1548,6 @@
         "type": "Chest"
     },
     {
-        "internal_name": "Chest_Lumiere_17",
-        "name": "Lumiere (Act 3): Lumina 5",
-        "location": "Lumiere",
-        "original_item": "Consumable_LuminaPoint",
-        "condition": {},
-        "type": "Chest"
-    },
-    {
         "internal_name": "Chest_Lumiere_18",
         "name": "Lumiere (Act 3): Shattered Alley - Behind Chromatic miniboss",
         "location": "Lumiere",
@@ -1616,14 +1608,6 @@
         "name": "Lumiere (Act 3): Opera House - In between buildings",
         "location": "Lumiere",
         "original_item": "HealingStun",
-        "condition": {},
-        "type": "Chest"
-    },
-    {
-        "internal_name": "Chest_Lumiere_26",
-        "name": "Lumiere (Act 3): Upgrade 6",
-        "location": "Lumiere",
-        "original_item": "UpgradeMaterial",
         "condition": {},
         "type": "Chest"
     },
@@ -2688,14 +2672,6 @@
         "type": "Chest"
     },
     {
-        "internal_name": "Chest_SeaCliff_1",
-        "name": "Sea Cliff: Chroma 1",
-        "location": "Sea Cliff",
-        "original_item": "ChromaPack_Large",
-        "condition": {},
-        "type": "Chest"
-    },
-    {
         "internal_name": "Chest_SeaCliff_2",
         "name": "Stone Wave Cliffs: Old Farm - Near Chromatic Gault 2",
         "location": "Sea Cliff",
@@ -3230,14 +3206,6 @@
         "name": "Sirene: Crumbling Path - Detour left of mini -boss",
         "location": "Sirene",
         "original_item": "HealingFire",
-        "condition": {},
-        "type": "Chest"
-    },
-    {
-        "internal_name": "Chest_SmallLevel_RedWoods_1",
-        "name": "Red Woods: Lumina 1",
-        "location": "Small Level Red Woods",
-        "original_item": "Consumable_LuminaPoint",
         "condition": {},
         "type": "Chest"
     },
@@ -4081,7 +4049,7 @@
     },
     {
         "internal_name": "Chest_WorldMap_6",
-        "name": "World Map: Unknown 2",
+        "name": "World Map: First Continent - In crates before Flying Waters",
         "location": "World Map",
         "original_item": "Consumable_LuminaPoint",
         "condition": {},
@@ -4101,14 +4069,6 @@
         "location": "World Map",
         "original_item": "ChromaPack_Large",
         "condition": {"Progressive Rock": 1},
-        "type": "Chest"
-    },
-    {
-        "internal_name": "Chest_WorldMap_9",
-        "name": "World Map: Unknown 1",
-        "location": "World Map",
-        "original_item": "Consumable_LuminaPoint",
-        "condition": {},
         "type": "Chest"
     },
     {

@@ -294,7 +294,6 @@
             "Lumiere (Act 3): Shattered Alley - Under the tree",
             "Lumiere (Act 3): Shattered Alley - Left path after Expedition Flag",
             "Lumiere (Act 3): Shattered Alley - Under impaled building",
-            "Lumiere (Act 3): Lumina 5",
             "Lumiere (Act 3): Shattered Alley - Behind Chromatic miniboss",
             "Lumiere (Act 3): Shattered Alley - Next to Chromatic miniboss",
             "Lumiere (Act 3): Shattered Alley - Near boat before Opera House",
@@ -303,7 +302,6 @@
             "Lumiere (Act 3): Opera House - Top of stairs",
             "Lumiere (Act 3): Opera House - Under festival decorations",
             "Lumiere (Act 3): Opera House - In between buildings",
-            "Lumiere (Act 3): Upgrade 6",
             "Lumiere (Act 3): Opera House - Cliffside overlooking ruined Lumiere",
             "Lumiere (Act 3): Opera House - Near Cribappa",
             "Lumiere (Act 3): Opera House - Near Young Boy",
@@ -476,7 +474,6 @@
         "level": 7,
         "locations": [
             "Manor: From Stone Wave Cliffs - In the wardrobe",
-            "Sea Cliff: Chroma 1",
             "Stone Wave Cliffs: Old Farm - Near Chromatic Gault 2",
             "Stone Wave Cliffs: Entrance - Ledge next to the tunnel",
             "Stone Wave Cliffs: Flooded Buildings - Indoor climbing wall",
@@ -567,7 +564,6 @@
         "region_name": "Red Woods",
         "level": 1,
         "locations": [
-            "Red Woods: Lumina 1"
         ]
     },
     {
@@ -961,8 +957,7 @@
         "locations": [
             "Manor: From World Map Sky Near Giant Petank - In closet",
             "World Map: First Continent - Northeast of Dark Shores beach",
-            "World Map: Unknown 2",
-            "World Map: Unknown 1",
+            "World Map: First Continent - In crates before Flying Waters",
             "World Map: Sky - Cliff near Endless Tower",
             "World Map: Bourgeon plateau southeast of Forgotten Battlefield",
             "World Map: Second Continent - Plateau west of Forgotten Battlefield exit",
