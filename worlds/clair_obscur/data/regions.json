@@ -8,7 +8,6 @@
             "Ancient Sanctuary: Giant Bell Alley - Up ramp after boss",
             "Ancient Sanctuary: Giant Bell Alley - Before Expedition Flag near dismantled Gestral",
             "Ancient Sanctuary: Gestral Totem - Base of the totem",
-            "Ancient Sanctuary: Entrance - Across bridge",
             "Ancient Sanctuary: Sanctuary Maze - On path to flag 1 shortcut",
             "Ancient Sanctuary: Sanctuary Maze - On cliff after Mime",
             "Ancient Sanctuary: Sanctuary Maze - In hut near Mime",
@@ -66,7 +65,6 @@
             "Esquies Nest: Esquie's Room - Did you get my rock from Fran Fran?",
             "Esquies Nest: Esquie's Room - New friends!",
             "Esquies Nest: Get Outta My Way! - Don't be mean to Sunniso",
-            "Esquies Nest: Get Outta My Way! - Go right from Sunniso",
             "Esquies Nest: Francois - Bye bye Fran Fran!",
             "Esquies Nest: Francois - Make another new friend after Fran Fran!",
             "Esquie’s Nest: Mime",
@@ -141,7 +139,6 @@
         "locations": [
             "Forgotten Battlefield: Main Gate - Left side wooden deck",
             "Forgotten Battlefield: Main Gate - Right side near outer wall",
-            "Forgotten Battlefield: Fort Ruins - In left ruins near dead end",
             "Forgotten Battlefield: Battlefield - On wooden platform near Petank end",
             "Forgotten Battlefield: Main Gate - Near Chalier sword",
             "Forgotten Battlefield: Main Gate - Left side dead end",
@@ -297,7 +294,6 @@
             "Lumiere (Act 3): Shattered Alley - Under the tree",
             "Lumiere (Act 3): Shattered Alley - Left path after Expedition Flag",
             "Lumiere (Act 3): Shattered Alley - Under impaled building",
-            "Lumiere (Act 3): Lumina 5",
             "Lumiere (Act 3): Shattered Alley - Behind Chromatic miniboss",
             "Lumiere (Act 3): Shattered Alley - Next to Chromatic miniboss",
             "Lumiere (Act 3): Shattered Alley - Near boat before Opera House",
@@ -306,7 +302,6 @@
             "Lumiere (Act 3): Opera House - Top of stairs",
             "Lumiere (Act 3): Opera House - Under festival decorations",
             "Lumiere (Act 3): Opera House - In between buildings",
-            "Lumiere (Act 3): Upgrade 6",
             "Lumiere (Act 3): Opera House - Cliffside overlooking ruined Lumiere",
             "Lumiere (Act 3): Opera House - Near Cribappa",
             "Lumiere (Act 3): Opera House - Near Young Boy",
@@ -376,7 +371,6 @@
             "Monolith: Tainted Cliffs - Behind Petank starting position",
             "Monolith: Tainted Lumiere - Next to festival stands",
             "Monolith: Tainted Battlefield - After Expedition Flag",
-            "Monolith: Tainted Lumiere - Left before Expedition Flag",
             "The Monolith: Chromatic Bourgeon",
             "The Monolith: Chromatic Clair Obscur",
             "The Monolith: Clair Obscur",
@@ -480,7 +474,6 @@
         "level": 7,
         "locations": [
             "Manor: From Stone Wave Cliffs - In the wardrobe",
-            "Sea Cliff: Chroma 1",
             "Stone Wave Cliffs: Old Farm - Near Chromatic Gault 2",
             "Stone Wave Cliffs: Entrance - Ledge next to the tunnel",
             "Stone Wave Cliffs: Flooded Buildings - Indoor climbing wall",
@@ -571,7 +564,6 @@
         "region_name": "Red Woods",
         "level": 1,
         "locations": [
-            "Red Woods: Lumina 1"
         ]
     },
     {
@@ -621,8 +613,7 @@
         "region_name": "Isle of the Eyes",
         "level": 22,
         "locations": [
-            "Visages: Item 1",
-            "Visages: Item 2",
+            "Isle of the Eyes: Item 1",
             "Isle of the Eyes: Chromatic Boucheclier",
             "Isle of the Eyes: Petank"
         ]
@@ -631,7 +622,6 @@
         "region_name": "The Crows",
         "level": 1,
         "locations": [
-            "The Crows: Item",
             "The Crows: Chromatic Chapelier"
         ]
     },
@@ -967,8 +957,7 @@
         "locations": [
             "Manor: From World Map Sky Near Giant Petank - In closet",
             "World Map: First Continent - Northeast of Dark Shores beach",
-            "World Map: Unknown 2",
-            "World Map: Unknown 1",
+            "World Map: First Continent - In crates before Flying Waters",
             "World Map: Sky - Cliff near Endless Tower",
             "World Map: Bourgeon plateau southeast of Forgotten Battlefield",
             "World Map: Second Continent - Plateau west of Forgotten Battlefield exit",
@@ -1037,11 +1026,7 @@
         "locations": [
             "Endless Tower: Stage 1-1",
             "Endless Tower: Stage 1-2",
-            "Endless Tower: Stage 1-3",
-            "Endless Tower: Duollistes",
-            "Endless Tower: Chromatic Lampmaster",
-            "Endless Tower: Clea Unleashed",
-            "Endless Tower: Simon, the Divergent Star"
+            "Endless Tower: Stage 1-3"
         ]
     },
     {
@@ -1136,6 +1121,16 @@
         ]
     },
     {
+        "region_name": "Endless Tower Superbosses",
+        "level": 33,
+        "locations": [
+            "Endless Tower: Duollistes",
+            "Endless Tower: Chromatic Lampmaster",
+            "Endless Tower: Clea Unleashed",
+            "Endless Tower: Simon, the Divergent Star"
+        ]
+    },
+    {
         "region_name": "Dark Gestral Arena",
         "level": 25,
         "locations": [
@@ -1216,6 +1211,27 @@
             "Verso's Drafts: Licornapieds",
             "Root of All Evil: Osquio",
             "Verso's Drafts: Mime"
+        ]
+    },
+    {
+        "region_name": "Isle of the Eyes - The Crows",
+        "level": 1,
+        "locations": [
+            "Isle of the Eyes - The Crows: Item 2 or Item"
+        ]
+    },
+    {
+        "region_name": "Ancient Sanctuary or Forgotten Battlefield",
+        "level": 1,
+        "locations": [
+            "Ancient Sanctuary or Forgotten Battlefield: Entrance - Across bridge or Fort Ruins - In left ruins near dead end"
+        ]
+    },
+    {
+        "region_name": "Esquie's Nest or Monolith",
+        "level": 1,
+        "locations": [
+            "Esquie's Nest or Monolith: Get Outta My Way! - Go right from Sunniso or Tainted Lumiere - Left before Expedition Flag"
         ]
     }
 ]
