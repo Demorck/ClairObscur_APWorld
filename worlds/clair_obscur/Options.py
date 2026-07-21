@@ -1,7 +1,5 @@
 from dataclasses import dataclass
-
-from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range, DeathLinkMixin
-
+from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range
 
 class Goal(Choice):
     """
@@ -152,13 +150,50 @@ class TrapChance(Range):
     range_end = 100
     default = 0
 
+class Shopsanity(Toggle):
+    """
+    Add shop items to location pool.
+    """
+    internal_name = "shopsanity"
+    display_name = "Shop Sanity"
+    default = 1
+
+class LocationPerShop(Range):
+    """
+    How many locations are in each shop. Does nothing if Shopsanity is disabled.
+    """
+    internal_name = "location_per_shop"
+    display_name = "Location Per Shop"
+    range_start = 0
+    range_end = 8
+    default = 4
+
+class FightingMerchant(Toggle):
+    """
+    If enabled, fighting merchant gives a check. Otherwise it will unlock extra items in shop.
+    Also, if enabled, you need to find your merchant unlock in the pool to unlock extra items in shop
+    """
+    internal_name = "fighting_merchant"
+    display_name = "Fighting Merchant"
+    default = 1
+
+class ExtraLocationPerShop(Range):
+    """
+    How many locations are in each extra shop (when fighting/having the extra shop item).
+    """
+    internal_name = "extra_location_per_shop"
+    display_name = "Extra Location Per Shop"
+    range_start = 0
+    range_end = 8
+    default = 4
+
 class ClairObscurStartInventory(StartInventory):
     """
     Start with these items
     """
 
 @dataclass
-class ClairObscurOptions(DeathLinkMixin, PerGameCommonOptions):
+class ClairObscurOptions(PerGameCommonOptions):
     goal: Goal
     char_shuffle: ShuffleCharacters
     shuffle_free_aim: ShuffleFreeAim
@@ -173,12 +208,26 @@ class ClairObscurOptions(DeathLinkMixin, PerGameCommonOptions):
     area_logic: AreaLogic
     trap_chance: TrapChance
 
+    # Shops
+    shopsanity: Shopsanity
+    location_per_shop: LocationPerShop
+    fighting_merchant: FightingMerchant
+    extra_location_per_shop: ExtraLocationPerShop
+
+
+    # AP base
     start_inventory: ClairObscurStartInventory
 
 OPTIONS_GROUP = [
     OptionGroup(
+        "Shop", [
+            Shopsanity,
+            LocationPerShop,
+            FightingMerchant,
+            ExtraLocationPerShop,
+        ]),
+    OptionGroup(
         "Item & Location Options", [
             ClairObscurStartInventory,
-        ], False,
-    ),
+        ]),
 ]
