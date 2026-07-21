@@ -1,7 +1,6 @@
 import pkgutil
-from typing import NamedTuple, FrozenSet, Dict, Union, List, Any
+from typing import NamedTuple, Dict, Union, List, Any
 
-from maseya.z3pr.math_helper import clamp
 from orjson import orjson
 
 from BaseClasses import ItemClassification
@@ -21,6 +20,12 @@ class ClairObscurLocationData(NamedTuple):
     type: str
     pictos_level: int
     multiple: bool
+
+class ClairObscurShopData(NamedTuple):
+    name: str
+    region: str
+    has_fight: bool
+    unlock_item: str | None
 
 
 class ClairObscurRegionData:
@@ -47,23 +52,48 @@ class ClairObscurData:
     items: Dict[int, ClairObscurItemData]
     locations: Dict[str, ClairObscurLocationData]
     regions: Dict[str, ClairObscurRegionData]
+    shops: Dict[str, ClairObscurShopData]
     connections: List[ClairObscurRegionConnection]
 
     def __init__(self) -> None:
         self.items = {}
         self.locations = {}
         self.regions = {}
+        self.shops = {}
         self.connections = []
 
 
 def load_json_data(data_name: str) -> Union[List[Any], Dict[str, Any]]:
     return orjson.loads(pkgutil.get_data(__name__, "data/" + data_name))
 
+
+def populate_data_shops() -> Dict[str, ClairObscurShopData]:
+    shops = {}
+    shops_json = load_json_data("shops.json")
+    for shop in shops_json:
+        shop_name = shop["name"]
+        shop_region = shop["region"]
+        shop_has_fight = shop.get("has_fight", False)
+        shop_unlock_item = shop["unlock_item"]
+
+        new_shop = ClairObscurShopData(
+            shop_name,
+            shop_region,
+            shop_has_fight,
+            shop_unlock_item
+        )
+
+        shops[shop_name] = new_shop
+
+    return shops
+
+
 def _init() -> None:
     data.items = populate_data_items()
     data.locations = populate_data_locations()
     data.regions = populate_data_regions()
     data.connections = populate_data_connections()
+    data.shops = populate_data_shops()
 
 def populate_data_locations() -> Dict[str, ClairObscurLocationData]:
     locations = {}
