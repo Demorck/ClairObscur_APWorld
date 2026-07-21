@@ -62,6 +62,54 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
         region_level = region_data.pictos_level
         if world.options.exclude_endgame_locations == 0 and region_level > exclusion_level: continue
 
+        if world.options.shopsanity:
+            for shop_name, shop in data.shops.items():
+                if shop.region != region_name: continue
+
+                if shop.has_fight:
+                    current_name = f"Shop: {shop.name} - Fight"
+                    location_id = world.location_name_to_id[current_name]
+                    shop_location = ClairObscurLocation(
+                        world.player,
+                        current_name,
+                        location_id,
+                        region
+                    )
+
+                    if not world.options.fighting_merchant:
+                        shop_location.place_locked_item(world.create_item(shop.unlock_item))
+
+                    region.locations.append(shop_location)
+
+
+                for i in range(1, world.options.location_per_shop + 1):
+                    current_name = f"Shop: {shop.name} - Item {i}"
+                    location_id = world.location_name_to_id[current_name]
+                    shop_location = ClairObscurLocation(
+                        world.player,
+                        current_name,
+                        location_id,
+                        region
+                    )
+
+                    region.locations.append(shop_location)
+
+                if shop.has_fight:
+                    for i in range(1, int(world.options.extra_location_per_shop) + 1):
+                        current_name = f"Shop: {shop.name} - Extra Item {i}"
+                        location_id = world.location_name_to_id[current_name]
+                        shop_location = ClairObscurLocation(
+                            world.player,
+                            current_name,
+                            location_id,
+                            region
+                        )
+                        add_rule(shop_location, lambda state, itm=shop.unlock_item, pl=world.player: state.has(itm, pl))
+
+                        region.locations.append(shop_location)
+
+
+
         for location_name in region_data.locations:
 
             location_data = data.locations[location_name]
@@ -138,6 +186,22 @@ def create_location_name_to_ap_id() -> Dict[str, int]:
     for location in data.locations.values():
         name_to_ap_id[location.name] = offset_location_value(index)
         index += 1
+
+    for shop in data.shops.values():
+        for i in range(1, 9):
+            current_name = f"Shop: {shop.name} - Item {i}"
+            name_to_ap_id[current_name] = offset_location_value(index)
+            index += 1
+
+        if shop.has_fight:
+            merchant_item_name = f"Shop: {shop.name} - Fight"
+            name_to_ap_id[merchant_item_name] = offset_location_value(index)
+            index += 1
+
+            for i in range(1, 9):
+                current_name = f"Shop: {shop.name} - Extra Item {i}"
+                name_to_ap_id[current_name] = offset_location_value(index)
+                index += 1
 
     return name_to_ap_id
 
