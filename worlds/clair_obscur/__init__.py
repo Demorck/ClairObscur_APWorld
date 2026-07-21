@@ -84,6 +84,7 @@ class ClairObscurWorld(World):
         self.item_pool = []
 
         excluded_types = ["Journal", "Character", "Trap"]
+        if not (self.options.shopsanity and self.options.fighting_merchant): excluded_types.append("Merchant Unlock")
         excluded_names = []
         if not self.options.gestral_shuffle: excluded_names.append("Lost Gestral")
         if not self.options.shuffle_free_aim: excluded_names.append("Free Aim")
@@ -143,7 +144,7 @@ class ClairObscurWorld(World):
         #Options
         slot_data["options"] = self.options.as_dict(
             "goal", "char_shuffle", "starting_char", "gestral_shuffle", "gear_scaling", "shuffle_free_aim",
-            "exclude_endgame_locations", "exclude_endless_tower"
+            "exclude_endgame_locations", "exclude_endless_tower", "shopsanity", "location_per_shop", "extra_location_per_shop"
         )
 
         #Total counts for pictos and weapons. Currently static, but can support adding multiple copies later on.
@@ -177,7 +178,7 @@ class ClairObscurWorld(World):
                             slot_data["weapons"].append(loc.item.code)
             case 1:
                 # Scale by order received (handled entirely by client)
-                return slot_data
+                pass
             case 2:
                 #Balanced random scaling
                 slot_data["pictos"]: List[int] = []
@@ -190,7 +191,20 @@ class ClairObscurWorld(World):
                 self.random.shuffle(slot_data["weapons"])
             case 3:
                 #Full random scaling (handled entirely by client)
-                return slot_data
+                pass
+
+        if self.options.shopsanity:
+            slot_data["shops"]: Dict[str, any] = {}
+            for shop_name, shop in data.shops.items():
+                slot_data["shops"][shop_name]: Dict[str, List[int]] = {}
+                slot_data["shops"][shop_name]["prices"]: List[int] = []
+                slot_data["shops"][shop_name]["extra_prices"]: List[int] = []
+                for i in range(1, int(self.options.location_per_shop) + 1):
+                    slot_data["shops"][shop_name]["prices"].append(self.random.randint(1, 50000))
+
+                if shop.has_fight:
+                    for i in range(1, int(self.options.extra_location_per_shop) + 1):
+                        slot_data["shops"][shop_name]["extra_prices"].append(self.random.randint(1, 50000))
 
         return slot_data
 
