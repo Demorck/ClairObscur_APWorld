@@ -67,7 +67,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
                 if shop.region != region_name: continue
 
                 if shop.has_fight:
-                    current_name = f"Shop: {shop.name} - Fight"
+                    current_name = f"Merchant ({region_name}): {shop.name} - Fight"
                     location_id = world.location_name_to_id[current_name]
                     shop_location = ClairObscurLocation(
                         world.player,
@@ -83,7 +83,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
 
                 for i in range(1, world.options.location_per_shop + 1):
-                    current_name = f"Shop: {shop.name} - Item {i}"
+                    current_name = f"Merchant ({region_name}): {shop.name} - Item {i}"
                     location_id = world.location_name_to_id[current_name]
                     shop_location = ClairObscurLocation(
                         world.player,
@@ -96,7 +96,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
                 if shop.has_fight:
                     for i in range(1, int(world.options.extra_location_per_shop) + 1):
-                        current_name = f"Shop: {shop.name} - Extra Item {i}"
+                        current_name = f"Merchant ({region_name}): {shop.name} - Extra Item {i}"
                         location_id = world.location_name_to_id[current_name]
                         shop_location = ClairObscurLocation(
                             world.player,
@@ -189,17 +189,17 @@ def create_location_name_to_ap_id() -> Dict[str, int]:
 
     for shop in data.shops.values():
         for i in range(1, 9):
-            current_name = f"Shop: {shop.name} - Item {i}"
+            current_name = f"Merchant ({shop.region}): {shop.name} - Item {i}"
             name_to_ap_id[current_name] = offset_location_value(index)
             index += 1
 
         if shop.has_fight:
-            merchant_item_name = f"Shop: {shop.name} - Fight"
+            merchant_item_name = f"Merchant ({shop.region}): {shop.name} - Fight"
             name_to_ap_id[merchant_item_name] = offset_location_value(index)
             index += 1
 
             for i in range(1, 9):
-                current_name = f"Shop: {shop.name} - Extra Item {i}"
+                current_name = f"Merchant ({shop.region}): {shop.name} - Extra Item {i}"
                 name_to_ap_id[current_name] = offset_location_value(index)
                 index += 1
 
