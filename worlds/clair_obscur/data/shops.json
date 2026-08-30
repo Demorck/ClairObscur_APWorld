@@ -304,10 +304,10 @@
   },
   {
     "name": "Grour",
-    "region": "Renoir's Draft",
+    "region": "Renoir's Drafts",
     "datatable": "DT_Merchant_Optional3.DT_Merchant_Optional3",
     "has_fight": true,
-    "unlock_item": "Merchant (Renoir's Draft): - Melosh Extra shop unlock"
+    "unlock_item": "Merchant (Renoir's Drafts): Melosh - Extra shop unlock"
   },
   {
     "name": "Anthonypo",
