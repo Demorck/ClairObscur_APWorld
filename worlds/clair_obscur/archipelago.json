@@ -2,5 +2,5 @@
     "game": "Clair Obscur Expedition 33",
 	"authors": [ "Démorck", "Yezzdia", "Noeva" ],
     "minimum_ap_version": "0.6.3",
-    "world_version": "0.2.1"
+    "world_version": "0.4.0"
 }
