@@ -1,7 +1,5 @@
 from dataclasses import dataclass
-
-from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range, DeathLinkMixin
-
+from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range
 
 class Goal(Choice):
     """
@@ -152,13 +150,131 @@ class TrapChance(Range):
     range_end = 100
     default = 0
 
+class ChromaPackType(Choice):
+    """
+    Random fixed range: Choses ONE random number between range option. The Chroma pack will always be this value
+    Random range: The client chose one random value between the range option. If you rerun the same seed, the client can give different value.
+    """
+    internal_name = "chroma_pack_type"
+    display_name = "Chroma pack type"
+    option_random_fixed_range = 0
+    option_random_range = 1
+
+class MinChromaPack(Range):
+    """
+    How much the filler: "Chroma Pack" can give chroma at minimum. If you have Shopsanity, i suggest to have a high range of chroma pack.
+    """
+    internal_name = "min_chroma_pack"
+    display_name = "Min Chroma Pack"
+    range_start = 0
+    range_end = 100_000
+    default = 20_000
+
+class MaxChromaPack(Range):
+    """
+    How much the filler: "Chroma Pack" can give chroma at maximum. If you have Shopsanity, i suggest to have a high range of chroma pack.
+    """
+    internal_name = "max_chroma_pack"
+    display_name = "Max Chroma Pack"
+    range_start = 0
+    range_end = 100_000
+    default = 60_000
+
+
+#############################
+########## SHOPS ############
+#############################
+
+class Shopsanity(Toggle):
+    """
+    Add shop items to location pool.
+    """
+    internal_name = "shopsanity"
+    display_name = "Shop Sanity"
+    default = 1
+
+class LocationPerShop(Range):
+    """
+    How many locations are in each shop. Does nothing if Shopsanity is disabled.
+    """
+    internal_name = "location_per_shop"
+    display_name = "Location Per Shop"
+    range_start = 0
+    range_end = 8
+    default = 4
+
+class FightingMerchant(Toggle):
+    """
+    If enabled, fighting merchant gives a check. Otherwise it will unlock extra items in shop like in vanilla.
+    Also, if enabled, you need to find your merchant unlock in the pool to unlock extra items in shop
+    """
+    internal_name = "fighting_merchant"
+    display_name = "Fighting Merchant"
+    default = 1
+
+class ExtraLocationPerShop(Range):
+    """
+    How many locations are in each extra shop (when fighting/having the extra shop item).
+    """
+    internal_name = "extra_location_per_shop"
+    display_name = "Extra Location Per Shop"
+    range_start = 0
+    range_end = 8
+    default = 4
+
+class MinPriceShop(Range):
+    """
+    How much the price of location shop is at minimum
+    """
+    internal_name = "min_price_shop"
+    display_name = "Minimum Price Shop"
+    range_start = 0
+    range_end = 100_000
+    default = 1_000
+
+class MaxPriceShop(Range):
+    """
+    How much the price of location shop is at maximum. If it's below the minimum, the max price will be equals to the minimum price
+    """
+    internal_name = "max_price_shop"
+    display_name = "Maximum Price Shop"
+    range_start = 0
+    range_end = 100_000
+    default = 10_000
+
+class ShowShopItems(Toggle):
+    """
+    Show clearly what the item in shop location is (progressive, item for which player).
+    Extra shop locations are hidden until your have the corresponding item to unlock them.
+    """
+    internal_name = "show_shop_items"
+    display_name = "Show Shop Items"
+    default = 1
+
+class CreateHintAutomaticallyShop(Toggle):
+    """
+    Create a hint for shop items. If the Show shop items is disabled, it will also create hint.
+    To create hint for extra shop locations, it's an another option
+    """
+    internal_name = "create_hint"
+    display_name = "Create Hint Automatically"
+    default = 1
+
+class CreateHintAutomaticallyExtraShop(Toggle):
+    """
+    Create a hint for extra shop items. Can be useful to know what's behind them
+    """
+    internal_name = "create_hint_extra"
+    display_name = "Create Hint Automatically for Extra items"
+    default = 1
+
 class ClairObscurStartInventory(StartInventory):
     """
     Start with these items
     """
 
 @dataclass
-class ClairObscurOptions(DeathLinkMixin, PerGameCommonOptions):
+class ClairObscurOptions(PerGameCommonOptions):
     goal: Goal
     char_shuffle: ShuffleCharacters
     shuffle_free_aim: ShuffleFreeAim
@@ -173,12 +289,41 @@ class ClairObscurOptions(DeathLinkMixin, PerGameCommonOptions):
     area_logic: AreaLogic
     trap_chance: TrapChance
 
+    # Chroma pack
+    chroma_pack_type: ChromaPackType
+    min_chroma_pack: MinChromaPack
+    max_chroma_pack: MaxChromaPack
+
+    # Shops
+    shopsanity: Shopsanity
+    location_per_shop: LocationPerShop
+    fighting_merchant: FightingMerchant
+    extra_location_per_shop: ExtraLocationPerShop
+    min_price_shop: MinPriceShop
+    max_price_shop: MaxPriceShop
+    show_shop_items: ShowShopItems
+    create_hint: CreateHintAutomaticallyShop
+    create_hint_extra: CreateHintAutomaticallyExtraShop
+
+
+    # AP base
     start_inventory: ClairObscurStartInventory
 
 OPTIONS_GROUP = [
     OptionGroup(
+        "Shop", [
+            Shopsanity,
+            LocationPerShop,
+            FightingMerchant,
+            ExtraLocationPerShop,
+            MinPriceShop,
+            MaxPriceShop,
+            ShowShopItems,
+            CreateHintAutomaticallyShop,
+            CreateHintAutomaticallyExtraShop,
+        ]),
+    OptionGroup(
         "Item & Location Options", [
             ClairObscurStartInventory,
-        ], False,
-    ),
+        ]),
 ]

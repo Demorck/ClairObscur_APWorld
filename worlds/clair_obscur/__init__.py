@@ -84,6 +84,7 @@ class ClairObscurWorld(World):
         self.item_pool = []
 
         excluded_types = ["Journal", "Character", "Trap"]
+        if not (self.options.shopsanity and self.options.fighting_merchant): excluded_types.append("Merchant Unlock")
         excluded_names = []
         if not self.options.gestral_shuffle: excluded_names.append("Lost Gestral")
         if not self.options.shuffle_free_aim: excluded_names.append("Free Aim")
@@ -143,13 +144,23 @@ class ClairObscurWorld(World):
         #Options
         slot_data["options"] = self.options.as_dict(
             "goal", "char_shuffle", "starting_char", "gestral_shuffle", "gear_scaling", "shuffle_free_aim",
-            "exclude_endgame_locations", "exclude_endless_tower"
+            "exclude_endgame_locations", "exclude_endless_tower",
+
+            # Chroma
+            "chroma_pack_type", "min_chroma_pack", "max_chroma_pack",
+
+            # SHOP
+            "shopsanity", "location_per_shop", "extra_location_per_shop", "show_shop_items", "create_hint", "create_hint_extra"
         )
 
         #Total counts for pictos and weapons. Currently static, but can support adding multiple copies later on.
         slot_data["totals"]: Dict[str, int] = {}
         slot_data["totals"]["pictos"] = len(self.item_name_groups["Picto"])
         slot_data["totals"]["weapons"] = len(self.item_name_groups["Weapon"])
+
+        self.options.max_chroma_pack = self.options.min_chroma_pack if self.options.max_chroma_pack < self.options.min_chroma_pack else self.options.max_chroma_pack
+        if self.options.chroma_pack_type == 0:
+            slot_data["chroma"] = self.random.randint(self.options.min_chroma_pack.value, self.options.max_chroma_pack.value)
 
         #Max gear level
         max_gear_level = 33
@@ -177,7 +188,7 @@ class ClairObscurWorld(World):
                             slot_data["weapons"].append(loc.item.code)
             case 1:
                 # Scale by order received (handled entirely by client)
-                return slot_data
+                pass
             case 2:
                 #Balanced random scaling
                 slot_data["pictos"]: List[int] = []
@@ -190,7 +201,21 @@ class ClairObscurWorld(World):
                 self.random.shuffle(slot_data["weapons"])
             case 3:
                 #Full random scaling (handled entirely by client)
-                return slot_data
+                pass
+
+        if self.options.shopsanity:
+            slot_data["shops"]: Dict[str, any] = {}
+            self.options.max_price_shop = self.options.min_price_shop if self.options.max_price_shop < self.options.min_price_shop else self.options.max_price_shop
+            for shop_name, shop in data.shops.items():
+                slot_data["shops"][shop_name]: Dict[str, List[int]] = {}
+                slot_data["shops"][shop_name]["prices"]: List[int] = []
+                slot_data["shops"][shop_name]["extra_prices"]: List[int] = []
+                for i in range(1, int(self.options.location_per_shop) + 1):
+                    slot_data["shops"][shop_name]["prices"].append(self.random.randint(self.options.min_price_shop.value, self.options.max_price_shop.value))
+
+                if shop.has_fight:
+                    for i in range(1, int(self.options.extra_location_per_shop) + 1):
+                        slot_data["shops"][shop_name]["extra_prices"].append(self.random.randint(self.options.min_price_shop.value, self.options.max_price_shop.value))
 
         return slot_data
 
