@@ -66,6 +66,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
             for shop_name, shop in data.shops.items():
                 if shop.region != region_name: continue
 
+
                 if shop.has_fight:
                     current_name = f"Merchant ({region_name}): {shop.name} - Fight"
                     location_id = world.location_name_to_id[current_name]
@@ -75,6 +76,9 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
                         location_id,
                         region
                     )
+
+                    if shop.name == "Noco":
+                        shop_location.progress_type = LocationProgressType.EXCLUDED
 
                     if not world.options.fighting_merchant:
                         shop_location.place_locked_item(world.create_item(shop.unlock_item))
@@ -92,6 +96,10 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
                         region
                     )
 
+
+                    if shop.name == "Noco":
+                        shop_location.progress_type = LocationProgressType.EXCLUDED
+
                     region.locations.append(shop_location)
 
                 if shop.has_fight:
@@ -104,9 +112,13 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
                             location_id,
                             region
                         )
+
+                        if shop.name == "Noco":
+                            shop_location.progress_type = LocationProgressType.EXCLUDED
                         add_rule(shop_location, lambda state, itm=shop.unlock_item, pl=world.player: state.has(itm, pl))
 
                         region.locations.append(shop_location)
+
 
 
 

@@ -119,7 +119,8 @@ class ClairObscurWorld(World):
             "Polished Chroma Catalyst (5)": 3,
             "Resplendent Chroma Catalyst (5)": 4,
             "Grandiose Chroma Catalyst (5)": 5,
-            "Colour of Lumina (5)": 10
+            "Colour of Lumina (5)": 10,
+            "Chroma Pack": 10,
         }
 
         filler_item_sequence: List[str] = []
@@ -241,7 +242,7 @@ class ClairObscurWorld(World):
         return [self.create_item(self.get_filler_item_name())]
 
     def get_filler_item_name(self) -> str:
-        return "Colour of Lumina (5)"
+        return self.random.choice(["Colour of Lumina (5)", "Chroma Pack"])
 
     def create_regions(self) -> None:
         from .Regions import create_regions, connect_regions
