@@ -68,7 +68,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
 
                 if shop.has_fight:
-                    current_name = f"Merchant ({region_name}): {shop.name} - Fight"
+                    current_name = f"Merchant ({shop.region}): {shop.name} - Fight"
                     location_id = world.location_name_to_id[current_name]
                     shop_location = ClairObscurLocation(
                         world.player,
@@ -87,7 +87,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
 
                 for i in range(1, world.options.location_per_shop + 1):
-                    current_name = f"Merchant ({region_name}): {shop.name} - Item {i}"
+                    current_name = f"Merchant ({shop.region}): {shop.name} - Item {i}"
                     location_id = world.location_name_to_id[current_name]
                     shop_location = ClairObscurLocation(
                         world.player,
@@ -104,7 +104,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
 
                 if shop.has_fight:
                     for i in range(1, int(world.options.extra_location_per_shop) + 1):
-                        current_name = f"Merchant ({region_name}): {shop.name} - Extra Item {i}"
+                        current_name = f"Merchant ({shop.region}): {shop.name} - Extra Item {i}"
                         location_id = world.location_name_to_id[current_name]
                         shop_location = ClairObscurLocation(
                             world.player,
