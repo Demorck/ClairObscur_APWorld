@@ -162,7 +162,7 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
             if world.options.exclude_endless_tower == 1 and is_endless_tower:
                 location.progress_type = LocationProgressType.EXCLUDED
 
-            if world.options.exclude_superbosses == 1 and location_data.type == "Superbosses":
+            if world.options.exclude_superbosses == 1 and location_data.type == "Superboss":
                 location.progress_type = LocationProgressType.EXCLUDED
 
             if location_name in unconfirmed_location_names:
@@ -224,7 +224,9 @@ def create_location_groups(locations: Dict[int, ClairObscurLocationData]):
         "Tower": set(),
         "Lost Gestral": set(),
         "Lost Gestral reward": set(),
-        "Quest reward": set()
+        "Quest reward": set(),
+        "Dive": set(),
+        "Superboss": set(),
     }
 
     for loc in locations.keys():

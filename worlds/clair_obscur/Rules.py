@@ -2,23 +2,20 @@ from BaseClasses import Region
 from worlds.clair_obscur.Data import data
 from worlds.generic.Rules import add_rule
 
+# goal option value -> region that has to be reachable to win
+GOAL_REGIONS = {
+    0: "The Monolith",            # paintress
+    1: "Lumiere",                 # curator
+    2: "Endless Tower Stage 11",  # painted_love
+    3: "Renoir's Drafts",         # simon
+    4: "Flying Manor",            # clea
+}
+
 def set_rules(world):
     player = world.player
     mw = world.multiworld
 
-    goal = world.options.goal
-    goal_reg = ""
-    match goal:
-        case 0:
-            goal_reg = "The Monolith"
-        case 1:
-            goal_reg = "Lumiere"
-        case 2:
-            goal_reg = "Endless Tower Stage 11"
-        case 3:
-            goal_reg = "Renoir's Drafts"
-        case 4:
-            goal_reg = "Flying Manor"
+    goal_reg = GOAL_REGIONS[world.options.goal.value]
 
     mw.completion_condition[player] = (
         lambda state: state.can_reach_region(goal_reg, player)

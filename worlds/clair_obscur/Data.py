@@ -63,7 +63,7 @@ class ClairObscurData:
         self.connections = []
 
 
-def load_json_data(data_name: str) -> Union[List[Any], Dict[str, Any]]:
+def load_json_data(data_name: str) -> List[Dict[str, Any]]:
     return orjson.loads(pkgutil.get_data(__name__, "data/" + data_name))
 
 
