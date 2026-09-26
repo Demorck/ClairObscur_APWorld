@@ -1,6 +1,4 @@
-from BaseClasses import Region
-from worlds.clair_obscur.Data import data
-from worlds.generic.Rules import add_rule
+from ..generic.Rules import add_rule
 
 # goal option value -> region that has to be reachable to win
 GOAL_REGIONS = {
@@ -37,16 +35,16 @@ def set_rules(world):
             "Area - Ancient Sanctuary",
             "Area - Yellow Harvest",
             "Area - Stone Wave Cliffs"
-        ], player, 4 / world.options.area_logic))
+        ], player, 4 // world.options.area_logic))
         add_rule(major_connection_2, lambda state: state.has_from_list([
             "Area - Forgotten Battlefield",
             "Area - Old Lumiere"
-        ], player, 2 / world.options.area_logic))
+        ], player, 2 // world.options.area_logic))
         for conn in major_connections_3:
             add_rule(conn, lambda state: state.has_from_list([
                 "Area - Visages",
                 "Area - Sirene"
-            ], player, 2 / world.options.area_logic))
+            ], player, 2 // world.options.area_logic))
 
     if world.options.char_shuffle:
         add_rule(major_connection_1, lambda state: state.has_group("Character", player, 3))
@@ -54,8 +52,6 @@ def set_rules(world):
 
     if not world.options.gestral_shuffle:
         #2 gestrals in First Continent North
-        add_rule(mw.get_location("Lost Gestral reward 1", player),
-                 lambda state: state.has_any_count({"Progressive Rock": 2, "Area - Flying Waters": 1}, player))
         add_rule(mw.get_location("Lost Gestral reward 1", player),
                  lambda state: state.has_any_count({"Progressive Rock": 2, "Area - Flying Waters": 1}, player))
         add_rule(mw.get_location("Lost Gestral reward 2", player),

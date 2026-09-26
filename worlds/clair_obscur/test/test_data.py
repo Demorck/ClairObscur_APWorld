@@ -8,7 +8,7 @@ break caught for both repos
 import unittest
 from collections import Counter
 
-from ..Data import load_json_data
+from ..Data import load_json_data, data
 from ..Items import create_item_groups
 from ..Locations import create_location_groups
 from ..Rules import GOAL_REGIONS
@@ -88,10 +88,10 @@ class TestDataIntegrity(unittest.TestCase):
         self.assertEqual(set(), {item["progressive"] for item in self.items} - set(range(6)))
 
     def test_every_item_type_has_a_group(self) -> None:
-        from ..Data import data
         self.assertEqual(set(), {item.type for item in data.items.values()} - set(create_item_groups(data.items)))
 
     def test_every_location_type_has_a_group(self) -> None:
-        from ..Data import data
-        types = {loc.type for loc in data.locations.values()}
-        self.assertEqual(set(), types - set(create_location_groups(data.locations)))
+        groups = create_location_groups(data.locations)
+        grouped = [name for members in groups.values() for name in members]
+        self.assertEqual(len(grouped), len(set(grouped)), "a location sits in two groups")
+        self.assertEqual(set(data.locations), set(grouped), "a location belongs to no group")

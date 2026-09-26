@@ -1,8 +1,9 @@
+from collections import defaultdict
 from typing import Dict, Optional, TYPE_CHECKING, Set
 
 from BaseClasses import Location, Region, LocationProgressType
-from worlds.clair_obscur.Const import BASE_OFFSET, LOCATION_OFFSET
-from worlds.clair_obscur.Data import data, ClairObscurLocationData
+from .Const import BASE_OFFSET, LOCATION_OFFSET
+from .Data import data, ClairObscurLocationData
 from ..generic.Rules import add_rule
 
 if TYPE_CHECKING:
@@ -218,18 +219,8 @@ def create_location_name_to_ap_id() -> Dict[str, int]:
     return name_to_ap_id
 
 def create_location_groups(locations: Dict[int, ClairObscurLocationData]):
-    location_groups: Dict[str, Set[str]] = {
-        "Chest": set(),
-        "Boss": set(),
-        "Tower": set(),
-        "Lost Gestral": set(),
-        "Lost Gestral reward": set(),
-        "Quest reward": set(),
-        "Dive": set(),
-        "Superboss": set(),
-    }
+    groups: Dict[str, Set[str]] = defaultdict(set)
+    for loc in locations.values():
+        groups[loc.type].add(loc.name)
 
-    for loc in locations.keys():
-        location_groups[locations[loc].type].add(locations[loc].name)
-
-    return location_groups
+    return dict(groups)

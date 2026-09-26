@@ -2,15 +2,16 @@ import typing, settings
 from math import ceil
 from typing import List, Any, Dict
 
-from BaseClasses import Tutorial, Group, CollectionState
+from BaseClasses import Tutorial
 from worlds.AutoWorld import WebWorld, World
-from worlds.clair_obscur.Data import data
-from worlds.clair_obscur.Items import create_item_name_to_ap_id, ClairObscurItem, get_classification, offset_item_value, \
+from .Data import data
+from .Items import create_item_name_to_ap_id, ClairObscurItem, get_classification, offset_item_value, \
     create_item_groups
-from worlds.clair_obscur.Locations import create_location_name_to_ap_id, create_locations
-from worlds.clair_obscur.Options import OPTIONS_GROUP, ClairObscurOptions
-from worlds.clair_obscur.Const import BASE_OFFSET
-from worlds.clair_obscur.Rules import set_rules
+from .Locations import create_location_name_to_ap_id, create_location_groups
+from .Options import OPTIONS_GROUP, ClairObscurOptions
+from .Const import BASE_OFFSET
+from .Rules import set_rules
+from Options import OptionError
 
 class WebClairObscur(WebWorld):
     """
@@ -33,7 +34,7 @@ class WebClairObscur(WebWorld):
 
 class ClairObscurSettings(settings.Group):
     """
-    No idea
+    Host side settings for Clair Obscur Expedition 33, nothing is needed here
     """
 
 class ClairObscurWorld(World):
@@ -52,6 +53,7 @@ class ClairObscurWorld(World):
     location_name_to_id = create_location_name_to_ap_id()
 
     item_name_groups = create_item_groups(data.items)
+    location_name_groups = create_location_groups(data.locations)
 
     required_client_version = (0, 5, 4)
 
@@ -62,6 +64,14 @@ class ClairObscurWorld(World):
         #Converts the connection destination's pictos level into an amount of pictos required to reach that level with
         #scale-by-order-received.
         return ceil((pictos_level - 1) * 5.8)
+
+
+    def generate_early(self) -> None:
+        if self.options.max_chroma_pack < self.options.min_chroma_pack:
+            self.options.max_chroma_pack.value = self.options.min_chroma_pack.value
+
+        if self.options.max_price_shop < self.options.min_price_shop:
+            self.options.max_price_shop.value = self.options.min_price_shop.value
 
     def create_items(self) -> None:
         #Amounts of each item to generate (anything else will be added once).
@@ -112,7 +122,13 @@ class ClairObscurWorld(World):
                     self.item_pool.append(char_item)
 
         #Add filler to match the amount of locations
-        remaining_items_to_generate = len(self.multiworld.get_unfilled_locations(self.player)) - len(self.item_pool)
+        free_locations = len(self.multiworld.get_unfilled_locations(self.player))
+        remaining_items_to_generate = free_locations - len(self.item_pool)
+
+        if remaining_items_to_generate < 0:
+            raise OptionError(f"Clair Obscur Expedition 33: the item pool holds {len(self.item_pool)} items but only "
+                            f"{free_locations} locations are open. Include more locations or pick a further goal"
+            )
 
         filler_amounts = {
             "Chroma Catalyst (5)": 2,
@@ -159,9 +175,9 @@ class ClairObscurWorld(World):
         slot_data["totals"]["pictos"] = len(self.item_name_groups["Picto"])
         slot_data["totals"]["weapons"] = len(self.item_name_groups["Weapon"])
 
-        self.options.max_chroma_pack = self.options.min_chroma_pack if self.options.max_chroma_pack < self.options.min_chroma_pack else self.options.max_chroma_pack
         if self.options.chroma_pack_type == 0:
-            slot_data["chroma"] = self.random.randint(self.options.min_chroma_pack.value, self.options.max_chroma_pack.value)
+            slot_data["chroma"] = self.random.randint(self.options.min_chroma_pack.value,
+                                                      self.options.max_chroma_pack.value)
 
         #Max gear level
         max_gear_level = 33
@@ -206,7 +222,6 @@ class ClairObscurWorld(World):
 
         if self.options.shopsanity:
             slot_data["shops"]: Dict[str, any] = {}
-            self.options.max_price_shop = self.options.min_price_shop if self.options.max_price_shop < self.options.min_price_shop else self.options.max_price_shop
             for shop_name, shop in data.shops.items():
                 slot_data["shops"][shop_name]: Dict[str, List[int]] = {}
                 slot_data["shops"][shop_name]["prices"]: List[int] = []

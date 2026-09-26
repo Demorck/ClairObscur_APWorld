@@ -71,10 +71,10 @@ def populate_data_shops() -> Dict[str, ClairObscurShopData]:
     shops = {}
     shops_json = load_json_data("shops.json")
     for shop in shops_json:
-        shop_name = shop["name"]
-        shop_region = shop["region"]
+        shop_name = shop.get("name")
+        shop_region = shop.get("region")
         shop_has_fight = shop.get("has_fight", False)
-        shop_unlock_item = shop["unlock_item"]
+        shop_unlock_item = shop.get("unlock_item")
 
         new_shop = ClairObscurShopData(
             shop_name,
@@ -154,7 +154,7 @@ def populate_data_items() -> dict[int, ClairObscurItemData]:
 
 def populate_data_regions() -> Dict[str, ClairObscurRegionData]:
     regions = {}
-    claimed_locations = []
+    claimed_locations = set()
     regions_json = load_json_data("regions.json")
     for region in regions_json:
         region_name = region["region_name"]
@@ -166,10 +166,10 @@ def populate_data_regions() -> Dict[str, ClairObscurRegionData]:
 
         for location_name in region["locations"]:
             if location_name in claimed_locations:
-                AssertionError(f"Location {location_name} already claimed")
+                raise AssertionError(f"Location {location_name} is claimed by two regions")
 
             current_region_data.locations.append(location_name)
-            claimed_locations.append(location_name)
+            claimed_locations.add(location_name)
 
         current_region_data.locations.sort()
 

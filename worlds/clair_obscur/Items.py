@@ -1,3 +1,4 @@
+from collections import defaultdict
 from typing import Dict, Optional, List, Set
 
 from BaseClasses import Item, ItemClassification
@@ -38,21 +39,8 @@ def get_classification(item_id: int) -> ItemClassification:
     return data.items[reverse_offset_item_value(item_id)].classification
 
 def create_item_groups(items: Dict[int, ClairObscurItemData]) -> Dict[str, Set[str]]:
-    item_groups: Dict[str, Set[str]] = {
-        "Upgrade material": set(),
-        "Exploration capacities": set(),
-        "Quest item": set(),
-        "Journal": set(),
-        "Picto": set(),
-        "Weapon": set(),
-        "Character": set(),
-        "Area": set(),
-        "Trap": set(),
-        "Merchant Unlock": set(),
-        "Other": set()
-    }
+    groups: Dict[str, Set[str]] = defaultdict(set)
+    for item in items.values():
+        groups[item.type].add(item.name)
 
-    for item in items.keys():
-        item_groups[items[item].type].add(items[item].name)
-
-    return item_groups
+    return dict(groups)
