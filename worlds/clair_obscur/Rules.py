@@ -19,6 +19,8 @@ def set_rules(world):
             goal_reg = "Renoir's Drafts"
         case 4:
             goal_reg = "Flying Manor"
+        case 5:
+            goal_reg = "Verso's Drafts"
 
     mw.completion_condition[player] = (
         lambda state: state.can_reach_region(goal_reg, player)
