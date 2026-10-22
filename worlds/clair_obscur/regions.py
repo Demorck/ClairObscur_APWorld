@@ -1,14 +1,15 @@
-from math import ceil
-from typing import Dict, Tuple, List
+from typing import TYPE_CHECKING
 
 from BaseClasses import Region
-from worlds.clair_obscur import ClairObscurWorld
-from worlds.clair_obscur.Data import data
-from worlds.generic.Rules import set_rule, add_rule
+from .game_data import data
+from ..generic.Rules import add_rule
+
+if TYPE_CHECKING:
+    from . import ClairObscurWorld
 
 
-def create_regions(world: ClairObscurWorld) -> dict[str, Region]:
-    regions: Dict[str, Region] = {}
+def create_regions(world: "ClairObscurWorld") -> dict[str, Region]:
+    regions: dict[str, Region] = {}
 
     #Create menu region
     menu = Region("Menu", world.player, world.multiworld)
@@ -22,7 +23,7 @@ def create_regions(world: ClairObscurWorld) -> dict[str, Region]:
 
     return regions
 
-def connect_regions(world: ClairObscurWorld):
+def connect_regions(world: "ClairObscurWorld"):
     player = world.player
 
     for connection in data.connections:
