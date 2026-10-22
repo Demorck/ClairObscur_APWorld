@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING
 
 from BaseClasses import Region
-from .Data import data
+from .game_data import data
 from ..generic.Rules import add_rule
 
 if TYPE_CHECKING:

@@ -1,5 +1,5 @@
-from ..Data import data
 from . import ClairObscurTestBase, MixinBase
+from ..game_data import data
 
 
 class PoolAssertions(MixinBase):

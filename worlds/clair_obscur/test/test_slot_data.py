@@ -2,9 +2,8 @@ from typing import Any
 
 from Fill import distribute_items_restrictive
 from worlds.AutoWorld import call_all
-
-from ..Data import data
-from . import ClairObscurTestBase, MixinBase
+from . import ClairObscurTestBase
+from ..game_data import data
 
 
 class SlotDataAssertions(ClairObscurTestBase):

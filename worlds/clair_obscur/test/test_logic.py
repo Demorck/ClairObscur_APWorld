@@ -1,5 +1,5 @@
-from ..Data import data
 from . import ClairObscurTestBase
+from ..game_data import data
 
 
 class TestDataDrivenConditions(ClairObscurTestBase):

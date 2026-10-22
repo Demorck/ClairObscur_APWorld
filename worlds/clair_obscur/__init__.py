@@ -1,18 +1,19 @@
-import settings
 from math import ceil
 from typing import Any, ClassVar
 
+import settings
 from BaseClasses import Tutorial, Location
-from worlds.AutoWorld import WebWorld, World
-from .Data import data
-from .Items import create_item_name_to_ap_id, ClairObscurItem, offset_item_value, \
-    create_item_groups, reverse_offset_item_value
-from .Locations import create_location_name_to_ap_id, create_location_groups
-from .Options import OPTIONS_GROUP, ClairObscurOptions, ChromaPackType, MaxEquipLevel, GearScaling, Goal, \
-    ExcludeEndgameLocations
-from .Const import BASE_OFFSET, MAX_GEAR_LEVEL
-from .Rules import set_rules
 from Options import OptionError
+from worlds.AutoWorld import WebWorld, World
+from .const import BASE_OFFSET, MAX_GEAR_LEVEL
+from .game_data import data
+from .items import create_item_name_to_ap_id, ClairObscurItem, offset_item_value, \
+    create_item_groups, reverse_offset_item_value
+from .locations import create_location_name_to_ap_id, create_location_groups, create_locations
+from .options import OPTIONS_GROUP, ClairObscurOptions, ChromaPackType, MaxEquipLevel, GearScaling, Goal, \
+    ExcludeEndgameLocations
+from .regions import create_regions, connect_regions
+from .rules import set_rules
 
 # How many of each item to generate. Anything not here is added only once
 ITEM_AMOUNTS = {
@@ -274,9 +275,6 @@ class ClairObscurWorld(World):
         return self.random.choice(["Colour of Lumina (5)", "Chroma Pack"])
 
     def create_regions(self) -> None:
-        from .Regions import create_regions, connect_regions
-        from .Locations import create_locations
-
         regions = create_regions(self)
         connect_regions(self)
         create_locations(self, regions)

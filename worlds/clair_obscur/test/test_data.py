@@ -8,10 +8,10 @@ break caught for both repos
 import unittest
 from collections import Counter
 
-from ..Data import load_json_data, data
-from ..Items import create_item_groups
-from ..Locations import create_location_groups
-from ..Rules import GOAL_REGIONS
+from ..game_data import load_json_data, data
+from ..items import create_item_groups
+from ..locations import create_location_groups
+from ..rules import GOAL_REGIONS
 
 
 class TestDataIntegrity(unittest.TestCase):

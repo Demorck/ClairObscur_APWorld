@@ -1,8 +1,8 @@
 from collections import defaultdict
 
 from BaseClasses import Item, ItemClassification
-from .Const import BASE_OFFSET
-from .Data import data, ClairObscurItemData
+from .const import BASE_OFFSET
+from .game_data import data, ClairObscurItemData
 
 
 class ClairObscurItem(Item):

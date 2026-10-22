@@ -2,9 +2,9 @@ from collections import defaultdict
 from typing import TYPE_CHECKING
 
 from BaseClasses import Location, Region, LocationProgressType
-from .Const import BASE_OFFSET, LOCATION_OFFSET, EXCLUDED_SHOPS, MAX_SHOP_SLOT
-from .Data import data, ClairObscurLocationData, ClairObscurShopData
-from .Options import ExcludeSuperbosses, ExcludeEndlessTower, ExcludeEndgameLocations
+from .const import BASE_OFFSET, LOCATION_OFFSET, EXCLUDED_SHOPS, MAX_SHOP_SLOT
+from .game_data import data, ClairObscurLocationData, ClairObscurShopData
+from .options import ExcludeSuperbosses, ExcludeEndlessTower, ExcludeEndgameLocations
 from ..generic.Rules import add_rule
 
 if TYPE_CHECKING:
