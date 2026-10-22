@@ -1,5 +1,4 @@
 from collections import defaultdict
-from typing import Dict, Optional, List, Set
 
 from BaseClasses import Item, ItemClassification
 from .Const import BASE_OFFSET
@@ -9,7 +8,7 @@ from .Data import data, ClairObscurItemData
 class ClairObscurItem(Item):
     game = "Clair Obscur Expedition 33"
 
-    def __init__(self, name: str, classification: ItemClassification, ap_id: Optional[int], player: int) -> None:
+    def __init__(self, name: str, classification: ItemClassification, ap_id: int | None, player: int) -> None:
         super().__init__(name, classification, ap_id, player)
 
 def offset_item_value(item_id: int) -> int:
@@ -25,7 +24,7 @@ def reverse_offset_item_value(item_id: int) -> int:
     return item_id - BASE_OFFSET
 
 
-def create_item_name_to_ap_id() -> Dict[str, int]:
+def create_item_name_to_ap_id() -> dict[str, int]:
     """
     Creates a map from item name to their AP item id
     """
@@ -35,11 +34,8 @@ def create_item_name_to_ap_id() -> Dict[str, int]:
 
     return name_to_ap_id
 
-def get_classification(item_id: int) -> ItemClassification:
-    return data.items[reverse_offset_item_value(item_id)].classification
-
-def create_item_groups(items: Dict[int, ClairObscurItemData]) -> Dict[str, Set[str]]:
-    groups: Dict[str, Set[str]] = defaultdict(set)
+def create_item_groups(items: dict[int, ClairObscurItemData]) -> dict[str, set[str]]:
+    groups: dict[str, set[str]] = defaultdict(set)
     for item in items.values():
         groups[item.type].add(item.name)
 

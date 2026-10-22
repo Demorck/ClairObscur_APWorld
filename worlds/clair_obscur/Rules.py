@@ -1,4 +1,9 @@
+from typing import TYPE_CHECKING
+
 from ..generic.Rules import add_rule
+
+if TYPE_CHECKING:
+    from . import ClairObscurWorld
 
 # goal option value -> region that has to be reachable to win
 GOAL_REGIONS = {
@@ -9,7 +14,7 @@ GOAL_REGIONS = {
     4: "Flying Manor",            # clea
 }
 
-def set_rules(world):
+def set_rules(world: "ClairObscurWorld") -> None:
     player = world.player
     mw = world.multiworld
 

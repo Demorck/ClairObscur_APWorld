@@ -1,6 +1,6 @@
 import pkgutil
 from collections import defaultdict
-from typing import NamedTuple, Dict, Union, List, Any
+from typing import NamedTuple, Any
 
 from orjson import orjson
 
@@ -17,7 +17,7 @@ class ClairObscurLocationData(NamedTuple):
     name: str
     region: str
     default_item: str
-    condition: Dict[str, int]
+    condition: dict[str, int]
     type: str
     pictos_level: int
     multiple: bool
@@ -31,7 +31,7 @@ class ClairObscurShopData(NamedTuple):
 
 class ClairObscurRegionData:
     name: str
-    locations: List[str]
+    locations: list[str]
     pictos_level: int
 
     def __init__(self, name: str, pictos: int):
@@ -42,20 +42,20 @@ class ClairObscurRegionData:
 class ClairObscurRegionConnection:
     origin_region: str
     destination_region: str
-    condition: {}
+    condition: dict[str, int]
 
-    def __init__(self, cond: {}, origin: str, destination: str):
+    def __init__(self, cond: dict[str, int] | None, origin: str, destination: str):
         self.origin_region = origin
         self.destination_region = destination
         self.condition = cond if cond is not None else {}
 
 class ClairObscurData:
-    items: Dict[int, ClairObscurItemData]
-    locations: Dict[str, ClairObscurLocationData]
-    regions: Dict[str, ClairObscurRegionData]
-    shops: Dict[str, ClairObscurShopData]
+    items: dict[int, ClairObscurItemData]
+    locations: dict[str, ClairObscurLocationData]
+    regions: dict[str, ClairObscurRegionData]
+    shops: dict[str, ClairObscurShopData]
     shops_by_region: dict[str, list[ClairObscurShopData]]
-    connections: List[ClairObscurRegionConnection]
+    connections: list[ClairObscurRegionConnection]
 
     def __init__(self) -> None:
         self.items = {}
@@ -66,11 +66,11 @@ class ClairObscurData:
         self.connections = []
 
 
-def load_json_data(data_name: str) -> List[Dict[str, Any]]:
+def load_json_data(data_name: str) -> list[dict[str, Any]]:
     return orjson.loads(pkgutil.get_data(__name__, "data/" + data_name))
 
 
-def populate_data_shops() -> Dict[str, ClairObscurShopData]:
+def populate_data_shops() -> dict[str, ClairObscurShopData]:
     shops = {}
     shops_json = load_json_data("shops.json")
     for shop in shops_json:
@@ -99,7 +99,7 @@ def _init() -> None:
     data.shops = populate_data_shops()
     data.shops_by_region = group_shops_by_region(data.shops)
 
-def populate_data_locations() -> Dict[str, ClairObscurLocationData]:
+def populate_data_locations() -> dict[str, ClairObscurLocationData]:
     locations = {}
     locations_json = load_json_data("locations.json")
     for location in locations_json:
@@ -156,7 +156,7 @@ def populate_data_items() -> dict[int, ClairObscurItemData]:
 
     return items
 
-def populate_data_regions() -> Dict[str, ClairObscurRegionData]:
+def populate_data_regions() -> dict[str, ClairObscurRegionData]:
     regions = {}
     claimed_locations = set()
     regions_json = load_json_data("regions.json")
@@ -181,7 +181,7 @@ def populate_data_regions() -> Dict[str, ClairObscurRegionData]:
 
     return regions
 
-def populate_data_connections() -> List[ClairObscurRegionConnection]:
+def populate_data_connections() -> list[ClairObscurRegionConnection]:
     region_connections = []
     conns_json = load_json_data("connections.json")
     for conn in conns_json:
@@ -199,7 +199,7 @@ def populate_data_connections() -> List[ClairObscurRegionConnection]:
 
     return region_connections
 
-def group_shops_by_region(shops: dict[str, ClairObscurShopData]) -> dict[str, List[ClairObscurShopData]]:
+def group_shops_by_region(shops: dict[str, ClairObscurShopData]) -> dict[str, list[ClairObscurShopData]]:
     """
     Group the shops by the region where is the shop
 

@@ -1,12 +1,12 @@
-import typing, settings
+import settings
 from math import ceil
-from typing import List, Any, Dict
+from typing import Any, ClassVar
 
 from BaseClasses import Tutorial, Location
 from worlds.AutoWorld import WebWorld, World
 from .Data import data
-from .Items import create_item_name_to_ap_id, ClairObscurItem, get_classification, offset_item_value, \
-    create_item_groups
+from .Items import create_item_name_to_ap_id, ClairObscurItem, offset_item_value, \
+    create_item_groups, reverse_offset_item_value
 from .Locations import create_location_name_to_ap_id, create_location_groups
 from .Options import OPTIONS_GROUP, ClairObscurOptions, ChromaPackType, MaxEquipLevel, GearScaling, Goal, \
     ExcludeEndgameLocations
@@ -81,7 +81,7 @@ class ClairObscurWorld(World):
     web = WebClairObscur()
     topology_present = True
 
-    item_pool: typing.List[ClairObscurItem]
+    item_pool: list[ClairObscurItem]
 
     options_dataclass = ClairObscurOptions
     options: ClairObscurOptions
@@ -94,9 +94,9 @@ class ClairObscurWorld(World):
     item_name_groups = create_item_groups(data.items)
     location_name_groups = create_location_groups(data.locations)
 
-    required_client_version = (0, 5, 4)
+    required_client_version = (0, 6, 3)
 
-    settings: typing.ClassVar[ClairObscurSettings]
+    settings: ClassVar[ClairObscurSettings]
     highest_location_level = MAX_GEAR_LEVEL
 
     @staticmethod
@@ -260,23 +260,14 @@ class ClairObscurWorld(World):
         return shops
 
     def create_item(self, name: str) -> ClairObscurItem:
-        return self.create_item_by_id(self.item_name_to_id[name])
+        return self.create_item_by_id(reverse_offset_item_value(self.item_name_to_id[name]))
 
+    def create_item_by_id(self, item_id: int) -> ClairObscurItem:
+        item_data = data.items[item_id]
 
-    def create_item_by_id(self, ap_id: int) -> ClairObscurItem:
-        if ap_id < BASE_OFFSET:
-            #Should only offset the ID if it hasn't been already; calling create_item on an already created item
-            #by name would otherwise offset twice
-            ap_id = offset_item_value(ap_id)
+        return ClairObscurItem(item_data.name, item_data.classification, offset_item_value(item_id), self.player)
 
-        return ClairObscurItem(
-            self.item_id_to_name[ap_id],
-            get_classification(ap_id),
-            ap_id,
-            self.player
-        )
-
-    def get_pre_fill_items(self) -> List[ClairObscurItem]:
+    def get_pre_fill_items(self) -> list[ClairObscurItem]:
         return [self.create_item(self.get_filler_item_name())]
 
     def get_filler_item_name(self) -> str:

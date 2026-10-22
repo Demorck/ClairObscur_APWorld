@@ -1,5 +1,5 @@
 from collections import defaultdict
-from typing import Dict, Optional, TYPE_CHECKING, Set
+from typing import TYPE_CHECKING
 
 from BaseClasses import Location, Region, LocationProgressType
 from .Const import BASE_OFFSET, LOCATION_OFFSET, EXCLUDED_SHOPS, MAX_SHOP_SLOT
@@ -13,15 +13,15 @@ if TYPE_CHECKING:
 
 class ClairObscurLocation(Location):
     game: str = "Clair Obscur Expedition 33"
-    default_item: Optional[str]
+    default_item: str | None
 
     def __init__(
             self,
             player: int,
             name: str,
             code: int,
-            parent: Optional[Region] = None,
-            default_item_value: Optional[str] = None) -> None:
+            parent: Region | None = None,
+            default_item_value: str | None = None) -> None:
         super().__init__(player, name, code, parent)
         self.default_item = default_item_value
 
@@ -78,7 +78,7 @@ def create_shop_locations(world: "ClairObscurWorld", region: Region, shop: Clair
         extra = create_shop_location(world, region, shop, f"Extra Item {i}")
         add_rule(extra, lambda state, itm=shop.unlock_item, pl=world.player: state.has(itm, pl))
 
-def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> None:
+def create_locations(world: "ClairObscurWorld", regions: dict[str, Region]) -> None:
 
     #These locations were in data dumps but not confirmed to be either accessible or inaccessible.
     #These will be left in the pool in case they're found in testing, but will contain filler to avoid softlocks.
@@ -185,7 +185,7 @@ def reverse_offset_location_value(location_id: int) -> int:
     return location_id - BASE_OFFSET - LOCATION_OFFSET
 
 
-def create_location_name_to_ap_id() -> Dict[str, int]:
+def create_location_name_to_ap_id() -> dict[str, int]:
     """
     Creates a map from item name to their AP item id
     """
@@ -210,8 +210,8 @@ def create_location_name_to_ap_id() -> Dict[str, int]:
 
     return name_to_ap_id
 
-def create_location_groups(locations: Dict[int, ClairObscurLocationData]):
-    groups: Dict[str, Set[str]] = defaultdict(set)
+def create_location_groups(locations: dict[str, ClairObscurLocationData]) -> dict[str, set[str]]:
+    groups: dict[str, set[str]] = defaultdict(set)
     for loc in locations.values():
         groups[loc.type].add(loc.name)
 

@@ -1,4 +1,4 @@
-from typing import Dict, TYPE_CHECKING
+from typing import TYPE_CHECKING
 
 from BaseClasses import Region
 from .Data import data
@@ -9,7 +9,7 @@ if TYPE_CHECKING:
 
 
 def create_regions(world: "ClairObscurWorld") -> dict[str, Region]:
-    regions: Dict[str, Region] = {}
+    regions: dict[str, Region] = {}
 
     #Create menu region
     menu = Region("Menu", world.player, world.multiworld)
