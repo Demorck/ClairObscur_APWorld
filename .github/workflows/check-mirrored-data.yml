@@ -1,0 +1,67 @@
+name: Check mirrored data
+
+on:
+  push:
+    paths:
+      - "worlds/clair_obscur/data/**"
+      - ".github/workflows/check-mirrored-data.yml"
+  pull_request:
+    paths:
+      - "worlds/clair_obscur/data/**"
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+env:
+  CLIENT_REPO: Demorck/ClairObscurArchipelagoRandomizer
+  CLIENT_REF: main
+  CLIENT_DIR: data
+  LOCAL_DIR: worlds/clair_obscur/data
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Diff every json against the client repo
+        run: |
+          set -u
+          base="https://raw.githubusercontent.com/$CLIENT_REPO/$CLIENT_REF/$CLIENT_DIR"
+          failed=0
+
+          for local in "$LOCAL_DIR"/*.json; do
+            name="$(basename "$local")"
+
+            if ! curl -fsSL -o "/tmp/$name" "$base/$name"; then
+              echo "::error file=$local::$name is missing from $CLIENT_REPO"
+              failed=1
+              continue
+            fi
+
+            # minus lines are the client, plus lines are this repo
+            if diff -u --label "client/$name" --label "apworld/$name" "/tmp/$name" "$local" > "/tmp/$name.diff"; then
+              echo "ok   $name"
+            else
+              echo "::error file=$local::$name differs from $CLIENT_REPO"
+              head -n 80 "/tmp/$name.diff"
+              failed=1
+            fi
+          done
+
+          exit $failed
+
+      - name: Warn about json the client has but we do not mirror
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -fsSL -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$CLIENT_REPO/contents/$CLIENT_DIR?ref=$CLIENT_REF" \
+            | jq -r '.[] | select(.name | endswith(".json")) | .name' | sort > /tmp/client.txt
+
+          ls "$LOCAL_DIR"/*.json | xargs -n 1 basename | sort > /tmp/local.txt
+
+          missing="$(comm -23 /tmp/client.txt /tmp/local.txt | tr '\n' ' ')"
+          if [ -n "$missing" ]; then
+            echo "::warning::$CLIENT_REPO has json we do not mirror: $missing"
+          fi
