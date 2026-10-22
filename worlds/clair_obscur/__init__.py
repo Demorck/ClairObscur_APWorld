@@ -8,8 +8,9 @@ from .Data import data
 from .Items import create_item_name_to_ap_id, ClairObscurItem, get_classification, offset_item_value, \
     create_item_groups
 from .Locations import create_location_name_to_ap_id, create_location_groups
-from .Options import OPTIONS_GROUP, ClairObscurOptions, ChromaPackType, MaxEquipLevel, GearScaling
-from .Const import BASE_OFFSET
+from .Options import OPTIONS_GROUP, ClairObscurOptions, ChromaPackType, MaxEquipLevel, GearScaling, Goal, \
+    ExcludeEndgameLocations
+from .Const import BASE_OFFSET, MAX_GEAR_LEVEL
 from .Rules import set_rules
 from Options import OptionError
 
@@ -43,6 +44,13 @@ FILLER_WEIGHTS = {
 }
 
 FILLER_SEQUENCE = [name for name, weight in FILLER_WEIGHTS.items() for _ in range(weight)]
+
+# The goals not listed here go up to MAX_GEAR_LEVEL
+GOAL_LEVEL_CAPS = {
+    Goal.option_paintress: 15,
+    Goal.option_curator: 16,
+    Goal.option_clea: 28,
+}
 
 class WebClairObscur(WebWorld):
     """
@@ -89,7 +97,7 @@ class ClairObscurWorld(World):
     required_client_version = (0, 5, 4)
 
     settings: typing.ClassVar[ClairObscurSettings]
-    highest_location_level = 33
+    highest_location_level = MAX_GEAR_LEVEL
 
     @staticmethod
     def convert_pictos(pictos_level: int) -> int:
@@ -113,6 +121,10 @@ class ClairObscurWorld(World):
 
         if self.options.max_price_shop < self.options.min_price_shop:
             self.options.max_price_shop.value = self.options.min_price_shop.value
+
+        self.highest_location_level = MAX_GEAR_LEVEL
+        if self.options.exclude_endgame_locations != ExcludeEndgameLocations.option_included:
+            self.highest_location_level = GOAL_LEVEL_CAPS.get(self.options.goal.value, MAX_GEAR_LEVEL)
 
     def create_items(self) -> None:
         self.item_pool = []

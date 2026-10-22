@@ -1,4 +1,5 @@
 import pkgutil
+from collections import defaultdict
 from typing import NamedTuple, Dict, Union, List, Any
 
 from orjson import orjson
@@ -53,6 +54,7 @@ class ClairObscurData:
     locations: Dict[str, ClairObscurLocationData]
     regions: Dict[str, ClairObscurRegionData]
     shops: Dict[str, ClairObscurShopData]
+    shops_by_region: dict[str, list[ClairObscurShopData]]
     connections: List[ClairObscurRegionConnection]
 
     def __init__(self) -> None:
@@ -60,6 +62,7 @@ class ClairObscurData:
         self.locations = {}
         self.regions = {}
         self.shops = {}
+        self.shops_by_region = {}
         self.connections = []
 
 
@@ -94,6 +97,7 @@ def _init() -> None:
     data.regions = populate_data_regions()
     data.connections = populate_data_connections()
     data.shops = populate_data_shops()
+    data.shops_by_region = group_shops_by_region(data.shops)
 
 def populate_data_locations() -> Dict[str, ClairObscurLocationData]:
     locations = {}
@@ -194,6 +198,22 @@ def populate_data_connections() -> List[ClairObscurRegionConnection]:
         region_connections.append(new_connection)
 
     return region_connections
+
+def group_shops_by_region(shops: dict[str, ClairObscurShopData]) -> dict[str, List[ClairObscurShopData]]:
+    """
+    Group the shops by the region where is the shop
+
+    Args:
+        shops: Every shop keyed by name
+
+    Returns:
+        Shop of each region
+    """
+    by_region = defaultdict(list)
+    for shop in shops.values():
+        by_region[shop.region].append(shop)
+
+    return dict(by_region)
 
 data = ClairObscurData()
 _init()

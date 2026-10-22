@@ -2,12 +2,14 @@ from collections import defaultdict
 from typing import Dict, Optional, TYPE_CHECKING, Set
 
 from BaseClasses import Location, Region, LocationProgressType
-from .Const import BASE_OFFSET, LOCATION_OFFSET
-from .Data import data, ClairObscurLocationData
+from .Const import BASE_OFFSET, LOCATION_OFFSET, EXCLUDED_SHOPS, MAX_SHOP_SLOT
+from .Data import data, ClairObscurLocationData, ClairObscurShopData
+from .Options import ExcludeSuperbosses, ExcludeEndlessTower, ExcludeEndgameLocations
 from ..generic.Rules import add_rule
 
 if TYPE_CHECKING:
     from . import ClairObscurWorld
+
 
 class ClairObscurLocation(Location):
     game: str = "Clair Obscur Expedition 33"
@@ -22,6 +24,59 @@ class ClairObscurLocation(Location):
             default_item_value: Optional[str] = None) -> None:
         super().__init__(player, name, code, parent)
         self.default_item = default_item_value
+
+def shop_location_name(shop: ClairObscurShopData, slot: str) -> str:
+    """
+    Full name of a shop location, both the id map and the location creation go through here
+
+    Args:
+        shop: The shop data to create the location from
+        slot: Which slot of the shop to create the location from
+
+    Returns:
+        The stringify of the location name
+    """
+    return f"Merchant ({shop.region}): {shop.name} - {slot}"
+
+def create_shop_location(
+        world: "ClairObscurWorld",
+        region: Region,
+        shop: ClairObscurShopData,
+        slot: str) -> ClairObscurLocation:
+    """
+    Create one shop location and put it in its region
+
+    Returns:
+        The created location
+    """
+    name = shop_location_name(shop, slot)
+    location = ClairObscurLocation(world.player, name, world.location_name_to_id[name], region)
+    if shop.name in EXCLUDED_SHOPS:
+        location.progress_type = LocationProgressType.EXCLUDED
+
+    region.locations.append(location)
+
+    return location
+
+def create_shop_locations(world: "ClairObscurWorld", region: Region, shop: ClairObscurShopData) -> None:
+    """
+    Create every location of one shop: the fight, the normal slots then the extra ones
+    """
+    if shop.has_fight:
+        fight = create_shop_location(world, region, shop, "Fight")
+        if not world.options.fighting_merchant:
+            # Vanilla behaviour, beating him just unlocks his extra stock (through AP)
+            fight.place_locked_item(world.create_item(shop.unlock_item))
+
+    for i in range(1, world.options.location_per_shop.value + 1):
+        create_shop_location(world, region, shop, f"Item {i}")
+
+    if not shop.has_fight:
+        return
+
+    for i in range(1, world.options.extra_location_per_shop.value + 1):
+        extra = create_shop_location(world, region, shop, f"Extra Item {i}")
+        add_rule(extra, lambda state, itm=shop.unlock_item, pl=world.player: state.has(itm, pl))
 
 def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> None:
 
@@ -39,96 +94,39 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
     if not world.options.shuffle_free_aim: excluded_conditions.append("Free Aim")
     if not world.options.gestral_shuffle: excluded_conditions.append("Lost Gestral")
 
-    exclusion_level = 33
-    if world.options.exclude_endgame_locations < 2:
-        match world.options.goal:
-            case 0: exclusion_level = 15
-            case 1: exclusion_level = 16
-            case 4: exclusion_level = 28
-
-        world.highest_location_level = exclusion_level
+    exclusion_level = world.highest_location_level
 
     if not world.options.gestral_shuffle:
         excluded_types.append("Lost Gestral")
-
-    multiple_locations = []
 
     for region_name, region in regions.items():
         if region_name == "Menu": continue
         is_endless_tower = region_name.startswith("Endless Tower") and region_name != "Endless Tower Superbosses"
 
-        if world.options.exclude_superbosses == 0 and region_name == "Endless Tower Superbosses": continue
-        if world.options.exclude_endless_tower == 0 and is_endless_tower: continue
+        if (world.options.exclude_superbosses == ExcludeSuperbosses.option_excluded and
+                region_name == "Endless Tower Superbosses"):
+            continue
+
+        if world.options.exclude_endless_tower == ExcludeEndlessTower.option_excluded and is_endless_tower:
+            continue
+
         region_data = data.regions[region_name]
         region_level = region_data.pictos_level
-        if world.options.exclude_endgame_locations == 0 and region_level > exclusion_level: continue
+        if (world.options.exclude_endgame_locations == ExcludeEndgameLocations.option_excluded and
+                region_level > exclusion_level):
+            continue
 
         if world.options.shopsanity:
-            for shop_name, shop in data.shops.items():
-                if shop.region != region_name: continue
-
-
-                if shop.has_fight:
-                    current_name = f"Merchant ({shop.region}): {shop.name} - Fight"
-                    location_id = world.location_name_to_id[current_name]
-                    shop_location = ClairObscurLocation(
-                        world.player,
-                        current_name,
-                        location_id,
-                        region
-                    )
-
-                    if shop.name == "Noco":
-                        shop_location.progress_type = LocationProgressType.EXCLUDED
-
-                    if not world.options.fighting_merchant:
-                        shop_location.place_locked_item(world.create_item(shop.unlock_item))
-
-                    region.locations.append(shop_location)
-
-
-                for i in range(1, world.options.location_per_shop + 1):
-                    current_name = f"Merchant ({shop.region}): {shop.name} - Item {i}"
-                    location_id = world.location_name_to_id[current_name]
-                    shop_location = ClairObscurLocation(
-                        world.player,
-                        current_name,
-                        location_id,
-                        region
-                    )
-
-
-                    if shop.name == "Noco":
-                        shop_location.progress_type = LocationProgressType.EXCLUDED
-
-                    region.locations.append(shop_location)
-
-                if shop.has_fight:
-                    for i in range(1, int(world.options.extra_location_per_shop) + 1):
-                        current_name = f"Merchant ({shop.region}): {shop.name} - Extra Item {i}"
-                        location_id = world.location_name_to_id[current_name]
-                        shop_location = ClairObscurLocation(
-                            world.player,
-                            current_name,
-                            location_id,
-                            region
-                        )
-
-                        if shop.name == "Noco":
-                            shop_location.progress_type = LocationProgressType.EXCLUDED
-                        add_rule(shop_location, lambda state, itm=shop.unlock_item, pl=world.player: state.has(itm, pl))
-
-                        region.locations.append(shop_location)
-
-
-
+            for shop in data.shops_by_region.get(region_name, []):
+                create_shop_locations(world, region, shop)
 
         for location_name in region_data.locations:
 
             location_data = data.locations[location_name]
             location_level = max(location_data.pictos_level, region_level)
             if (location_data.type in excluded_types or
-                    (world.options.exclude_endgame_locations == 0 and location_level > exclusion_level) or
+                    (world.options.exclude_endgame_locations == ExcludeEndgameLocations.option_excluded and
+                     location_level > exclusion_level) or
                     location_name in excluded_locations):
                 continue
 
@@ -157,24 +155,21 @@ def create_locations(world: "ClairObscurWorld", regions: Dict[str, Region]) -> N
                 add_rule(location, lambda state, pl=world.player, pic=converted_pictos:
                     state.has_group("Picto", pl, pic))
 
-            if world.options.exclude_endgame_locations == 1 and location_level >= exclusion_level:
+            if (world.options.exclude_endgame_locations == ExcludeEndgameLocations.option_filler and
+                    location_level >= exclusion_level):
                 location.progress_type = LocationProgressType.EXCLUDED
 
-            if world.options.exclude_endless_tower == 1 and is_endless_tower:
+            if world.options.exclude_endless_tower == ExcludeEndlessTower.option_filler and is_endless_tower:
                 location.progress_type = LocationProgressType.EXCLUDED
 
-            if world.options.exclude_superbosses == 1 and location_data.type == "Superboss":
+            if (world.options.exclude_superbosses == ExcludeSuperbosses.option_filler and
+                    location_data.type == "Superboss"):
                 location.progress_type = LocationProgressType.EXCLUDED
 
             if location_name in unconfirmed_location_names:
                 location.progress_type = LocationProgressType.EXCLUDED
 
-            if location_data.multiple:
-                if location_name not in multiple_locations:
-                    region.locations.append(location)
-                    multiple_locations.append(location_name)
-            else:
-                region.locations.append(location)
+            region.locations.append(location)
 
 
 def offset_location_value(location_id: int) -> int:
@@ -201,19 +196,16 @@ def create_location_name_to_ap_id() -> Dict[str, int]:
         index += 1
 
     for shop in data.shops.values():
-        for i in range(1, 9):
-            current_name = f"Merchant ({shop.region}): {shop.name} - Item {i}"
-            name_to_ap_id[current_name] = offset_location_value(index)
+        for i in range(1, MAX_SHOP_SLOT + 1):
+            name_to_ap_id[shop_location_name(shop, f"Item {i}")] = offset_location_value(index)
             index += 1
 
         if shop.has_fight:
-            merchant_item_name = f"Merchant ({shop.region}): {shop.name} - Fight"
-            name_to_ap_id[merchant_item_name] = offset_location_value(index)
+            name_to_ap_id[shop_location_name(shop, "Fight")] = offset_location_value(index)
             index += 1
 
-            for i in range(1, 9):
-                current_name = f"Merchant ({shop.region}): {shop.name} - Extra Item {i}"
-                name_to_ap_id[current_name] = offset_location_value(index)
+            for i in range(1, MAX_SHOP_SLOT + 1):
+                name_to_ap_id[shop_location_name(shop, f"Extra Item {i}")] = offset_location_value(index)
                 index += 1
 
     return name_to_ap_id
