@@ -12,6 +12,9 @@ on:
     - cron: "0 6 * * 1"
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 env:
   CLIENT_REPO: Demorck/ClairObscurArchipelagoRandomizer
   CLIENT_REF: main
