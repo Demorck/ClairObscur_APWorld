@@ -12,6 +12,8 @@ GOAL_REGIONS = {
     2: "Endless Tower Stage 11",  # painted_love
     3: "Renoir's Drafts",         # simon
     4: "Flying Manor",            # clea
+    5: "Verso's Drafts"           # Osquio
+
 }
 
 def set_rules(world: "ClairObscurWorld") -> None:

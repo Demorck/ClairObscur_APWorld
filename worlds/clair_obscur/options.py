@@ -12,6 +12,7 @@ class Goal(Choice):
     option_clea = 4
     option_painted_love = 2
     option_simon = 3
+    option_osquio = 5
     default = 1
 
 class ExcludeEndgameLocations(Choice):
