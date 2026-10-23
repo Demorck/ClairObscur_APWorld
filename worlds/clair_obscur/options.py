@@ -1,5 +1,15 @@
 from dataclasses import dataclass
-from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range
+from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range, OptionCounter
+
+CONSUMABLE_ITEMS = frozenset({
+    "Chroma Catalyst",
+    "Polished Chroma Catalyst",
+    "Resplendent Chroma Catalyst",
+    "Grandiose Chroma Catalyst",
+    "Colour of Lumina",
+})
+
+DEFAULT_CONSUMABLE_AMOUNT = 5
 
 class Goal(Choice):
     """
@@ -232,6 +242,49 @@ class ShowShopItems(Toggle):
     display_name = "Show Shop Items"
     default = 1
 
+#############################
+####### CONSUMABLES #########
+#############################
+
+class ConsumableRollType(Choice):
+    """
+    Random fixed range: one amount is rolled per consumable when the world is generated
+    Random range: the client rolls inside the range every time you receive one
+    """
+    display_name = "Consumable Roll Type"
+    option_random_fixed_range = 0
+    option_random_range = 1
+    default = 0
+
+class ConsumableMin(OptionCounter):
+    """
+    How much each consumable gives at minimum, default its 5.
+    Allowed keys: Chroma Catalyst, Polished Chroma Catalyst, Resplendent Chroma Catalyst,
+    Grandiose Chroma Catalyst, Colour of Lumina
+    """
+    display_name = "Minimum Consumable Amount"
+    valid_keys = CONSUMABLE_ITEMS
+    min = 1
+    max = 999
+    default = {name: DEFAULT_CONSUMABLE_AMOUNT for name in sorted(CONSUMABLE_ITEMS)}
+
+
+class ConsumableMax(OptionCounter):
+    """
+    How much each consumable gives at maximum, default its also 5
+    A value under its matching minimum is raised to it
+    """
+    display_name = "Maximum Consumable Amount"
+    valid_keys = CONSUMABLE_ITEMS
+    min = 1
+    max = 999
+    default = {name: DEFAULT_CONSUMABLE_AMOUNT for name in sorted(CONSUMABLE_ITEMS)}
+
+
+#############################
+###### DEFAULT STUFF ########
+#############################
+
 class CreateHintAutomaticallyShop(Toggle):
     """
     Create a hint for shop items. If the Show shop items is disabled, it will also create hint.
@@ -284,6 +337,10 @@ class ClairObscurOptions(PerGameCommonOptions):
     create_hint: CreateHintAutomaticallyShop
     create_hint_extra: CreateHintAutomaticallyExtraShop
 
+    # Consumables
+    consumable_roll_type: ConsumableRollType
+    consumable_min: ConsumableMin
+    consumable_max: ConsumableMax
 
     # AP base
     start_inventory: ClairObscurStartInventory
@@ -300,6 +357,12 @@ OPTIONS_GROUP = [
             ShowShopItems,
             CreateHintAutomaticallyShop,
             CreateHintAutomaticallyExtraShop,
+        ]),
+    OptionGroup(
+        "Consumables", [
+           ConsumableRollType,
+            ConsumableMin,
+            ConsumableMax
         ]),
     OptionGroup(
         "Item & Location Options", [

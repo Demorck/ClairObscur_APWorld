@@ -62,7 +62,7 @@ class TestTrapsEverywhere(PoolAssertions, ClairObscurTestBase):
     def test_every_filler_slot_became_a_trap(self) -> None:
         names = self.pool_names()
         self.assertIn("Feet Trap", names)
-        for filler_name in ["Chroma Pack", "Colour of Lumina (5)", "Grandiose Chroma Catalyst (5)"]:
+        for filler_name in ["Chroma Pack", "Colour of Lumina", "Grandiose Chroma Catalyst"]:
             with self.subTest(item=filler_name):
                 self.assertEqual(1, names.count(filler_name), "base copy only, no filler slot")
 
