@@ -1,26 +1,26 @@
-from BaseClasses import Region
-from worlds.clair_obscur.Data import data
-from worlds.generic.Rules import add_rule
+from typing import TYPE_CHECKING
 
-def set_rules(world):
+from ..generic.Rules import add_rule
+
+if TYPE_CHECKING:
+    from . import ClairObscurWorld
+
+# goal option value -> region that has to be reachable to win
+GOAL_REGIONS = {
+    0: "The Monolith",            # paintress
+    1: "Lumiere",                 # curator
+    2: "Endless Tower Stage 11",  # painted_love
+    3: "Renoir's Drafts",         # simon
+    4: "Flying Manor",            # clea
+    5: "Verso's Drafts"           # Osquio
+
+}
+
+def set_rules(world: "ClairObscurWorld") -> None:
     player = world.player
     mw = world.multiworld
 
-    goal = world.options.goal
-    goal_reg = ""
-    match goal:
-        case 0:
-            goal_reg = "The Monolith"
-        case 1:
-            goal_reg = "Lumiere"
-        case 2:
-            goal_reg = "Endless Tower Stage 11"
-        case 3:
-            goal_reg = "Renoir's Drafts"
-        case 4:
-            goal_reg = "Flying Manor"
-        case 5:
-            goal_reg = "Verso's Drafts"
+    goal_reg = GOAL_REGIONS[world.options.goal.value]
 
     mw.completion_condition[player] = (
         lambda state: state.can_reach_region(goal_reg, player)
@@ -42,16 +42,16 @@ def set_rules(world):
             "Area - Ancient Sanctuary",
             "Area - Yellow Harvest",
             "Area - Stone Wave Cliffs"
-        ], player, 4 / world.options.area_logic))
+        ], player, 4 // world.options.area_logic))
         add_rule(major_connection_2, lambda state: state.has_from_list([
             "Area - Forgotten Battlefield",
             "Area - Old Lumiere"
-        ], player, 2 / world.options.area_logic))
+        ], player, 2 // world.options.area_logic))
         for conn in major_connections_3:
             add_rule(conn, lambda state: state.has_from_list([
                 "Area - Visages",
                 "Area - Sirene"
-            ], player, 2 / world.options.area_logic))
+            ], player, 2 // world.options.area_logic))
 
     if world.options.char_shuffle:
         add_rule(major_connection_1, lambda state: state.has_group("Character", player, 3))
@@ -59,8 +59,6 @@ def set_rules(world):
 
     if not world.options.gestral_shuffle:
         #2 gestrals in First Continent North
-        add_rule(mw.get_location("Lost Gestral reward 1", player),
-                 lambda state: state.has_any_count({"Progressive Rock": 2, "Area - Flying Waters": 1}, player))
         add_rule(mw.get_location("Lost Gestral reward 1", player),
                  lambda state: state.has_any_count({"Progressive Rock": 2, "Area - Flying Waters": 1}, player))
         add_rule(mw.get_location("Lost Gestral reward 2", player),
