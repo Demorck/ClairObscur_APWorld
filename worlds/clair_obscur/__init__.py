@@ -11,7 +11,8 @@ from .items import create_item_name_to_ap_id, ClairObscurItem, offset_item_value
     create_item_groups, reverse_offset_item_value
 from .locations import create_location_name_to_ap_id, create_location_groups, create_locations
 from .options import OPTIONS_GROUP, ClairObscurOptions, ChromaPackType, MaxEquipLevel, GearScaling, Goal, \
-    ExcludeEndgameLocations, CONSUMABLE_ITEMS, DEFAULT_CONSUMABLE_AMOUNT, ConsumableRollType
+    ExcludeEndgameLocations, CONSUMABLE_ITEMS, DEFAULT_CONSUMABLE_AMOUNT, ConsumableRollType, DEFAULT_FILLER_WEIGHTS, \
+    FILLER_ITEMS
 from .regions import create_regions, connect_regions
 from .rules import set_rules
 
@@ -69,6 +70,8 @@ class ClairObscurWorld(World):
     topology_present = True
 
     item_pool: list[ClairObscurItem]
+    filler_sequence: list[str]
+    consumables_amounts: dict[str, tuple[int, int]]
 
     options_dataclass = ClairObscurOptions
     options: ClairObscurOptions
@@ -85,6 +88,9 @@ class ClairObscurWorld(World):
 
     settings: ClassVar[ClairObscurSettings]
     highest_location_level = MAX_GEAR_LEVEL
+
+    def __init__(self, multiworld: "MultiWorld", player: int):
+        super().__init__(multiworld, player)
 
     @staticmethod
     def convert_pictos(pictos_level: int) -> int:
@@ -114,6 +120,14 @@ class ClairObscurWorld(World):
             low = self.options.consumable_min.value.get(name, DEFAULT_CONSUMABLE_AMOUNT)
             high = self.options.consumable_max.value.get(name, DEFAULT_CONSUMABLE_AMOUNT)
             self.consumables_amounts[name] = (low, max(low, high))
+
+        weights = { name: DEFAULT_FILLER_WEIGHTS[name] for name in FILLER_ITEMS }
+        weights.update(self.options.filler_weights.value)
+
+        self.filler_sequence = [name for name in sorted(weights) for _ in range(weights[name])]
+        if not self.filler_sequence:
+            raise OptionError("Clair Obscur Expedition 33: every filler weight is 0, at least one has to "
+                              "be above it to fill the item pool")
 
         self.highest_location_level = MAX_GEAR_LEVEL
         if self.options.exclude_endgame_locations != ExcludeEndgameLocations.option_included:
@@ -161,7 +175,7 @@ class ClairObscurWorld(World):
                 #Reference trap weights when more trap types are implemented
                 item_name = "Feet Trap"
             else:
-                item_name = FILLER_SEQUENCE[i % len(FILLER_SEQUENCE)]
+                item_name = self.filler_sequence[i % len(self.filler_sequence)]
             self.item_pool.append(self.create_item(item_name))
 
         self.multiworld.itempool += self.item_pool
@@ -280,7 +294,7 @@ class ClairObscurWorld(World):
         return [self.create_item(self.get_filler_item_name())]
 
     def get_filler_item_name(self) -> str:
-        return self.random.choice(["Colour of Lumina", "Chroma Pack"])
+        return self.random.choice(self.filler_sequence)
 
     def create_regions(self) -> None:
         regions = create_regions(self)
