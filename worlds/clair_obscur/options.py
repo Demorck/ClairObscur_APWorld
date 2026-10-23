@@ -11,6 +11,19 @@ CONSUMABLE_ITEMS = frozenset({
 
 DEFAULT_CONSUMABLE_AMOUNT = 5
 
+# How ofter each filer shows up in the rotation that fill the pool
+# Could add an option to modify this
+FILLER_ITEMS = CONSUMABLE_ITEMS | { "Chroma Pack" }
+
+DEFAULT_FILLER_WEIGHTS = {
+    "Chroma Catalyst": 2,
+    "Polished Chroma Catalyst": 3,
+    "Resplendent Chroma Catalyst": 4,
+    "Grandiose Chroma Catalyst": 5,
+    "Colour of Lumina": 10,
+    "Chroma Pack": 10,
+}
+
 class Goal(Choice):
     """
     The victory condition for your run
@@ -243,8 +256,21 @@ class ShowShopItems(Toggle):
     default = 1
 
 #############################
-####### CONSUMABLES #########
+######### FILLERS ###########
 #############################
+
+class FillerWeights(OptionCounter):
+    """
+    How often each filler shows up when the pool needs to be filled
+    A key you remove keeps its default and a key set to 0 never shows up at all (if you don't want Colour of lumina...)
+    Allowed keys: Chroma Catalyst, Polished Chroma Catalyst, Resplendent Chroma Catalyst,
+    Grandiose Chroma Catalyst, Colour of Lumina, Chroma Pack
+    """
+    display_name = "Filler Weights"
+    valid_keys = FILLER_ITEMS
+    min = 0
+    max = 100
+    default = dict(DEFAULT_FILLER_WEIGHTS)
 
 class ConsumableRollType(Choice):
     """
@@ -320,6 +346,7 @@ class ClairObscurOptions(PerGameCommonOptions):
     custom_max_equip_level: CustomMaxEquipLevel
     area_logic: AreaLogic
     trap_chance: TrapChance
+    filler_weights: FillerWeights
 
     # Chroma pack
     chroma_pack_type: ChromaPackType
@@ -359,8 +386,9 @@ OPTIONS_GROUP = [
             CreateHintAutomaticallyExtraShop,
         ]),
     OptionGroup(
-        "Consumables", [
-           ConsumableRollType,
+        "Fillers & Consumables", [
+            FillerWeights,
+            ConsumableRollType,
             ConsumableMin,
             ConsumableMax
         ]),

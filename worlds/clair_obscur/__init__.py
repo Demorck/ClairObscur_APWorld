@@ -32,20 +32,6 @@ ITEM_AMOUNTS = {
     # Only 15 are possible to get in a normal playthrough (Thank You Update added 5)
     "Perfect Chroma Catalyst": 15
 }
-
-# How ofter each filer shows up in the rotation that fill the pool
-# Could add an option to modify this
-FILLER_WEIGHTS = {
-    "Chroma Catalyst": 2,
-    "Polished Chroma Catalyst": 3,
-    "Resplendent Chroma Catalyst": 4,
-    "Grandiose Chroma Catalyst": 5,
-    "Colour of Lumina": 10,
-    "Chroma Pack": 10,
-}
-
-FILLER_SEQUENCE = [name for name, weight in FILLER_WEIGHTS.items() for _ in range(weight)]
-
 # The goals not listed here go up to MAX_GEAR_LEVEL
 GOAL_LEVEL_CAPS = {
     Goal.option_paintress: 15,
