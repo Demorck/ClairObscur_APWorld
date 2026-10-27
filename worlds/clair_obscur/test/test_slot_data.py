@@ -108,3 +108,59 @@ class TestChromaClientRange(SlotDataAssertions, ClairObscurTestBase):
 
     def test_the_client_rolls_it_so_nothing_is_sent(self) -> None:
         self.assertNotIn("chroma", self.build_slot_data())
+
+class TestConsumableDefaults(SlotDataAssertions, ClairObscurTestBase):
+    options = {}
+
+    def test_untouched_options_give_the_old_amount(self) -> None:
+        consumables = self.build_slot_data()["consumables"]
+        self.assertEqual(5, len(consumables))
+        for name, (low, high) in consumables.items():
+            with self.subTest(item=name):
+                self.assertEqual([5, 5], [low, high])
+
+
+class TestConsumablePartialOverride(SlotDataAssertions, ClairObscurTestBase):
+    options = {
+        "consumable_roll_type": "random_range",
+        "consumable_min": {"Colour of Lumina": 10},
+        "consumable_max": {"Colour of Lumina": 40},
+    }
+
+    def test_only_the_named_item_moved(self) -> None:
+        consumables = self.build_slot_data()["consumables"]
+        self.assertEqual([10, 40], consumables["Colour of Lumina"])
+        self.assertEqual([5, 5], consumables["Chroma Catalyst"])
+
+
+class TestConsumableInvertedRange(SlotDataAssertions, ClairObscurTestBase):
+    options = {
+        "consumable_roll_type": "random_range",
+        "consumable_min": {"Chroma Catalyst": 20},
+        "consumable_max": {"Chroma Catalyst": 3},
+    }
+
+    def test_max_under_min_is_raised(self) -> None:
+        self.assertEqual([20, 20], self.build_slot_data()["consumables"]["Chroma Catalyst"])
+
+
+class TestConsumableFixedRoll(SlotDataAssertions, ClairObscurTestBase):
+    options = {
+        "consumable_roll_type": "random_fixed_range",
+        "consumable_min": {"Colour of Lumina": 1},
+        "consumable_max": {"Colour of Lumina": 50},
+    }
+
+    def test_a_fixed_roll_is_a_range_of_one(self) -> None:
+        low, high = self.build_slot_data()["consumables"]["Colour of Lumina"]
+        self.assertEqual(low, high)
+        self.assertGreaterEqual(low, 1)
+        self.assertLessEqual(high, 50)
+
+class TestGoalSlotData(SlotDataAssertions, ClairObscurTestBase):
+    options = {"goal": ["simon", "paintress"], "goal_requirement": "any"}
+
+    def test_goal_is_a_sorted_list_of_names(self) -> None:
+        options = self.build_slot_data()["options"]
+        self.assertEqual(["paintress", "simon"], options["goal"])
+        self.assertEqual(1, options["goal_requirement"])

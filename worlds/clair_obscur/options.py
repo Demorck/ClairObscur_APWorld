@@ -1,19 +1,54 @@
 from dataclasses import dataclass
-from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range
+from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range, OptionCounter, OptionSet
+from worlds.clair_obscur.const import GOAL_REGIONS
 
-class Goal(Choice):
-    """
-    The victory condition for your run
-    """
+CONSUMABLE_ITEMS = frozenset({
+    "Chroma Catalyst",
+    "Polished Chroma Catalyst",
+    "Resplendent Chroma Catalyst",
+    "Grandiose Chroma Catalyst",
+    "Colour of Lumina",
+})
 
+DEFAULT_CONSUMABLE_AMOUNT = 5
+
+# How ofter each filer shows up in the rotation that fill the pool
+# Could add an option to modify this
+FILLER_ITEMS = CONSUMABLE_ITEMS | { "Chroma Pack" }
+
+DEFAULT_FILLER_WEIGHTS = {
+    "Chroma Catalyst": 2,
+    "Polished Chroma Catalyst": 3,
+    "Resplendent Chroma Catalyst": 4,
+    "Grandiose Chroma Catalyst": 5,
+    "Colour of Lumina": 10,
+    "Chroma Pack": 10,
+}
+
+DEFAULT_FILLER_SEQUENCE = [name for name in sorted(DEFAULT_FILLER_WEIGHTS)
+                           for _ in range(DEFAULT_FILLER_WEIGHTS[name])]
+
+class Goal(OptionSet):
+    """
+    The victory condition for your run. Pick one or several.
+    Allowed values: paintress, curator, clea, painted_love, simon, osquio
+    Leaving it empty rolls one for you.
+    Curator is the one in Lumiere Act 3
+    """
     display_name = "Goal"
-    option_paintress = 0
-    option_curator = 1
-    option_clea = 4
-    option_painted_love = 2
-    option_simon = 3
-    option_osquio = 5
-    default = 1
+    valid_keys = frozenset(GOAL_REGIONS)
+    default = frozenset({"curator"})
+
+class GoalRequirement(Choice):
+    """
+    Only matters when you picked several goals.
+    All: every goal has to be done to win.
+    Any: the first one you reach wins, you choose your route in game.
+    """
+    display_name = "Goal Requirement"
+    option_all = 0
+    option_any = 1
+    default = 0
 
 class ExcludeEndgameLocations(Choice):
     """
@@ -232,6 +267,62 @@ class ShowShopItems(Toggle):
     display_name = "Show Shop Items"
     default = 1
 
+#############################
+######### FILLERS ###########
+#############################
+
+class FillerWeights(OptionCounter):
+    """
+    How often each filler shows up when the pool needs to be filled
+    A key you remove keeps its default and a key set to 0 never shows up at all (if you don't want Colour of lumina...)
+    Allowed keys: Chroma Catalyst, Polished Chroma Catalyst, Resplendent Chroma Catalyst,
+    Grandiose Chroma Catalyst, Colour of Lumina, Chroma Pack
+    """
+    display_name = "Filler Weights"
+    valid_keys = FILLER_ITEMS
+    min = 0
+    max = 100
+    default = dict(DEFAULT_FILLER_WEIGHTS)
+
+class ConsumableRollType(Choice):
+    """
+    Random fixed range: one amount is rolled per consumable when the world is generated
+    Random range: the client rolls inside the range every time you receive one
+    """
+    display_name = "Consumable Roll Type"
+    option_random_fixed_range = 0
+    option_random_range = 1
+    default = 0
+
+class ConsumableMin(OptionCounter):
+    """
+    How much each consumable gives at minimum, default its 5.
+    Allowed keys: Chroma Catalyst, Polished Chroma Catalyst, Resplendent Chroma Catalyst,
+    Grandiose Chroma Catalyst, Colour of Lumina
+    """
+    display_name = "Minimum Consumable Amount"
+    valid_keys = CONSUMABLE_ITEMS
+    min = 1
+    max = 999
+    default = {name: DEFAULT_CONSUMABLE_AMOUNT for name in sorted(CONSUMABLE_ITEMS)}
+
+
+class ConsumableMax(OptionCounter):
+    """
+    How much each consumable gives at maximum, default its also 5
+    A value under its matching minimum is raised to it
+    """
+    display_name = "Maximum Consumable Amount"
+    valid_keys = CONSUMABLE_ITEMS
+    min = 1
+    max = 999
+    default = {name: DEFAULT_CONSUMABLE_AMOUNT for name in sorted(CONSUMABLE_ITEMS)}
+
+
+#############################
+###### DEFAULT STUFF ########
+#############################
+
 class CreateHintAutomaticallyShop(Toggle):
     """
     Create a hint for shop items. If the Show shop items is disabled, it will also create hint.
@@ -255,6 +346,8 @@ class ClairObscurStartInventory(StartInventory):
 @dataclass
 class ClairObscurOptions(PerGameCommonOptions):
     goal: Goal
+    goal_requirement: GoalRequirement
+
     char_shuffle: ShuffleCharacters
     shuffle_free_aim: ShuffleFreeAim
     exclude_endgame_locations: ExcludeEndgameLocations
@@ -267,6 +360,7 @@ class ClairObscurOptions(PerGameCommonOptions):
     custom_max_equip_level: CustomMaxEquipLevel
     area_logic: AreaLogic
     trap_chance: TrapChance
+    filler_weights: FillerWeights
 
     # Chroma pack
     chroma_pack_type: ChromaPackType
@@ -284,6 +378,10 @@ class ClairObscurOptions(PerGameCommonOptions):
     create_hint: CreateHintAutomaticallyShop
     create_hint_extra: CreateHintAutomaticallyExtraShop
 
+    # Consumables
+    consumable_roll_type: ConsumableRollType
+    consumable_min: ConsumableMin
+    consumable_max: ConsumableMax
 
     # AP base
     start_inventory: ClairObscurStartInventory
@@ -300,6 +398,13 @@ OPTIONS_GROUP = [
             ShowShopItems,
             CreateHintAutomaticallyShop,
             CreateHintAutomaticallyExtraShop,
+        ]),
+    OptionGroup(
+        "Fillers & Consumables", [
+            FillerWeights,
+            ConsumableRollType,
+            ConsumableMin,
+            ConsumableMax
         ]),
     OptionGroup(
         "Item & Location Options", [

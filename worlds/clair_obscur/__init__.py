@@ -5,13 +5,14 @@ import settings
 from BaseClasses import Tutorial, Location
 from Options import OptionError
 from worlds.AutoWorld import WebWorld, World
-from .const import BASE_OFFSET, MAX_GEAR_LEVEL
+from .const import BASE_OFFSET, MAX_GEAR_LEVEL, GOAL_REGIONS, GOAL_LEVEL_CAPS
 from .game_data import data
 from .items import create_item_name_to_ap_id, ClairObscurItem, offset_item_value, \
     create_item_groups, reverse_offset_item_value
 from .locations import create_location_name_to_ap_id, create_location_groups, create_locations
 from .options import OPTIONS_GROUP, ClairObscurOptions, ChromaPackType, MaxEquipLevel, GearScaling, Goal, \
-    ExcludeEndgameLocations
+    ExcludeEndgameLocations, CONSUMABLE_ITEMS, DEFAULT_CONSUMABLE_AMOUNT, ConsumableRollType, DEFAULT_FILLER_WEIGHTS, \
+    FILLER_ITEMS, DEFAULT_FILLER_SEQUENCE
 from .regions import create_regions, connect_regions
 from .rules import set_rules
 
@@ -31,26 +32,6 @@ ITEM_AMOUNTS = {
 
     # Only 15 are possible to get in a normal playthrough (Thank You Update added 5)
     "Perfect Chroma Catalyst": 15
-}
-
-# How ofter each filer shows up in the rotation that fill the pool
-# Could add an option to modify this
-FILLER_WEIGHTS = {
-    "Chroma Catalyst (5)": 2,
-    "Polished Chroma Catalyst (5)": 3,
-    "Resplendent Chroma Catalyst (5)": 4,
-    "Grandiose Chroma Catalyst (5)": 5,
-    "Colour of Lumina (5)": 10,
-    "Chroma Pack": 10,
-}
-
-FILLER_SEQUENCE = [name for name, weight in FILLER_WEIGHTS.items() for _ in range(weight)]
-
-# The goals not listed here go up to MAX_GEAR_LEVEL
-GOAL_LEVEL_CAPS = {
-    Goal.option_paintress: 15,
-    Goal.option_curator: 16,
-    Goal.option_clea: 28,
 }
 
 class WebClairObscur(WebWorld):
@@ -83,6 +64,8 @@ class ClairObscurWorld(World):
     topology_present = True
 
     item_pool: list[ClairObscurItem]
+    filler_sequence: list[str] = DEFAULT_FILLER_SEQUENCE
+    consumables_amounts: dict[str, tuple[int, int]]
 
     options_dataclass = ClairObscurOptions
     options: ClairObscurOptions
@@ -123,9 +106,28 @@ class ClairObscurWorld(World):
         if self.options.max_price_shop < self.options.min_price_shop:
             self.options.max_price_shop.value = self.options.min_price_shop.value
 
+        self.consumables_amounts: dict[str, tuple[int, int]] = {}
+        for name in sorted(CONSUMABLE_ITEMS):
+            low = self.options.consumable_min.value.get(name, DEFAULT_CONSUMABLE_AMOUNT)
+            high = self.options.consumable_max.value.get(name, DEFAULT_CONSUMABLE_AMOUNT)
+            self.consumables_amounts[name] = (low, max(low, high))
+
+        weights = { name: DEFAULT_FILLER_WEIGHTS[name] for name in FILLER_ITEMS }
+        weights.update(self.options.filler_weights.value)
+
+        self.filler_sequence = [name for name in sorted(weights) for _ in range(weights[name])]
+        if not self.filler_sequence:
+            raise OptionError("Clair Obscur Expedition 33: every filler weight is 0, at least one has to "
+                              "be above it to fill the item pool")
+
+        # Guard is goal.value is empty (one at random)
+        if not self.options.goal.value:
+            self.options.goal.value = {self.random.choice(sorted(GOAL_REGIONS))}
+
         self.highest_location_level = MAX_GEAR_LEVEL
         if self.options.exclude_endgame_locations != ExcludeEndgameLocations.option_included:
-            self.highest_location_level = GOAL_LEVEL_CAPS.get(self.options.goal.value, MAX_GEAR_LEVEL)
+            self.highest_location_level = max(GOAL_LEVEL_CAPS.get(name, MAX_GEAR_LEVEL)
+                                              for name in self.options.goal.value)
 
     def create_items(self) -> None:
         self.item_pool = []
@@ -169,7 +171,7 @@ class ClairObscurWorld(World):
                 #Reference trap weights when more trap types are implemented
                 item_name = "Feet Trap"
             else:
-                item_name = FILLER_SEQUENCE[i % len(FILLER_SEQUENCE)]
+                item_name = self.filler_sequence[i % len(self.filler_sequence)]
             self.item_pool.append(self.create_item(item_name))
 
         self.multiworld.itempool += self.item_pool
@@ -177,7 +179,8 @@ class ClairObscurWorld(World):
     def fill_slot_data(self) -> dict[str, Any]:
         slot_data: dict[str, Any] = {
             "options": self.options.as_dict(
-                "goal", "char_shuffle", "starting_char", "gestral_shuffle", "gear_scaling", "shuffle_free_aim",
+                "goal", "goal_requirement",
+                "char_shuffle", "starting_char", "gestral_shuffle", "gear_scaling", "shuffle_free_aim",
                 "exclude_endgame_locations", "exclude_endless_tower",
 
                 # Chroma
@@ -198,7 +201,9 @@ class ClairObscurWorld(World):
             slot_data["chroma"] = self.random.randint(self.options.min_chroma_pack.value,
                                                       self.options.max_chroma_pack.value)
 
+        slot_data["consumables"] = self.consumable_slot_data()
         slot_data["max_gear_level"] = self.max_gear_level()
+        slot_data["exclusion_level"] = self.highest_location_level
         slot_data.update(self.gear_scaling_slot_data())
 
         if self.options.shopsanity:
@@ -260,6 +265,21 @@ class ClairObscurWorld(World):
 
         return shops
 
+    def consumable_slot_data(self) -> dict[str, list[int]]:
+        """
+        How much each consumable gives, as a [min, max] the client rolls inside
+        A fixed roll is just min == max so the client does the same thing regardless the option
+        """
+        amounts = {}
+        for name, (low, high) in self.consumables_amounts.items():
+            if self.options.consumable_roll_type == ConsumableRollType.option_random_fixed_range:
+                rolled = self.random.randint(low, high)
+                amounts[name] = [rolled, rolled]
+            else:
+                amounts[name] = [low, high]
+
+        return amounts
+
     def create_item(self, name: str) -> ClairObscurItem:
         return self.create_item_by_id(reverse_offset_item_value(self.item_name_to_id[name]))
 
@@ -272,7 +292,7 @@ class ClairObscurWorld(World):
         return [self.create_item(self.get_filler_item_name())]
 
     def get_filler_item_name(self) -> str:
-        return self.random.choice(["Colour of Lumina (5)", "Chroma Pack"])
+        return self.random.choice(self.filler_sequence)
 
     def create_regions(self) -> None:
         regions = create_regions(self)
