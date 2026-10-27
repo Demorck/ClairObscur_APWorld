@@ -4951,7 +4951,10 @@
         "internal_name": "MF_ChapelieALPHA",
         "location": "The Crows",
         "original_item": "",
-        "condition": {"Free Aim": 1},
+        "condition": {
+            "Free Aim": 1,
+            "Painted Power": 1
+        },
         "type": "Boss",
         "boss_type": "Chromatic"
     },
