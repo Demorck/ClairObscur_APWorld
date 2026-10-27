@@ -25,6 +25,9 @@ DEFAULT_FILLER_WEIGHTS = {
     "Chroma Pack": 10,
 }
 
+DEFAULT_FILLER_SEQUENCE = [name for name in sorted(DEFAULT_FILLER_WEIGHTS)
+                           for _ in range(DEFAULT_FILLER_WEIGHTS[name])]
+
 class Goal(OptionSet):
     """
     The victory condition for your run. Pick one or several.

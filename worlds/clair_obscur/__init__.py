@@ -12,7 +12,7 @@ from .items import create_item_name_to_ap_id, ClairObscurItem, offset_item_value
 from .locations import create_location_name_to_ap_id, create_location_groups, create_locations
 from .options import OPTIONS_GROUP, ClairObscurOptions, ChromaPackType, MaxEquipLevel, GearScaling, Goal, \
     ExcludeEndgameLocations, CONSUMABLE_ITEMS, DEFAULT_CONSUMABLE_AMOUNT, ConsumableRollType, DEFAULT_FILLER_WEIGHTS, \
-    FILLER_ITEMS
+    FILLER_ITEMS, DEFAULT_FILLER_SEQUENCE
 from .regions import create_regions, connect_regions
 from .rules import set_rules
 
@@ -64,7 +64,7 @@ class ClairObscurWorld(World):
     topology_present = True
 
     item_pool: list[ClairObscurItem]
-    filler_sequence: list[str]
+    filler_sequence: list[str] = DEFAULT_FILLER_SEQUENCE
     consumables_amounts: dict[str, tuple[int, int]]
 
     options_dataclass = ClairObscurOptions
