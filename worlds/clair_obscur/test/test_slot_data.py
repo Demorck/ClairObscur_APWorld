@@ -156,3 +156,11 @@ class TestConsumableFixedRoll(SlotDataAssertions, ClairObscurTestBase):
         self.assertEqual(low, high)
         self.assertGreaterEqual(low, 1)
         self.assertLessEqual(high, 50)
+
+class TestGoalSlotData(SlotDataAssertions, ClairObscurTestBase):
+    options = {"goal": ["simon", "paintress"], "goal_requirement": "any"}
+
+    def test_goal_is_a_sorted_list_of_names(self) -> None:
+        options = self.build_slot_data()["options"]
+        self.assertEqual(["paintress", "simon"], options["goal"])
+        self.assertEqual(1, options["goal_requirement"])

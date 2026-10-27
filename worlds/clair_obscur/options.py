@@ -1,5 +1,6 @@
 from dataclasses import dataclass
-from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range, OptionCounter
+from Options import Choice, PerGameCommonOptions, StartInventory, OptionGroup, Toggle, Range, OptionCounter, OptionSet
+from worlds.clair_obscur.const import GOAL_REGIONS
 
 CONSUMABLE_ITEMS = frozenset({
     "Chroma Catalyst",
@@ -24,19 +25,27 @@ DEFAULT_FILLER_WEIGHTS = {
     "Chroma Pack": 10,
 }
 
-class Goal(Choice):
+class Goal(OptionSet):
     """
-    The victory condition for your run
+    The victory condition for your run. Pick one or several.
+    Allowed values: paintress, curator, clea, painted_love, simon
+    Leaving it empty rolls one for you.
+    Curator is the one in Lumiere Act 3
     """
-
     display_name = "Goal"
-    option_paintress = 0
-    option_curator = 1
-    option_clea = 4
-    option_painted_love = 2
-    option_simon = 3
-    option_osquio = 5
-    default = 1
+    valid_keys = frozenset(GOAL_REGIONS)
+    default = frozenset({"curator"})
+
+class GoalRequirement(Choice):
+    """
+    Only matters when you picked several goals.
+    All: every goal has to be done to win.
+    Any: the first one you reach wins, you choose your route in game.
+    """
+    display_name = "Goal Requirement"
+    option_all = 0
+    option_any = 1
+    default = 0
 
 class ExcludeEndgameLocations(Choice):
     """
@@ -334,6 +343,8 @@ class ClairObscurStartInventory(StartInventory):
 @dataclass
 class ClairObscurOptions(PerGameCommonOptions):
     goal: Goal
+    goal_requirement: GoalRequirement
+
     char_shuffle: ShuffleCharacters
     shuffle_free_aim: ShuffleFreeAim
     exclude_endgame_locations: ExcludeEndgameLocations

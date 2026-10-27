@@ -5,7 +5,7 @@ import settings
 from BaseClasses import Tutorial, Location
 from Options import OptionError
 from worlds.AutoWorld import WebWorld, World
-from .const import BASE_OFFSET, MAX_GEAR_LEVEL
+from .const import BASE_OFFSET, MAX_GEAR_LEVEL, GOAL_REGIONS, GOAL_LEVEL_CAPS
 from .game_data import data
 from .items import create_item_name_to_ap_id, ClairObscurItem, offset_item_value, \
     create_item_groups, reverse_offset_item_value
@@ -32,12 +32,6 @@ ITEM_AMOUNTS = {
 
     # Only 15 are possible to get in a normal playthrough (Thank You Update added 5)
     "Perfect Chroma Catalyst": 15
-}
-# The goals not listed here go up to MAX_GEAR_LEVEL
-GOAL_LEVEL_CAPS = {
-    Goal.option_paintress: 15,
-    Goal.option_curator: 16,
-    Goal.option_clea: 28,
 }
 
 class WebClairObscur(WebWorld):
@@ -129,9 +123,14 @@ class ClairObscurWorld(World):
             raise OptionError("Clair Obscur Expedition 33: every filler weight is 0, at least one has to "
                               "be above it to fill the item pool")
 
+        # Guard is goal.value is empty (one at random)
+        if not self.options.goal.value:
+            self.options.goal.value = {self.random.choice(sorted(GOAL_REGIONS))}
+
         self.highest_location_level = MAX_GEAR_LEVEL
         if self.options.exclude_endgame_locations != ExcludeEndgameLocations.option_included:
-            self.highest_location_level = GOAL_LEVEL_CAPS.get(self.options.goal.value, MAX_GEAR_LEVEL)
+            self.highest_location_level = max(GOAL_LEVEL_CAPS.get(name, MAX_GEAR_LEVEL)
+                                              for name in self.options.goal.value)
 
     def create_items(self) -> None:
         self.item_pool = []
@@ -183,7 +182,8 @@ class ClairObscurWorld(World):
     def fill_slot_data(self) -> dict[str, Any]:
         slot_data: dict[str, Any] = {
             "options": self.options.as_dict(
-                "goal", "char_shuffle", "starting_char", "gestral_shuffle", "gear_scaling", "shuffle_free_aim",
+                "goal", "goal_requirement",
+                "char_shuffle", "starting_char", "gestral_shuffle", "gear_scaling", "shuffle_free_aim",
                 "exclude_endgame_locations", "exclude_endless_tower",
 
                 # Chroma

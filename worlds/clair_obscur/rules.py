@@ -1,30 +1,26 @@
 from typing import TYPE_CHECKING
 
+from .const import GOAL_REGIONS
+from .options import GoalRequirement
 from ..generic.Rules import add_rule
 
 if TYPE_CHECKING:
     from . import ClairObscurWorld
 
-# goal option value -> region that has to be reachable to win
-GOAL_REGIONS = {
-    0: "The Monolith",            # paintress
-    1: "Lumiere",                 # curator
-    2: "Endless Tower Stage 11",  # painted_love
-    3: "Renoir's Drafts",         # simon
-    4: "Flying Manor",            # clea
-    5: "Verso's Drafts"           # Osquio
-
-}
-
 def set_rules(world: "ClairObscurWorld") -> None:
     player = world.player
     mw = world.multiworld
 
-    goal_reg = GOAL_REGIONS[world.options.goal.value]
+    goal_regions = [GOAL_REGIONS[name] for name in sorted(world.options.goal.value)]
 
-    mw.completion_condition[player] = (
-        lambda state: state.can_reach_region(goal_reg, player)
-    )
+    if world.options.goal_requirement == GoalRequirement.option_all:
+        mw.completion_condition[player] = (
+            lambda state: all(state.can_reach_region(region, player) for region in goal_regions)
+        )
+    else:
+        mw.completion_condition[player] = (
+            lambda state: any(state.can_reach_region(region, player) for region in goal_regions)
+        )
 
     #Major map connections- the playthrough will always go through these.
     major_connection_1 = mw.get_entrance("WM: First Continent South -> WM: South Sea", player)
