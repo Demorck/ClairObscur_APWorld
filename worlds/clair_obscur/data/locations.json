@@ -3360,7 +3360,7 @@
         "name": "Esoteric Ruins: Item after maze 1",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
-        "condition": {},
+        "condition": {"Free Aim":  1},
         "type": "Chest"
     },
     {
@@ -3368,7 +3368,7 @@
         "name": "Esoteric Ruins: Item after maze 2",
         "location": "Small Level Door Maze",
         "original_item": "Quest_WoodBoards",
-        "condition": {},
+        "condition": {"Free Aim":  1},
         "type": "Chest"
     },
     {
@@ -3376,7 +3376,7 @@
         "name": "Esoteric Ruins: Item after maze 3",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
-        "condition": {},
+        "condition": {"Free Aim":  1},
         "type": "Chest"
     },
     {
