@@ -83,9 +83,6 @@ class ClairObscurWorld(World):
     settings: ClassVar[ClairObscurSettings]
     highest_location_level = MAX_GEAR_LEVEL
 
-    def __init__(self, multiworld: "MultiWorld", player: int):
-        super().__init__(multiworld, player)
-
     @staticmethod
     def convert_pictos(pictos_level: int) -> int:
         # Converts a pictos level into how many pictos are needed to reach it with scale by order received
