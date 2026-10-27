@@ -206,6 +206,7 @@ class ClairObscurWorld(World):
 
         slot_data["consumables"] = self.consumable_slot_data()
         slot_data["max_gear_level"] = self.max_gear_level()
+        slot_data["exclusion_level"] = self.highest_location_level
         slot_data.update(self.gear_scaling_slot_data())
 
         if self.options.shopsanity:

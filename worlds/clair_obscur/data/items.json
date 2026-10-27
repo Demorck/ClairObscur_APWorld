@@ -3082,13 +3082,6 @@
   },
   {
     "type": "Merchant Unlock",
-    "name": "Merchant (Monoco's Station): Grandis - Extra shop unlock",
-    "internal_name": "Merchant_GrandisStation",
-    "quantity": 1,
-    "progressive": 1
-  },
-  {
-    "type": "Merchant Unlock",
     "name": "Merchant (Old Lumiere): Mandelgo - Extra shop unlock",
     "internal_name": "Merchant_OldLumiere",
     "quantity": 1,

@@ -28,7 +28,7 @@ DEFAULT_FILLER_WEIGHTS = {
 class Goal(OptionSet):
     """
     The victory condition for your run. Pick one or several.
-    Allowed values: paintress, curator, clea, painted_love, simon
+    Allowed values: paintress, curator, clea, painted_love, simon, osquio
     Leaving it empty rolls one for you.
     Curator is the one in Lumiere Act 3
     """
