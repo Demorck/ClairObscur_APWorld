@@ -260,9 +260,9 @@
     "name": "Grandis",
     "region": "Monoco's Station",
     "datatable": "DT_Merchant_GrandisStation.DT_Merchant_GrandisStation",
-    "has_fight": true,
-    "unlock_item": "Merchant (Monoco's Station): Grandis - Extra shop unlock",
     "base_id": 32
+    "has_fight": false,
+    "unlock_item": null
   },
   {
     "name": "Mandelgo",

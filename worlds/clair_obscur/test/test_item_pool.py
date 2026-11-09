@@ -62,7 +62,7 @@ class TestTrapsEverywhere(PoolAssertions, ClairObscurTestBase):
     def test_every_filler_slot_became_a_trap(self) -> None:
         names = self.pool_names()
         self.assertIn("Feet Trap", names)
-        for filler_name in ["Chroma Pack", "Colour of Lumina (5)", "Grandiose Chroma Catalyst (5)"]:
+        for filler_name in ["Chroma Pack", "Colour of Lumina", "Grandiose Chroma Catalyst"]:
             with self.subTest(item=filler_name):
                 self.assertEqual(1, names.count(filler_name), "base copy only, no filler slot")
 
@@ -95,3 +95,44 @@ class TestExclusionFillerMode(ClairObscurTestBase):
             with self.subTest(location=name):
                 location = self.multiworld.get_location(name, self.player)
                 self.assertEqual(LocationProgressType.EXCLUDED, location.progress_type)
+
+class TestFillerWeightsDefault(PoolAssertions, ClairObscurTestBase):
+    options = {"goal": "curator"}
+
+    def test_the_rotation_follows_the_default_weights(self) -> None:
+        names = self.pool_names()
+
+        lumina = names.count("Colour of Lumina")
+        catalyst = names.count("Chroma Catalyst")
+        self.assertGreater(lumina, catalyst * 3)
+
+
+class TestFillerWeightZeroed(PoolAssertions, ClairObscurTestBase):
+    options = {"filler_weights": {"Chroma Pack": 0}}
+
+    def test_a_zeroed_filler_only_keeps_its_base_copy(self) -> None:
+        # the base item from items.json still enters the pool, only the rotation drops it
+        self.assertEqual(1, self.pool_names().count("Chroma Pack"))
+        self.assertGreater(self.pool_names().count("Colour of Lumina"), 1)
+
+
+class TestFillerWeightPartialOverride(PoolAssertions, ClairObscurTestBase):
+    options = {"filler_weights": {"Chroma Catalyst": 50}}
+
+    def test_the_other_weights_keep_their_default(self) -> None:
+        names = self.pool_names()
+        self.assertGreater(names.count("Chroma Catalyst"), names.count("Colour of Lumina"))
+        self.assertGreater(names.count("Colour of Lumina"), names.count("Polished Chroma Catalyst"))
+
+
+class TestEveryFillerWeightZero(ClairObscurTestBase):
+    options = {"filler_weights": {name: 0 for name in
+                                  ["Chroma Catalyst", "Polished Chroma Catalyst",
+                                   "Resplendent Chroma Catalyst", "Grandiose Chroma Catalyst",
+                                   "Colour of Lumina", "Chroma Pack"]}}
+    auto_construct = False
+
+    def test_it_refuses_to_generate(self) -> None:
+        from Options import OptionError
+        with self.assertRaises(OptionError):
+            self.world_setup()

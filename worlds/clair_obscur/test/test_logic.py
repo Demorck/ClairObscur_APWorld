@@ -140,6 +140,32 @@ class TestAreaLogicHardIsLooser(ClairObscurTestBase):
     options = {"area_logic": "hard", "goal": "simon", "exclude_endgame_locations": "included"}
 
     def test_first_crossing_needs_only_half_the_areas(self) -> None:
-        # hard asks for 4 // 2 areas, so dropping a single one must not close the edge
         entrance = self.multiworld.get_entrance("WM: First Continent South -> WM: South Sea", self.player)
         self.assertTrue(entrance.access_rule(self.state_without("Area - Flying Waters")))
+
+class TestGoalAll(ClairObscurTestBase):
+    options = {"goal": ["paintress", "clea"], "goal_requirement": "all",
+               "exclude_endgame_locations": "excluded"}
+
+    def test_both_goals_are_required(self) -> None:
+        state = self.state_without("Area - Flying Manor")
+        self.assertFalse(self.multiworld.completion_condition[self.player](state))
+
+    def test_the_cap_follows_the_deepest_goal(self) -> None:
+        self.assertEqual(28, self.world.highest_location_level)
+
+
+class TestGoalAny(ClairObscurTestBase):
+    options = {"goal": ["paintress", "clea"], "goal_requirement": "any",
+               "exclude_endgame_locations": "included"}
+
+    def test_one_goal_is_enough(self) -> None:
+        state = self.state_without("Area - Flying Manor")
+        self.assertTrue(self.multiworld.completion_condition[self.player](state))
+
+
+class TestGoalEmptyRollsOne(ClairObscurTestBase):
+    options = {"goal": []}
+
+    def test_a_goal_was_picked(self) -> None:
+        self.assertEqual(1, len(self.world.options.goal.value))
