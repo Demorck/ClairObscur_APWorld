@@ -8,6 +8,7 @@ break caught for both repos
 import unittest
 from collections import Counter
 
+from ..const import MAX_SHOP_SLOT
 from ..game_data import load_json_data, data
 from ..items import create_item_groups
 from ..locations import create_location_groups
@@ -95,3 +96,22 @@ class TestDataIntegrity(unittest.TestCase):
         grouped = [name for members in groups.values() for name in members]
         self.assertEqual(len(grouped), len(set(grouped)), "a location sits in two groups")
         self.assertEqual(set(data.locations), set(grouped), "a location belongs to no group")
+
+    def test_location_ids_are_unique(self) -> None:
+        by_id = {}
+        for loc in self.locations:
+            by_id.setdefault(loc["id"], set()).add(loc["name"])
+        for loc_id, names in by_id.items():
+            with self.subTest(id=loc_id):
+                self.assertEqual(1, len(names), f"id {loc_id} is used by {sorted(names)}")
+
+    def test_shop_block_indexes_are_unique(self) -> None:
+        by_index = {}
+        for shop in self.shops:
+           by_index.setdefault(shop["base_id"], []).append(shop["name"])
+
+        for index, names in sorted(by_index.items()):
+
+            with self.subTest(index=index):
+                self.assertGreaterEqual(index, 0)
+                self.assertEqual(1, len(names), f"block {index} is used by {sorted(names)}")
