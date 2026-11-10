@@ -3777,27 +3777,27 @@
         "name": "Esoteric Ruins: Item after maze 1",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
-        "id": 418
         "condition": {"Free Aim":  1},
-        "type": "Chest"
+        "type": "Chest",
+        "id": 418
     },
     {
         "internal_name": "Chest_SmallLevel_DoorMaze_4",
         "name": "Esoteric Ruins: Item after maze 2",
         "location": "Small Level Door Maze",
         "original_item": "Quest_WoodBoards",
-        "id": 419
         "condition": {"Free Aim":  1},
-        "type": "Chest"
+        "type": "Chest",
+        "id": 419
     },
     {
         "internal_name": "Chest_SmallLevel_DoorMaze_5",
         "name": "Esoteric Ruins: Item after maze 3",
         "location": "Small Level Door Maze",
         "original_item": "Consumable_LuminaPoint",
-        "id": 420
         "condition": {"Free Aim":  1},
-        "type": "Chest"
+        "type": "Chest",
+        "id": 420
     },
     {
         "internal_name": "Chest_SmallLevel_SinisterCave_1",
