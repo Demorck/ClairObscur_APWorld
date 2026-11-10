@@ -21,12 +21,14 @@ class ClairObscurLocationData(NamedTuple):
     type: str
     pictos_level: int
     multiple: bool
+    id: int
 
 class ClairObscurShopData(NamedTuple):
     name: str
     region: str
     has_fight: bool
     unlock_item: str | None
+    base_id: int
 
 
 class ClairObscurRegionData:
@@ -78,12 +80,14 @@ def populate_data_shops() -> dict[str, ClairObscurShopData]:
         shop_region = shop.get("region")
         shop_has_fight = shop.get("has_fight", False)
         shop_unlock_item = shop.get("unlock_item")
+        base_id = shop.get("base_id")
 
         new_shop = ClairObscurShopData(
             shop_name,
             shop_region,
             shop_has_fight,
-            shop_unlock_item
+            shop_unlock_item,
+            base_id,
         )
 
         shops[shop_name] = new_shop
@@ -107,6 +111,9 @@ def populate_data_locations() -> dict[str, ClairObscurLocationData]:
         location_condition = location["condition"]
         pictos = location["pictos_level"] if location.get("pictos_level") else 1
         multiple = location["multiple"] if location.get("multiple") else False
+        location_id = location["id"] if location.get("id") else None
+        if location_id is None:
+            raise RuntimeError("At least one location doesn't have id")
 
         new_location = ClairObscurLocationData(
             location_name,
@@ -115,7 +122,8 @@ def populate_data_locations() -> dict[str, ClairObscurLocationData]:
             location_condition,
             location["type"],
             pictos,
-            multiple
+            multiple,
+            location_id
         )
 
         locations[location_name] = new_location

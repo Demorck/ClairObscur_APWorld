@@ -2,7 +2,7 @@ from collections import defaultdict
 from typing import TYPE_CHECKING
 
 from BaseClasses import Location, Region, LocationProgressType
-from .const import BASE_OFFSET, LOCATION_OFFSET, EXCLUDED_SHOPS, MAX_SHOP_SLOT
+from .const import BASE_OFFSET, LOCATION_OFFSET, EXCLUDED_SHOPS, MAX_SHOP_SLOT, SHOP_ID_BASE, SHOP_ID_RESERVED
 from .game_data import data, ClairObscurLocationData, ClairObscurShopData
 from .options import ExcludeSuperbosses, ExcludeEndlessTower, ExcludeEndgameLocations
 from ..generic.Rules import add_rule
@@ -187,26 +187,24 @@ def reverse_offset_location_value(location_id: int) -> int:
 
 def create_location_name_to_ap_id() -> dict[str, int]:
     """
-    Creates a map from item name to their AP item id
+    Creates a map from location name to their AP location id
     """
     name_to_ap_id = {}
-    index = 0
+
     for location in data.locations.values():
-        name_to_ap_id[location.name] = offset_location_value(index)
-        index += 1
+        name_to_ap_id[location.name] = offset_location_value(location.id)
 
     for shop in data.shops.values():
+        shop_base_id = SHOP_ID_BASE + shop.base_id * SHOP_ID_RESERVED
         for i in range(1, MAX_SHOP_SLOT + 1):
-            name_to_ap_id[shop_location_name(shop, f"Item {i}")] = offset_location_value(index)
-            index += 1
+            name_to_ap_id[shop_location_name(shop, f"Item {i}")] = offset_location_value(shop_base_id + i - 1)
 
         if shop.has_fight:
-            name_to_ap_id[shop_location_name(shop, "Fight")] = offset_location_value(index)
-            index += 1
+            name_to_ap_id[shop_location_name(shop, "Fight")] = offset_location_value(shop_base_id + MAX_SHOP_SLOT)
 
             for i in range(1, MAX_SHOP_SLOT + 1):
-                name_to_ap_id[shop_location_name(shop, f"Extra Item {i}")] = offset_location_value(index)
-                index += 1
+                name_to_ap_id[shop_location_name(shop, f"Extra Item {i}")] = \
+                    offset_location_value(shop_base_id + MAX_SHOP_SLOT + i)
 
     return name_to_ap_id
 
