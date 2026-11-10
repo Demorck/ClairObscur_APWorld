@@ -774,7 +774,7 @@
         "condition": {},
         "type": "Chest",
         "multiple": true,
-        "id": 85
+        "id": 6
     },
     {
         "internal_name": "Chest_ForgottenBattlefield_4",
@@ -3698,7 +3698,7 @@
         "condition": {},
         "type": "Chest",
         "multiple": true,
-        "id": 409
+        "id": 408
     },
     {
         "internal_name": "Chest_SmallLevel_Cemetery_1",
@@ -5192,7 +5192,7 @@
         "condition": {},
         "type": "Chest",
         "multiple": true,
-        "id": 574
+        "id": 572
     },
     {
         "internal_name": "Chest_Generic_Chroma",

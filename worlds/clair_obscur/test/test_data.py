@@ -115,3 +115,13 @@ class TestDataIntegrity(unittest.TestCase):
             with self.subTest(index=index):
                 self.assertGreaterEqual(index, 0)
                 self.assertEqual(1, len(names), f"block {index} is used by {sorted(names)}")
+
+    def test_duplicate_locations_share_one_id(self) -> None:
+        by_name = {}
+        for loc in self.locations:
+            by_name.setdefault(loc["name"], set()).add(loc["id"])
+
+        for name, ids in sorted(by_name.items()):
+            if len(ids) > 1:
+                with self.subTest(location=name):
+                    self.fail(f"{name} is listed with several ids: {sorted(ids)}")
