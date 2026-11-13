@@ -181,7 +181,7 @@ class ClairObscurWorld(World):
             "options": self.options.as_dict(
                 "goal", "goal_requirement",
                 "char_shuffle", "starting_char", "gestral_shuffle", "gear_scaling", "shuffle_free_aim",
-                "exclude_endgame_locations", "exclude_endless_tower",
+                "exclude_endgame_locations", "exclude_endless_tower", "exclude_superbosses",
 
                 # Chroma
                 "chroma_pack_type", "min_chroma_pack", "max_chroma_pack",
@@ -301,4 +301,3 @@ class ClairObscurWorld(World):
 
     def set_rules(self):
         set_rules(self)
-

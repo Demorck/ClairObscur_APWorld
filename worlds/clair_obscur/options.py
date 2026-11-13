@@ -66,6 +66,7 @@ class ExcludeEndgameLocations(Choice):
 class ExcludeEndlessTower(Choice):
     """
     Determines how to handle Endless Tower locations.
+    This applies to shining items on the ground inside the tower and the floors.
     Excluded: Locations won't be added to the pool.
     Filler: Locations will only contain filler items.
     Included: All locations are included.
