@@ -164,3 +164,14 @@ class TestGoalSlotData(SlotDataAssertions, ClairObscurTestBase):
         options = self.build_slot_data()["options"]
         self.assertEqual(["paintress", "simon"], options["goal"])
         self.assertEqual(1, options["goal_requirement"])
+
+
+class TestExclusionSlotData(SlotDataAssertions, ClairObscurTestBase):
+    options = {"exclude_endgame_locations": "included", "exclude_endless_tower": "excluded",
+               "exclude_superbosses": "filler"}
+
+    def test_exclusion_options_are_forwarded(self) -> None:
+        options = self.build_slot_data()["options"]
+        self.assertEqual(2, options["exclude_endgame_locations"])
+        self.assertEqual(0, options["exclude_endless_tower"])
+        self.assertEqual(1, options["exclude_superbosses"])

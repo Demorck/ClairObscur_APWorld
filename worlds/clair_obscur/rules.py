@@ -91,7 +91,7 @@ def set_rules(world: "ClairObscurWorld") -> None:
         add_rule(mw.get_entrance("WM: Sky -> The Reacher", player),
                  lambda state: state.has("Maelle", player))
         add_rule(mw.get_entrance("WM: Sky -> Sirene's Dress", player),
-                 lambda state: state.has("Sciel", player))
+                 lambda state: state.has("Lune", player))
         add_rule(mw.get_entrance("WM: Sky -> The Chosen Path", player),
                  lambda state: state.has_all(["Lune", "Sciel", "Monoco", "Maelle", "Verso"], player))
     else:

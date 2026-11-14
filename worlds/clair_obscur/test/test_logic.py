@@ -100,7 +100,7 @@ class TestCharacterRules(ClairObscurTestBase):
 
     def test_sky_branches_need_their_character(self) -> None:
         for entrance_name, character in [("WM: Sky -> The Reacher", "Maelle"),
-                                         ("WM: Sky -> Sirene's Dress", "Sciel")]:
+                                         ("WM: Sky -> Sirene's Dress", "Lune")]:
             with self.subTest(entrance=entrance_name):
                 entrance = self.multiworld.get_entrance(entrance_name, self.player)
                 self.assertFalse(entrance.access_rule(self.state_without(character)))
