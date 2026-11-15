@@ -631,7 +631,6 @@
         "locations": [
             "Cemetery: Upper level overlooking entrance",
             "Cemetery: Near barrels",
-            "Cemetery: Defeat the Nevron",
             "Cemetery: Next to Gramophone"
         ]
     },
@@ -756,24 +755,25 @@
         "region_name": "Endless Night Sanctuary",
         "level": 21,
         "locations": [
-            "Endless Night Sanctuary: Warrior' Route - Near expeditioner corpse",
+            "Endless Night Sanctuary: Warrior's Route - Near expeditioner corpse",
             "Endless Night Sanctuary: Entrance - Near Contortionniste corpses",
-            "Endless Night Sanctuary: Entrance - Right path before Warrior' Route flag",
+            "Endless Night Sanctuary: Entrance - Right path before Warrior's Route flag",
             "Endless Night Sanctuary: Left path before second flag 2",
-            "Endless Night Sanctuary: Warrior' Route - After Petank 2",
+            "Endless Night Sanctuary: Warrior's Route - After Petank 2",
             "Endless Night Sanctuary: Night Totem - after Merchant",
             "Endless Night Sanctuary: Night Totem - Near bags and fallen giant vases",
             "Endless Night Sanctuary: Night Totem - Before shortcut back to flag",
             "Endless Night Sanctuary: Entrance - Left path before second flag 1",
-            "Endless Night Sanctuary: Entrance - Before Warrior' Route flag",
-            "Endless Night Sanctuary: Warrior' Route - After Petank 3",
-            "Endless Night Sanctuary: Warrior' Route - After Petank 1",
+            "Endless Night Sanctuary: Entrance - Before Warrior's Route flag",
+            "Endless Night Sanctuary: Warrior's Route - After Petank 3",
+            "Endless Night Sanctuary: Warrior's Route - After Petank 1",
             "Endless Night Sanctuary: Night Totem - Near Merchant",
             "Endless Night Sanctuary: Entrance - Near Robust Sakapatate",
             "Endless Night Sanctuary: Night Totem - Paint Cage above flag",
             "Endless Night Sanctuary: Entrance - Right path inside small rock tunnel",
             "Endless Night Sanctuary: Chromatic Cruler",
-            "Endless Night Sanctuary: Petank"
+            "Endless Night Sanctuary: Petank",
+            "Endless Night Sanctuary: Ultimate Sakapatate"
         ]
     },
     {
@@ -800,6 +800,9 @@
             "Visages: Sadness Vale - Left of massive Contortionnistes",
             "Visages: Sadness Vale - Before Chromatic miniboss",
             "Visages: Anger Vale - Right of boss near boxes",
+            "Visages: Anger Vale - Mask of Anger",
+            "Visages: Joy Vale - Mask of Joy",
+            "Visages: Sadness Vale - Mask of Sadness",
             "Visages: Mime",
             "Visages: Visages/Mask Keeper",
             "Visages: Chromatic Ramasseur"
@@ -1026,7 +1029,8 @@
         "locations": [
             "Endless Tower: Stage 1-1",
             "Endless Tower: Stage 1-2",
-            "Endless Tower: Stage 1-3"
+            "Endless Tower: Stage 1-3",
+            "Endless Tower: Underneath the right staircase"
         ]
     },
     {
